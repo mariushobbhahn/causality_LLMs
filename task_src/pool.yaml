@@ -1,0 +1,19 @@
+name: Pool
+intro: 
+events:
+    - The red ball hit the blue ball.
+    - The blue ball hit the green ball.
+    - The green ball hit the white ball.
+    - The white ball hit the black ball.
+    - The black ball hit the brown ball.
+outro: The brown ball fell in the hole.
+right_answer: red
+wrong_answers:
+    - blue
+    - green
+    - white
+    - black
+    - brown
+queries:
+    - Which ball first hit another ball?
+    - Which ball caused the black ball to fall in the hole?
