@@ -249,7 +249,7 @@ The meat spoiled.",The power was out for days.,"
 
 The sentence ""The meat spoiled"" is the cause of the other","
 
-The sentence ""The meat spoiled"" is the effect of the other"
+The meat spoiled is the effect of the power being out for days"
 41,"The meat spoiled.
 The power was out for days.",The power was out for days.,"
 
@@ -307,7 +307,7 @@ The ship capsized is the effect of the wind blowing strong."
 50,"The man robbed a gas station.
 The man went to jail.",The man robbed a gas station.,"
 
-The man robbed a gas station, which is the cause of him","
+The man robbed a gas station, which is why he went to","
 
 The man robbed a gas station, so he went to jail."
 51,"The man went to jail.
@@ -529,7 +529,7 @@ Alice missed her flight.",Alice didn't wake up.,"
 
 The sentence ""Alice didn't wake up"" is the cause of","
 
-The sentence ""Alice didn't wake up"" is the effect of"
+Alice didn't wake up is the effect of Alice missing her flight"
 87,"Alice missed her flight.
 Alice didn't wake up.",Alice didn't wake up.,"
 
@@ -601,7 +601,7 @@ Bob opened the jar and was frustrated.",Alice ate the last cookie.,"
 
 The sentence ""Bob opened the jar and was frustrated"" is the","
 
-The sentence ""Which sentence is the effect of the other?"" is"
+The sentence ""Bob opened the jar and was frustrated"" is the"
 99,"Bob opened the jar and was frustrated.
 Alice ate the last cookie.",Alice ate the last cookie.,"
 
