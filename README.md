@@ -40,4 +40,4 @@ where $FILE is one of
 
 Names of the files should be self-explanatory.
 
-If there are any issues with using Unseal, message [Tom Lieberum](tlieberum@outlook.de).
+If there are any issues with using Unseal, message [Tom Lieberum](mailto:tlieberum@outlook.de).
