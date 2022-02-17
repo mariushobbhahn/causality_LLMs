@@ -24,6 +24,9 @@ Clone the repo for [Unseal](https://github.com/TomFrederik/unseal) and [PySvelte
 pip install -e .
 ```
 
+You will also need to install ``npm`` via your system's package manager.
+
+
 ### Usage of Unseal
 If you just want to visualize the attention patterns of GPT-like models from the huggingface transformers library,
 the easiest way to do so is
