@@ -43,11 +43,11 @@ def get_paths(k, model_names):
     paths = []
     for model_name in model_names:
         if k == 0:
-            path = f'./data/toy_problem_3_colors_results/' + model_name.split('-')[0] + '/toy_problem_3c_zero_shot_results_{}.csv'
+            path = f'./data/toy_problem_3_colors_results/' + '-'.join(model_name.split('-')[:-1]) + '/toy_problem_3c_zero_shot_results_{}.csv'
         elif k == 1:
-            path = f'./data/toy_problem_3_colors_results/' + model_name.split('-')[0] + '/toy_problem_3c_one_shot_results_{}.csv'
+            path = f'./data/toy_problem_3_colors_results/' + '-'.join(model_name.split('-')[:-1]) + '/toy_problem_3c_one_shot_results_{}.csv'
         else:
-            path = f'./data/toy_problem_3_colors_results/' + model_name.split('-')[0] + '/toy_problem_3c_k_shot_results_{}.csv'
+            path = f'./data/toy_problem_3_colors_results/' + '-'.join(model_name.split('-')[:-1]) + '/toy_problem_3c_k_shot_results_{}.csv'
         paths.append(path)
     return paths
 
