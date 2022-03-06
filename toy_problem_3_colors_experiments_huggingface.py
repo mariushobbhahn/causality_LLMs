@@ -15,7 +15,7 @@ def run_experiments(model, tokenizer, prompts, verbose=False, output_scores=Fals
     responses = []
     for prompt in tqdm(prompts):
         model_inputs = tokenizer.encode(prompt, return_tensors="pt").to(device)
-        output = model.generate(model_inputs, min_length=0, max_new_tokens=20, temperature=0, output_scores=output_scores, return_dict_in_generate=output_scores, pad_token_id=50256)
+        output = model.generate(model_inputs, min_length=0, max_new_tokens=5, temperature=0, output_scores=output_scores, return_dict_in_generate=output_scores, pad_token_id=50256)
         response = tokenizer.decode(output[0], skip_special_tokens=True).lstrip(prompt)
         if verbose: 
             print(response)
