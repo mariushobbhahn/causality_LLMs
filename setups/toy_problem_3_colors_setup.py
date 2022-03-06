@@ -108,11 +108,11 @@ class ToyProblem3Colors():
             row = self.sequences_df.iloc[c]
             s = row["sequence"]
             if question=='first':
-                k_shots += s + " Question: " + self.question_first + self.answer + "the {} ball\n".format(row["first_color"])
+                k_shots += s + " Question: " + self.question_first + self.answer + "The {} ball.".format(row["first_color"])
             elif question=='second':
-                k_shots += s + " Question: " + self.question_second + self.answer + "the {} ball\n".format(row["second_color"])
+                k_shots += s + " Question: " + self.question_second + self.answer + "The {} ball.".format(row["second_color"])
             elif question=='final':
-                k_shots += s + " Question: " + self.question_final + self.answer + "the {} ball\n".format(row["final_color"])
+                k_shots += s + " Question: " + self.question_final + self.answer + "The {} ball.".format(row["final_color"])
 
         #add prompt on top
         prompt = self.generate_single_prompt_zero_shot(n_subset, switched, question)
@@ -130,11 +130,11 @@ class ToyProblem3Colors():
                 row = self.sequences_df.iloc[c]
                 s = row["sequence"]
                 if question=='first':
-                    k_shots += s + " Question: " + self.question_first + self.answer + "the {} ball\n".format(row["first_color"])
+                    k_shots += s + " Question: " + self.question_first + self.answer + "The {} ball.".format(row["first_color"])
                 elif question=='second':
-                    k_shots += s + " Question: " + self.question_second + self.answer + "the {} ball\n".format(row["second_color"])
+                    k_shots += s + " Question: " + self.question_second + self.answer + "The {} ball.".format(row["second_color"])
                 elif question=='final':
-                    k_shots += s + " Question: " + self.question_final + self.answer + "the {} ball\n".format(row["final_color"])
+                    k_shots += s + " Question: " + self.question_final + self.answer + "The {} ball.".format(row["final_color"])
             k_shots += zero_shot_prompts[i]
             k_shots_prompts.append(k_shots)
         return(k_shots_prompts)
