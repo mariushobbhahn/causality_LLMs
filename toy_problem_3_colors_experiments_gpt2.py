@@ -39,14 +39,17 @@ def load_data(setup, k):
     
     return prompts_first, prompts_second, prompts_final
 
-def get_path(k):
-    if k == 0:
-        path = './data/toy_problem_3_colors_results/gpt2/toy_problem_3c_zero_shot_results_{}.csv'
-    elif k == 1:
-        path = './data/toy_problem_3_colors_results/gpt2/toy_problem_3c_one_shot_results_{}.csv'
-    else:
-        path = './data/toy_problem_3_colors_results/gpt2/toy_problem_3c_k_shot_results_{}.csv'
-    return path
+def get_paths(k, model_names):
+    paths = []
+    for model_name in model_names:
+        if k == 0:
+            path = f'./data/toy_problem_3_colors_results/' + model_name.split('-')[0] + '/toy_problem_3c_zero_shot_results_{}.csv'
+        elif k == 1:
+            path = f'./data/toy_problem_3_colors_results/' + model_name.split('-')[0] + '/toy_problem_3c_one_shot_results_{}.csv'
+        else:
+            path = f'./data/toy_problem_3_colors_results/' + model_name.split('-')[0] + '/toy_problem_3c_k_shot_results_{}.csv'
+        paths.append(path)
+    return paths
 
 def main(
     setup, 
@@ -56,11 +59,11 @@ def main(
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     
     prompts_first, prompts_second, prompts_final = load_data(setup, k)
-    path = get_path(k)
+    paths = get_paths(k, model_names)
+    for path in paths:
+        os.makedirs('/'.join(path.split('/')[:-1]), exist_ok=True)
     
-    os.makedirs('/'.join(path.split('/')[:-1]), exist_ok=True)
-    
-    for model_name in model_names:
+    for model_name, path in zip(model_names, paths):
         print(f'\nRunning {model_name}...')
         
         model, tokenizer, config = load_from_pretrained(model_name)
@@ -85,14 +88,9 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--k', type=int, default=0, help='k-shot')
+    parser.add_argument('--models', type=str, nargs="*", help='model_names')
     args = parser.parse_args()
     
-    gpt2_model_names = [
-        "gpt2",
-        "gpt2-medium",
-        "gpt2-large",
-        "gpt2-xl",
-    ]
     
     # TODO only do this if data doesn't exist yet
     #create setup & dataframe
@@ -100,5 +98,5 @@ if __name__ == "__main__":
     setup_df = setup.generate_sequences_df()
     setup.save_sequences_df("data/toy_problem_3_colors/toy_problem_3c.csv")
 
-    main(setup, args.k, gpt2_model_names)
+    main(setup, args.k, args.models)
 
