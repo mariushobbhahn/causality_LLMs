@@ -8,7 +8,7 @@ from unseal.transformers_util import load_from_pretrained
 
 from setups.toy_problem_3_colors_setup import ToyProblem3Colors
 
-def run_gpt2_experiments(model, tokenizer, prompts, verbose=False, output_scores=False, device='cpu'):
+def run_experiments(model, tokenizer, prompts, verbose=False, output_scores=False, device='cpu'):
     if output_scores:
         logging.warning('output_scores is not implemented yet')
         
@@ -69,9 +69,9 @@ def main(
         model, tokenizer, config = load_from_pretrained(model_name)
         model.to(device)
         
-        responses_first = run_gpt2_experiments(model, tokenizer, prompts_first, device=device)
-        responses_second = run_gpt2_experiments(model, tokenizer, prompts_second, device=device)
-        responses_final = run_gpt2_experiments(model, tokenizer, prompts_final, device=device)
+        responses_first = run_experiments(model, tokenizer, prompts_first, device=device)
+        responses_second = run_experiments(model, tokenizer, prompts_second, device=device)
+        responses_final = run_experiments(model, tokenizer, prompts_final, device=device)
         
         df = setup_df.copy()
         df["responses_first"] = responses_first
