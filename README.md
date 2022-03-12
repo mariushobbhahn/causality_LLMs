@@ -32,7 +32,7 @@ If you just want to visualize the attention patterns of GPT-like models from the
 the easiest way to do so is
 
 ```sh
-cd unseal/unseal/interface/plain_interfaces
+cd unseal/unseal/visuals/streamlit_interfaces
 streamlit run $FILE
 ```
 

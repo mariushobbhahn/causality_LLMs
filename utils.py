@@ -92,58 +92,62 @@ def plot_single_model_colors(path_string):
     plt.show();
     
 ### compare models
-def compare_model_sizes_colors(path_string):
-    
-    df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
-    df_curie =  pd.read_csv(path_string.format("text-curie-001"))
-    df_babbage =  pd.read_csv(path_string.format("text-babbage-001"))
-    df_ada =  pd.read_csv(path_string.format("text-ada-001"))
+def compare_model_sizes_colors(path_string, gpt2=False):
+    if gpt2:
+        df_xl =  pd.read_csv(path_string.format("gpt2-xl"))
+        df_large =  pd.read_csv(path_string.format("gpt2-large"))
+        df_medium =  pd.read_csv(path_string.format("gpt2-medium"))
+        # df_small =  pd.read_csv(path_string.format("gpt2"))
 
-    results_davinci = np.array(eval_df_colors(df_davinci))
-    results_curie = np.array(eval_df_colors(df_curie))
-    results_babbage = np.array(eval_df_colors(df_babbage))
-    results_ada = np.array(eval_df_colors(df_ada))
+        results_xl = np.array(eval_df_colors(df_xl))
+        results_large = np.array(eval_df_colors(df_large))
+        results_medium = np.array(eval_df_colors(df_medium))
+        # results_small = np.array(eval_df_colors(df_small))
+        return([results_xl, results_large, results_medium])
     
-    return([results_davinci, results_curie, results_babbage, results_ada])
+    else:
+        df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
+        df_curie =  pd.read_csv(path_string.format("text-curie-001"))
+        df_babbage =  pd.read_csv(path_string.format("text-babbage-001"))
+        df_ada =  pd.read_csv(path_string.format("text-ada-001"))
 
-def plot_model_sizes_colors(path_string):
+        results_davinci = np.array(eval_df_colors(df_davinci))
+        results_curie = np.array(eval_df_colors(df_curie))
+        results_babbage = np.array(eval_df_colors(df_babbage))
+        results_ada = np.array(eval_df_colors(df_ada))
+        return([results_davinci, results_curie, results_babbage, results_ada])
+
+def plot_model_sizes_colors(path_string, gpt2=False):
     
-    results_davinci, results_curie, results_babbage, results_ada = compare_model_sizes_colors(path_string)
+    if gpt2:
+        labels = ["XL", "Large", "Medium"]
+    else:
+        labels = ["davinci", "curie", "babbage", "ada"]
+    titles = ['combined', 'non switched', 'switched']
+    tick_labels = ["first color", "second color", "final color"]
+    
+    results = compare_model_sizes_colors(path_string, gpt2)
     
     fig, ax = plt.subplots(3, 1, figsize=(14, 10), sharex=True)
     
     x = np.arange(3)
     w = 0.18
     c = 0.2
-    
-    #compare all answers
-    ax[0].bar(x - 1.5*c, results_ada[:,0], width=w, label="ada")
-    ax[0].bar(x - 0.5*c, results_babbage[:,0], width=w, label="babbage")
-    ax[0].bar(x + 0.5*c, results_curie[:,0], width=w, label="curie")
-    ax[0].bar(x + 1.5*c, results_davinci[:,0], width=w, label="davinci")
-    
-    ax[0].set_xticks(x)
-    ax[0].set_xticklabels(["first color", "second color", "final color"])
-    ax[0].grid()
-    ax[0].legend()
-    ax[0].set_title("combined")
-    
-    #compare non-switched answers
-    ax[1].bar(x - 1.5*c, results_ada[:,1], width=w, label="ada")
-    ax[1].bar(x - 0.5*c, results_babbage[:,1], width=w, label="babbage")
-    ax[1].bar(x + 0.5*c, results_curie[:,1], width=w, label="curie")
-    ax[1].bar(x + 1.5*c, results_davinci[:,1], width=w, label="davinci")
-    ax[1].grid()
-    ax[1].set_title("non-switched")
-    
-    #compare switched answers
-    ax[2].bar(x - 1.5*c, results_ada[:,2], width=w, label="ada")
-    ax[2].bar(x - 0.5*c, results_babbage[:,2], width=w, label="babbage")
-    ax[2].bar(x + 0.5*c, results_curie[:,2], width=w, label="curie")
-    ax[2].bar(x + 1.5*c, results_davinci[:,2], width=w, label="davinci")
-    ax[2].grid()
-    ax[2].set_title("switched")
-    
+    for i in range(3):
+        
+        #compare all answers
+        for j, result in enumerate(results):
+            ax[i].bar(x + (-1.5 + j) * c, result[:,i], width=w, label=labels[j])
+        
+        ax[i].set_xticks(x)
+        ax[i].set_xticklabels(tick_labels)
+        ax[i].grid()
+        ax[i].legend()
+        ax[i].set_title(titles[i])
+    if gpt2:
+        plt.suptitle('GPT2')
+    else:
+        plt.suptitle('GPT3')
     plt.show()
 
 ###############################
