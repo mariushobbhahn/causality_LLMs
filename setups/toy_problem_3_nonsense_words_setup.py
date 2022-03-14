@@ -29,6 +29,8 @@ class ToyProblem3NonsenseWords():
         self.question_final = "What fell into the hole?"
         self.answer = " Answer in two words: "
         self.sequences_df = self.generate_sequences_df()
+        self.sequences_df_switched = self.sequences_df[self.sequences_df["switched"] == True]
+        self.sequences_df_non_switched = self.sequences_df[self.sequences_df["switched"] == False]
         self.sequences = self.sequences_df["sequence"]
 
 
@@ -101,11 +103,14 @@ class ToyProblem3NonsenseWords():
 
     def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, question='first'):
         assert(question in ["first", "second", "final"])
-        choices = np.random.choice(len(self.sequences_df), size=k, replace=False)
+        choices = np.random.choice(self.num_subsets, size=k, replace=False)
         k_shots = ""
         #create k-shots
         for c in choices: 
-            row = self.sequences_df.iloc[c]
+            if switched:
+                row = self.sequences_df_switched.iloc[c]
+            else:
+                row = self.sequences_df_non_switched.iloc[c]
             s = row["sequence"]
             if question=='first':
                 k_shots += s + " Question: " + self.question_first + self.answer + "the {}\n".format(row["first_word"])
@@ -123,18 +128,21 @@ class ToyProblem3NonsenseWords():
         zero_shot_prompts = self.generate_all_prompts_zero_shot(question)
         k_shots_prompts = []
         for i, row in self.sequences_df.iterrows():
-            choices = np.random.choice(len(self.sequences_df), size=k, replace=False)
+            choices = np.random.choice(self.num_subsets, size=k, replace=False)
             k_shots = ""
             #create k-shots
             for c in choices: 
-                row = self.sequences_df.iloc[c]
+                if row["switched"]:
+                    r = self.sequences_df_switched.iloc[c]
+                else:
+                    r = self.sequences_df_non_switched.iloc[c]
                 s = row["sequence"]
                 if question=='first':
-                    k_shots += s + " Question: " + self.question_first + self.answer + "the {}\n".format(row["first_word"])
+                    k_shots += s + " Question: " + self.question_first + self.answer + "the {}\n".format(r["first_word"])
                 elif question=='second':
-                    k_shots += s + " Question: " + self.question_second + self.answer + "the {}\n".format(row["second_word"])
+                    k_shots += s + " Question: " + self.question_second + self.answer + "the {}\n".format(r["second_word"])
                 elif question=='final':
-                    k_shots += s + " Question: " + self.question_final + self.answer + "the {}\n".format(row["final_word"])
+                    k_shots += s + " Question: " + self.question_final + self.answer + "the {}\n".format(r["final_word"])
             k_shots += zero_shot_prompts[i]
             k_shots_prompts.append(k_shots)
         return(k_shots_prompts)

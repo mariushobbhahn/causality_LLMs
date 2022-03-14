@@ -3,143 +3,146 @@
 
 the baz","
 
-the fuu","
-
-the schleep"
-1,The fuu hit the schleep. The baz hit the fuu. The schleep fell in the hole.,True,baz,fuu,schleep,"
-
 the baz","
 
+the dinglebob"
+1,The fuu hit the schleep. The baz hit the fuu. The schleep fell in the hole.,True,baz,fuu,schleep,"
+
 the fuu","
 
-the schleep"
+the plomp","
+
+the dinglebob"
 2,The baz hit the fuu. The fuu hit the blubb. The blubb fell in the hole.,False,baz,fuu,blubb,"
 
 the baz","
 
-the fuu","
+the baz","
 
-the blubb"
+the dinglebob"
 3,The fuu hit the blubb. The baz hit the fuu. The blubb fell in the hole.,True,baz,fuu,blubb,"
 
-the baz","
-
 the fuu","
 
-the blubb"
-4,The baz hit the fuu. The fuu hit the bla. The bla fell in the hole.,False,baz,fuu,bla,"
+the plomp","
 
-the baz","
+the plomp"
+4,The baz hit the fuu. The fuu hit the bla. The bla fell in the hole.,False,baz,fuu,bla,????,"
 
-the fuu","
+the hole","
 
-the bla"
+the plomp"
 5,The fuu hit the bla. The baz hit the fuu. The bla fell in the hole.,True,baz,fuu,bla,"
-the fuu","
+
+The fuu hit the bla. The baz hit the fuu. The bl","
 
 the fuu","
 
-the bla"
+the dinglebob"
 6,The baz hit the fuu. The fuu hit the plomp. The plomp fell in the hole.,False,baz,fuu,plomp,"
 
 the baz","
 
-the fuu","
+the plomp","
 
 the plomp"
 7,The fuu hit the plomp. The baz hit the fuu. The plomp fell in the hole.,True,baz,fuu,plomp,"
 
-the baz","
-
 the fuu","
 
-the plomp"
+the blubb","
+
+The dinglebob."
 8,The baz hit the fuu. The fuu hit the dinglebob. The dinglebob fell in the hole.,False,baz,fuu,dinglebob,"
 
 the baz","
 
-the fuu","
+the blubb","
 
 the dinglebob"
 9,The fuu hit the dinglebob. The baz hit the fuu. The dinglebob fell in the hole.,True,baz,fuu,dinglebob,"
 
-the baz","
+the fuu","
 
-the baz","
+the dinglebob","
 
 the dinglebob"
-10,The baz hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,baz,schleep,blubb,"
-the baz","
-the schleep","
+10,The baz hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,baz,schleep,blubb,????,????,"
 
-the blubb"
+the plomp"
 11,The schleep hit the blubb. The baz hit the schleep. The blubb fell in the hole.,True,baz,schleep,blubb,"
 
-the baz","
+the blubb","
 
-the schleep","
+the bla","
 
-the blubb"
-12,The baz hit the schleep. The schleep hit the bla. The bla fell in the hole.,False,baz,schleep,bla,"
+the dinglebob"
+12,The baz hit the schleep. The schleep hit the bla. The bla fell in the hole.,False,baz,schleep,bla, the baz,"
 
-the baz","
-
-the schleep","
+the bla","
 
 the bla"
 13,The schleep hit the bla. The baz hit the schleep. The bla fell in the hole.,True,baz,schleep,bla,"
 
-the baz","
+the bla","
 
-the schleep","
+the blubb","
 
-the bla"
+the dinglebob"
 14,The baz hit the schleep. The schleep hit the plomp. The plomp fell in the hole.,False,baz,schleep,plomp,"
-the baz","
-the schleep","
 
-the plomp"
+the baz","
+
+the plomp","
+
+the dinglebob"
 15,The schleep hit the plomp. The baz hit the schleep. The plomp fell in the hole.,True,baz,schleep,plomp,"
+
 the baz","
 
-the schleep","
+the plomp","
 
-the plomp"
+the dinglebob"
 16,The baz hit the schleep. The schleep hit the dinglebob. The dinglebob fell in the hole.,False,baz,schleep,dinglebob,"
+
 the baz","
 
-the schleep","
+the dinglebob","
+
 the dinglebob"
 17,The schleep hit the dinglebob. The baz hit the schleep. The dinglebob fell in the hole.,True,baz,schleep,dinglebob,"
-the baz","
-the schleep","
+
+the fuu","
+
+the dinglebob","
 
 the dinglebob"
 18,The baz hit the blubb. The blubb hit the bla. The bla fell in the hole.,False,baz,blubb,bla,"
-the baz","
 
 the baz","
+
+the blubb","
 
 the bla"
 19,The blubb hit the bla. The baz hit the blubb. The bla fell in the hole.,True,baz,blubb,bla,"
-the baz","
+
+the blubb","
 
 the blubb","
 
 the bla"
 20,The baz hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,baz,blubb,plomp,"
 
-the baz","
-
-the blubb","
+the baz",????,"
 
 the plomp"
 21,The blubb hit the plomp. The baz hit the blubb. The plomp fell in the hole.,True,baz,blubb,plomp,"
-the baz","
 
-the blubb","
+the plomp","
 
-the plomp"
+the plomp","
+
+the blubb"
 22,The baz hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,baz,blubb,dinglebob,"
 
 the baz","
@@ -149,32 +152,37 @@ the blubb","
 the dinglebob"
 23,The blubb hit the dinglebob. The baz hit the blubb. The dinglebob fell in the hole.,True,baz,blubb,dinglebob,"
 
-the baz","
+the dinglebob","
 
-the blubb","
+the dinglebob","
 
 the dinglebob"
 24,The baz hit the bla. The bla hit the plomp. The plomp fell in the hole.,False,baz,bla,plomp,"
-the bla","
 
-the bla","
+the plomp","
+
+the plomp","
 
 the plomp"
 25,The bla hit the plomp. The baz hit the bla. The plomp fell in the hole.,True,baz,bla,plomp,"
+
 the baz","
 
-the bla","
+the baz","
 
 the plomp"
 26,The baz hit the bla. The bla hit the dinglebob. The dinglebob fell in the hole.,False,baz,bla,dinglebob,"
-the baz","
 
-the bla","
+the fuu","
+
+the dinglebob","
 
 the dinglebob"
 27,The bla hit the dinglebob. The baz hit the bla. The dinglebob fell in the hole.,True,baz,bla,dinglebob,"
-the baz","
-the bla","
+
+the dinglebob","
+
+the dinglebob","
 
 the dinglebob"
 28,The baz hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,baz,plomp,dinglebob,"
@@ -183,270 +191,265 @@ the plomp","
 
 the plomp","
 
-the dinglebob"
+The dinglebob."
 29,The plomp hit the dinglebob. The baz hit the plomp. The dinglebob fell in the hole.,True,baz,plomp,dinglebob,"
 
-the plomp","
+the plomp", the bla,"
 
-the plomp","
-
-the dinglebob"
+the plomp"
 30,The fuu hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,fuu,schleep,blubb,"
 
-the fuu","
+the fuu",????,"
 
-the schleep","
-
-the blubb"
+the fuu"
 31,The schleep hit the blubb. The fuu hit the schleep. The blubb fell in the hole.,True,fuu,schleep,blubb,"
 
-the fuu","
+the blubb","
 
-the fuu","
+the blubb","
 
-the blubb"
+the dinglebob"
 32,The fuu hit the schleep. The schleep hit the bla. The bla fell in the hole.,False,fuu,schleep,bla,"
-the schleep","
 
 the fuu","
+
+the blubb","
 
 the bla"
 33,The schleep hit the bla. The fuu hit the schleep. The bla fell in the hole.,True,fuu,schleep,bla,"
-the schleep","
 
 the bla","
 
-the bla"
-34,The fuu hit the schleep. The schleep hit the plomp. The plomp fell in the hole.,False,fuu,schleep,plomp,"
+the bla",????
+34,The fuu hit the schleep. The schleep hit the plomp. The plomp fell in the hole.,False,fuu,schleep,plomp, the plomp,"
 
 the fuu","
 
-the schleep","
-the plomp"
+the fuu"
 35,The schleep hit the plomp. The fuu hit the schleep. The plomp fell in the hole.,True,fuu,schleep,plomp,"
-the fuu","
 
 the plomp","
 
+the bla","
+
 the plomp"
 36,The fuu hit the schleep. The schleep hit the dinglebob. The dinglebob fell in the hole.,False,fuu,schleep,dinglebob,"
-the fuu","
 
-the schleep","
+the fuu",????,"
+
 the dinglebob"
 37,The schleep hit the dinglebob. The fuu hit the schleep. The dinglebob fell in the hole.,True,fuu,schleep,dinglebob,"
 
-the fuu","
+the baz","
 
-the schleep","
+the dinglebob","
 
 the dinglebob"
 38,The fuu hit the blubb. The blubb hit the bla. The bla fell in the hole.,False,fuu,blubb,bla,"
 
-the blubb","
+the bla","
 
 the blubb","
 
-the bla"
+the dinglebob"
 39,The blubb hit the bla. The fuu hit the blubb. The bla fell in the hole.,True,fuu,blubb,bla,"
-the blubb","
-
-the blubb","
-
-the bla"
-40,The fuu hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,fuu,blubb,plomp,"
-the blubb","
-
-the blubb","
-
-the plomp"
-41,The blubb hit the plomp. The fuu hit the blubb. The plomp fell in the hole.,True,fuu,blubb,plomp,"
 
 the fuu","
+
+the blubb","
+
+the blubb"
+40,The fuu hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,fuu,blubb,plomp,"
+
+the fuu","
+
+the fuu","
+
+the dinglebob"
+41,The blubb hit the plomp. The fuu hit the blubb. The plomp fell in the hole.,True,fuu,blubb,plomp,"
+
+the blubb","
 
 the plomp","
 
 the plomp"
 42,The fuu hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,fuu,blubb,dinglebob,"
-the blubb","
+
+the fuu","
 
 the blubb","
 
 the dinglebob"
 43,The blubb hit the dinglebob. The fuu hit the blubb. The dinglebob fell in the hole.,True,fuu,blubb,dinglebob,"
 
-the fuu","
+the schleep","
 
-the fuu","
+the plomp","
 
 the dinglebob"
 44,The fuu hit the bla. The bla hit the plomp. The plomp fell in the hole.,False,fuu,bla,plomp,"
 
-the bla","
+the fuu","
 
-the bla","
+the fuu","
 
-the plomp"
+the dinglebob"
 45,The bla hit the plomp. The fuu hit the bla. The plomp fell in the hole.,True,fuu,bla,plomp,"
 
 the fuu","
 
-the bla","
+the blubb","
 
-the plomp"
+the blubb"
 46,The fuu hit the bla. The bla hit the dinglebob. The dinglebob fell in the hole.,False,fuu,bla,dinglebob,"
-the bla","
 
-the bla","
-the dinglebob"
-47,The bla hit the dinglebob. The fuu hit the bla. The dinglebob fell in the hole.,True,fuu,bla,dinglebob,"
 the fuu","
+
+the fuu","
+
+the dinglebob"
+47,The bla hit the dinglebob. The fuu hit the bla. The dinglebob fell in the hole.,True,fuu,bla,dinglebob, the dinglebob,"
 
 the bla","
 
 the dinglebob"
 48,The fuu hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,fuu,plomp,dinglebob,"
 
-the plomp","
+the fuu","
 
 the plomp","
+
+the plomp"
+49,The plomp hit the dinglebob. The fuu hit the plomp. The dinglebob fell in the hole.,True,fuu,plomp,dinglebob,"
+
+the plomp","
+
+the blubb","
 
 the dinglebob"
-49,The plomp hit the dinglebob. The fuu hit the plomp. The dinglebob fell in the hole.,True,fuu,plomp,dinglebob,"
+50,The schleep hit the blubb. The blubb hit the bla. The bla fell in the hole.,False,schleep,blubb,bla,"
+
+the baz","
+
+the blubb","
+
+the blubb"
+51,The blubb hit the bla. The schleep hit the blubb. The bla fell in the hole.,True,schleep,blubb,bla,"
+
+the baz","
+
+the bla","
+
+the dinglebob"
+52,The schleep hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,schleep,blubb,plomp,"
+
+the schleep",????,"
+
+the bla"
+53,The blubb hit the plomp. The schleep hit the blubb. The plomp fell in the hole.,True,schleep,blubb,plomp,"
 
 the fuu","
 
 the plomp","
 
-the dinglebob"
-50,The schleep hit the blubb. The blubb hit the bla. The bla fell in the hole.,False,schleep,blubb,bla,"
-
-the blubb","
-
-the blubb","
-
-the bla"
-51,The blubb hit the bla. The schleep hit the blubb. The bla fell in the hole.,True,schleep,blubb,bla,"
-
-the blubb","
-
-the schleep","
-
-the bla"
-52,The schleep hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,schleep,blubb,plomp,"
-
-the schleep","
-
-the blubb","
-
-the plomp"
-53,The blubb hit the plomp. The schleep hit the blubb. The plomp fell in the hole.,True,schleep,blubb,plomp,"
-
-the schleep","
-
-the blubb","
-the plomp"
+the blubb"
 54,The schleep hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,schleep,blubb,dinglebob,"
 
-the schleep","
-
 the dinglebob","
-the dinglebob"
-55,The blubb hit the dinglebob. The schleep hit the blubb. The dinglebob fell in the hole.,True,schleep,blubb,dinglebob,"
-the schleep","
 
-the schleep","
+the blubb","
+
+the blubb"
+55,The blubb hit the dinglebob. The schleep hit the blubb. The dinglebob fell in the hole.,True,schleep,blubb,dinglebob,"
+
+the baz","
+
+the blubb","
 
 the dinglebob"
 56,The schleep hit the bla. The bla hit the plomp. The plomp fell in the hole.,False,schleep,bla,plomp,"
 
 the bla","
 
-the bla","
+the plomp","
 
 the plomp"
 57,The bla hit the plomp. The schleep hit the bla. The plomp fell in the hole.,True,schleep,bla,plomp,"
-the schleep","
 
-the bla","
-the plomp"
-58,The schleep hit the bla. The bla hit the dinglebob. The dinglebob fell in the hole.,False,schleep,bla,dinglebob,"
+the baz",????,"
 
-the bla","
+the bla"
+58,The schleep hit the bla. The bla hit the dinglebob. The dinglebob fell in the hole.,False,schleep,bla,dinglebob, the dinglebob,????,"
 
-the bla","
-
-the dinglebob"
+the hole"
 59,The bla hit the dinglebob. The schleep hit the bla. The dinglebob fell in the hole.,True,schleep,bla,dinglebob,"
-the schleep","
+
+the baz","
 
 the bla","
-the dinglebob"
+
+the hole"
 60,The schleep hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,schleep,plomp,dinglebob,"
 
-the schleep","
+the plomp","
 
 the plomp","
 
-the dinglebob"
-61,The plomp hit the dinglebob. The schleep hit the plomp. The dinglebob fell in the hole.,True,schleep,plomp,dinglebob,"
+The dinglebob."
+61,The plomp hit the dinglebob. The schleep hit the plomp. The dinglebob fell in the hole.,True,schleep,plomp,dinglebob, the baz,"
 
-the schleep","
+the bla","
 
-the plomp","
-
-the dinglebob"
+the blubb"
 62,The blubb hit the bla. The bla hit the plomp. The plomp fell in the hole.,False,blubb,bla,plomp,"
 
-the blubb","
+the blubb", the plomp,"
 
-the bla","
-
-the plomp"
+the bla"
 63,The bla hit the plomp. The blubb hit the bla. The plomp fell in the hole.,True,blubb,bla,plomp,"
 
-the blubb","
+the fuu","
 
 the bla","
+
 the plomp"
 64,The blubb hit the bla. The bla hit the dinglebob. The dinglebob fell in the hole.,False,blubb,bla,dinglebob,"
 
-the bla","
+the blubb","
 
 the blubb","
 
-the dinglebob"
+the blubb"
 65,The bla hit the dinglebob. The blubb hit the bla. The dinglebob fell in the hole.,True,blubb,bla,dinglebob,"
 
-the blubb","
+the dinglebob","
 
 the bla","
 
 the dinglebob"
 66,The blubb hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,blubb,plomp,dinglebob,"
 
-the blubb","
+the blubb",????,"
 
-the plomp","
-
-the dinglebob"
+the blubb"
 67,The plomp hit the dinglebob. The blubb hit the plomp. The dinglebob fell in the hole.,True,blubb,plomp,dinglebob,"
 
-the blubb","
+the baz","
 
-the plomp","
-
-the dinglebob"
-68,The bla hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,bla,plomp,dinglebob,"
-
-the plomp","
-
-the plomp","
-
-the dinglebob"
-69,The plomp hit the dinglebob. The bla hit the plomp. The dinglebob fell in the hole.,True,bla,plomp,dinglebob,"
 the bla","
 
-the plomp","
+the plomp"
+68,The bla hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,bla,plomp,dinglebob,"
 
-the dinglebob"
+the schleep","
+
+the schleep","
+
+the bla"
+69,The plomp hit the dinglebob. The bla hit the plomp. The dinglebob fell in the hole.,True,bla,plomp,dinglebob,"
+
+the fuu","
+
+the dinglebob","
+
+the plomp"

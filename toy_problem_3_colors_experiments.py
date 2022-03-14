@@ -101,8 +101,8 @@ if __name__ == "__main__":
     setup.save_sequences_df("data/toy_problem_3_colors/toy_problem_3c.csv")
 
     #run 
-    #run_3_colors_experiments_zero_shot(setup=setup, model_names=gpt3_model_names, setup_df=setup_df, filepath="data/toy_problem_3_colors_results/toy_problem_3c_zero_shot_results_{}.csv")
-    #run_3_colors_experiments_one_shot(setup, gpt3_model_names, setup_df, "data/toy_problem_3_colors_results/toy_problem_3c_one_shot_results_{}.csv")
+    run_3_colors_experiments_zero_shot(setup=setup, model_names=gpt3_model_names, setup_df=setup_df, filepath="data/toy_problem_3_colors_results/toy_problem_3c_zero_shot_results_{}.csv")
+    run_3_colors_experiments_one_shot(setup, gpt3_model_names, setup_df, "data/toy_problem_3_colors_results/toy_problem_3c_one_shot_results_{}.csv")
     run_3_colors_experiments_k_shot(setup, 5, gpt3_model_names, setup_df, "data/toy_problem_3_colors_results/toy_problem_3c_k_shot_results_{}.csv")
 
 

@@ -1,149 +1,134 @@
 import numpy as np
 import itertools
 import pandas as pd
+import json
 
 class CETwoSentences():
 
-    "THIS CLASS IS NOT FINISHED YET"
-
     def __init__(self):
 
-        self.events = [
-            "The {} ball hit the {} ball.",
-            "The {} ball hit the {} ball."
-        ]
-        self.outro = "The {} ball fell in the hole."
-        self.colors = [
-            "blue",
-            "red",
-            "green",
-            "brown",
-            "purple",
-            "black",
-            "white"
-        ]
-        self.all_subsets = np.array(list(itertools.combinations(self.colors, 3)))
-        self.num_subsets = len(self.all_subsets)
+        self.df_ce_two_sentences = self.generate_sequences_df()
+        self.df_ce_two_sentences_non_switched = self.df_ce_two_sentences[self.df_ce_two_sentences["switched"] == False]
+        self.df_ce_two_sentences_switched = self.df_ce_two_sentences[self.df_ce_two_sentences["switched"] == True]
+        self.length = len(self.df_ce_two_sentences_switched)
 
         # generate sequences and prompts
         self.question_cause = "Which sentence caused the other?"
-        self.question_effect = "Which sentence was the effect of the other?"
+        self.question_effect = "Which sentence is the effect of the other?"
         self.answer = " Answer by copying the sentence: "
-        self.sequences_df = self.generate_sequences_df()
-        self.sequences = self.sequences_df["sequence"]
 
+    def generate_sequences_df(self, filepath="data/bigbench_originals/ce_two_sentences.json"):
+        
+        with open(filepath, "r") as read_file:
+            data = json.load(read_file)
 
-    def get_random_subsets(self, num_random_subsets=1):
-        return(self.all_subsets[np.random.choice(self.num_subsets, size=num_random_subsets, replace=False)])
+        examples = data["examples"]
 
-    def generate_single_sequence(self, n_subset=0, switched=False):
-        c1, c2, c3 = self.all_subsets[n_subset]
-        s1, s2 = self.events[0].format(c1, c2), self.events[1].format(c2, c3)
-        o = self.outro.format(c3)
-        if switched:
-            return(s2 + " " + s1 + " " + o)
-        else:
-            return(s1 + " " + s2 + " " + o)
-
-    def generate_sequences_df(self):
         sequences = []
+        cause_answers = []
+        effect_answers = []
         switched = []
-        first_color = []
-        second_color = []
-        final_color = []
-        for color_triplets in self.all_subsets:
-            c1, c2, c3 = color_triplets
-            s1, s2 = self.events[0].format(c1, c2), self.events[1].format(c2, c3)
-            o = self.outro.format(c3)
-            # create the prompts
-            prompt_in_order = s1 + " " + s2 + " " + o
-            prompt_switched = s2 + " " + s1 + " " + o
-            sequences.append(prompt_in_order)
+
+        # run through all examples
+        for ex in examples:
+            target_scores = ex['target_scores']
+            keys = list(target_scores.keys())
+            values = list(target_scores.values())
+            classic_sequence = keys[0] + " " + keys[1]
+            reverse_sequence = keys[1] + " " + keys[0]
+            sequences.append(classic_sequence)
+            sequences.append(reverse_sequence)
+            # 2x because we also flipped the order
+            cause_answers.append(keys[0])
+            cause_answers.append(keys[0])
+            effect_answers.append(keys[1])
+            effect_answers.append(keys[1])
             switched.append(False)
-            sequences.append(prompt_switched)
             switched.append(True)
-            first_color.extend([c1, c1])
-            second_color.extend([c2, c2])
-            final_color.extend([c3, c3])
 
-        df_toy_problem_3c = pd.DataFrame({
+        ### save as csv
+        df_ce_two_sentences = pd.DataFrame({
             "sequence":sequences,
-            "switched":switched,
-            "first_color":first_color,
-            "second_color":second_color,
-            "final_color":final_color
+            "answer_cause":cause_answers,
+            "answer_effect":effect_answers,
+            "switched":switched
         })
-        return(df_toy_problem_3c)
 
-    def save_sequences_df(self, filepath):
-        self.sequences_df.to_csv(filepath, index=False)
+        return(df_ce_two_sentences)
 
-    def generate_single_prompt_zero_shot(self, n_subset=0, switched=False, question='first'):
-        assert(question in ["first", "second", "final"])
-        sequence = self.generate_single_sequence(n_subset, switched)
-        if question=='first':
-            return(sequence + " Question: " + self.question_first + self.answer)
-        elif question=='second':
-            return(sequence + " Question: " + self.question_second + self.answer)
-        elif question=='final':
-            return(sequence + " Question: " + self.question_final + self.answer)
+    def save_sequences_df(self, filepath="data/bigbench_csvs/ce_two_sentences.csv", index=False):
+        self.df_ce_two_sentences.to_csv(filepath, index=False)
 
-    def generate_all_prompts_zero_shot(self, question='first'):
-        assert(question in ["first", "second", "final"])
+    def get_single_sequence(self, n_sequence, switched=False):
+        if switched:
+            return(self.df_ce_two_sentences_switched["sequence"].iloc[n_sequence])
+        else:
+            return(self.df_ce_two_sentences_non_switched["sequence"].iloc[n_sequence])
+
+    def generate_single_prompt_zero_shot(self, n_subset=0, switched=False, question='cause'):
+        assert(question in ["cause", "effect"])
+        sequence = self.get_single_sequence(n_subset, switched)
+        if question=='cause':
+            return(sequence + " Question: " + self.question_cause + self.answer)
+        elif question=='effect':
+            return(sequence + " Question: " + self.question_effect + self.answer)
+
+    def generate_all_prompts_zero_shot(self, question='cause'):
+        assert(question in ["cause", "effect"])
         prompts = []
-        for s in self.sequences:
-            if question=='first':
-                prompts.append(s + " Question: " + self.question_first + self.answer)
-            elif question=='second':
-                prompts.append(s + " Question: " + self.question_second + self.answer)
-            elif question=='final':
-                prompts.append(s + " Question: " + self.question_final + self.answer)
+        for s in self.df_ce_two_sentences["sequence"]:
+            if question=='cause':
+                prompts.append(s + " Question: " + self.question_cause + self.answer)
+            elif question=='effect':
+                prompts.append(s + " Question: " + self.question_effect + self.answer)
         return(prompts)
 
-    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, question='first'):
-        assert(question in ["first", "second", "final"])
-        choices = np.random.choice(len(self.sequences_df), size=k, replace=False)
+    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, question='cause'):
+        assert(question in ["cause", "effect"])
+        choices = np.random.choice(self.length, size=k, replace=False)
         k_shots = ""
         #create k-shots
         for c in choices: 
-            row = self.sequences_df.iloc[c]
+            if switched:
+                row = self.df_ce_two_sentences_switched.iloc[c]
+            else:
+                row = self.df_ce_two_sentences_non_switched.iloc[c]
             s = row["sequence"]
-            if question=='first':
-                k_shots += s + " Question: " + self.question_first + self.answer + "the {} ball\n".format(row["first_color"])
-            elif question=='second':
-                k_shots += s + " Question: " + self.question_second + self.answer + "the {} ball\n".format(row["second_color"])
-            elif question=='final':
-                k_shots += s + " Question: " + self.question_final + self.answer + "the {} ball\n".format(row["final_color"])
+            if question=='cause':
+                k_shots += s + " Question: " + self.question_cause + self.answer + row["answer_cause"] + "\n"
+            elif question=='effect':
+                k_shots += s + " Question: " + self.question_effect + self.answer + row["answer_effect"] + "\n"
 
         #add prompt on top
         prompt = self.generate_single_prompt_zero_shot(n_subset, switched, question)
         return(k_shots + prompt)
 
-    def generate_all_prompts_k_shot(self, k=5, question='first'):
-        assert(question in ["first", "second", "final"])
+    def generate_all_prompts_k_shot(self, k=5, question='cause'):
+        assert(question in ["cause", "effect"])
         zero_shot_prompts = self.generate_all_prompts_zero_shot(question)
         k_shots_prompts = []
-        for i, row in self.sequences_df.iterrows():
-            choices = np.random.choice(len(self.sequences_df), size=k, replace=False)
+        for i, row in self.df_ce_two_sentences.iterrows():
+            choices = np.random.choice(self.length, size=k, replace=False)
             k_shots = ""
             #create k-shots
             for c in choices: 
-                row = self.sequences_df.iloc[c]
-                s = row["sequence"]
-                if question=='first':
-                    k_shots += s + " Question: " + self.question_first + self.answer + "the {} ball\n".format(row["first_color"])
-                elif question=='second':
-                    k_shots += s + " Question: " + self.question_second + self.answer + "the {} ball\n".format(row["second_color"])
-                elif question=='final':
-                    k_shots += s + " Question: " + self.question_final + self.answer + "the {} ball\n".format(row["final_color"])
+                if row["switched"]:
+                    r = self.df_ce_two_sentences_switched.iloc[c]
+                else:
+                    r = self.df_ce_two_sentences_non_switched.iloc[c]
+                s = r["sequence"]
+                if question=='cause':
+                    k_shots += s + " Question: " + self.question_cause + self.answer + r["answer_cause"] + "\n"
+                elif question=='effect':
+                    k_shots += s + " Question: " + self.question_effect + self.answer + r["answer_effect"] + "\n"
             k_shots += zero_shot_prompts[i]
             k_shots_prompts.append(k_shots)
         return(k_shots_prompts)
 
-    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, question='first'):
+    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, question='cause'):
         return(self.generate_single_prompt_k_shot(n_subset, k=1, switched=switched, question=question))
 
-    def generate_all_prompts_one_shot(self, question='first'):
+    def generate_all_prompts_one_shot(self, question='cause'):
         return(self.generate_all_prompts_k_shot(k=1, question=question))
 
 

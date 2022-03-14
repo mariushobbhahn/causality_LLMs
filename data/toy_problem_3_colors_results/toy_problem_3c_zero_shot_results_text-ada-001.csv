@@ -3,19 +3,32 @@
 
 The blue ball hit the red ball. The red ball hit the green ball. The green","
 
-The blue ball hit the red ball. The red ball hit the green ball. The green","
+2, 3, 5","
 
 The blue ball hit the red ball. The red ball hit the green ball. The green"
 1,The red ball hit the green ball. The blue ball hit the red ball. The green ball fell in the hole.,True,blue,red,green,"
 
-The red ball hit the green ball. The blue ball hit the red ball. The green","
+A) Red
+B) Blue
+C) Green
 
-The red ball hit the green ball. The blue ball hit the red ball. The green","
+C) Green","
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+","
 
 The red ball hit the green ball. The blue ball hit the red ball. The green"
 2,The blue ball hit the red ball. The red ball hit the brown ball. The brown ball fell in the hole.,False,blue,red,brown,"
 
-The blue ball hit the red ball. The red ball hit the brown ball. The brown","
+The blue ball hit the red ball. The red ball hit the blue ball. The blue","
 
 The blue ball hit the red ball. The red ball hit the blue ball. The blue","
 
@@ -29,51 +42,89 @@ The red ball hit the brown ball. The blue ball hit the red ball. The brown","
 The red ball hit the brown ball. The blue ball hit the red ball. The brown"
 4,The blue ball hit the red ball. The red ball hit the purple ball. The purple ball fell in the hole.,False,blue,red,purple,"
 
-The blue ball hit the red ball. The red ball hit the purple ball. The purple","
+A) Blue
+B) Red
+C) Green
 
-The blue ball hit the red ball. The red ball hit the purple ball. The purple","
+C) Green","
+
+1. The blue ball hit the red ball.
+2. The blue ball hit the","
 
 The blue ball hit the red ball. The red ball hit the purple ball. The purple"
 5,The red ball hit the purple ball. The blue ball hit the red ball. The purple ball fell in the hole.,True,blue,red,purple,"
 
-The red ball hit the purple ball. The blue ball hit the red ball. The purple","
+A) Red ball
+B) Blue ball
+C) Green ball
 
-The red ball hit the purple ball. The blue ball hit the red ball. The purple","
+C)","
+
+2, 3, 5","
 
 The red ball hit the purple ball. The blue ball hit the red ball. The purple"
 6,The blue ball hit the red ball. The red ball hit the black ball. The black ball fell in the hole.,False,blue,red,black,"
 
-The black ball fell in the hole.","
+A) Blue
+B) Red
+C) Black
 
-The black ball fell in the hole.","
+C) Black","
+
+2, 3, 5","
 
 The black ball fell into the hole."
 7,The red ball hit the black ball. The blue ball hit the red ball. The black ball fell in the hole.,True,blue,red,black,"
 
-The red ball hit the black ball. The blue ball hit the red ball. The black","
+A) red ball
+B) blue ball
+C) black ball
 
-The black ball fell in the hole.","
+C)","
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+","
 
 The red ball hit the black ball. The blue ball hit the red ball. The black"
 8,The blue ball hit the red ball. The red ball hit the white ball. The white ball fell in the hole.,False,blue,red,white,"
 
-The blue ball hit the red ball. The red ball hit the white ball. The white","
+A) Blue
+B) Red
+C) White
+
+C) White","
 
 The blue ball hit the red ball. The red ball hit the white ball. The white","
 
 The blue ball hit the red ball. The red ball hit the white ball. The white"
 9,The red ball hit the white ball. The blue ball hit the red ball. The white ball fell in the hole.,True,blue,red,white,"
 
-The red ball hit the white ball. The blue ball hit the red ball. The white","
+A) Red ball
+B) Blue ball
+C) White ball
+
+C)","
 
 The red ball hit the white ball. The blue ball hit the red ball. The white","
 
 The red ball hit the white ball. The blue ball hit the red ball. The white"
 10,The blue ball hit the green ball. The green ball hit the brown ball. The brown ball fell in the hole.,False,blue,green,brown,"
 
-The blue ball hit the green ball. The green ball hit the brown ball. The brown","
+A) Blue
+B) Green
+C) Brown
 
-The blue ball hit the green ball. The green ball hit the brown ball. The brown","
+C) Brown","
+
+2, 3, 5","
 
 The blue ball hit the green ball. The green ball hit the brown ball. The brown"
 11,The green ball hit the brown ball. The blue ball hit the green ball. The brown ball fell in the hole.,True,blue,green,brown,"
@@ -85,133 +136,213 @@ The green ball hit the brown ball. The blue ball hit the green ball. The brown",
 The green ball hit the brown ball. The blue ball hit the green ball. The brown"
 12,The blue ball hit the green ball. The green ball hit the purple ball. The purple ball fell in the hole.,False,blue,green,purple,"
 
-The blue ball hit the green ball. The green ball hit the purple ball. The purple","
+A) Blue
+B) Green
+C) purple
 
-The blue ball hit the green ball. The green ball hit the purple ball. The purple","
+C) purple","
 
-The blue ball hit the green ball. The green ball hit the purple ball. The purple"
+2, 3, 5","
+
+1. The blue ball hit the green ball.
+2. The green ball hit the"
 13,The green ball hit the purple ball. The blue ball hit the green ball. The purple ball fell in the hole.,True,blue,green,purple,"
 
-The green ball hit the purple ball. The blue ball hit the green ball. The purple","
+1. The green ball hit the purple ball.
+2. The blue ball hit the","
 
-The green ball hit the purple ball. The blue ball hit the green ball. The purple","
+2, 3, 5","
 
 The green ball hit the purple ball. The blue ball hit the green ball. The purple"
 14,The blue ball hit the green ball. The green ball hit the black ball. The black ball fell in the hole.,False,blue,green,black,"
 
-The black ball fell in the hole.","
+A) Black
+B) Green
+C) Blue
 
-The black ball fell in the hole.","
+C) Blue","
+
+2, 3, 5","
 
 The black ball fell into the hole."
 15,The green ball hit the black ball. The blue ball hit the green ball. The black ball fell in the hole.,True,blue,green,black,"
 
-The black ball fell in the hole.","
+1. Black
+2. Blue
+3. Green","
 
-The black ball hit the blue ball. The blue ball hit the black ball. The black","
+2
+3
+4
+5
+6
+7
+8
+9
+10
+","
 
-The black ball fell into the hole."
+The black ball hit the green ball. The blue ball hit the black ball. The green"
 16,The blue ball hit the green ball. The green ball hit the white ball. The white ball fell in the hole.,False,blue,green,white,"
 
-The blue ball hit the green ball. The green ball hit the white ball. The white","
+A) Blue
+B) Green
+C) White
 
-The blue ball hit the green ball. The green ball hit the white ball. The white","
+C) White","
+
+2, 3, 5","
 
 The blue ball hit the green ball. The green ball hit the white ball. The white"
 17,The green ball hit the white ball. The blue ball hit the green ball. The white ball fell in the hole.,True,blue,green,white,"
 
-The green ball hit the white ball. The blue ball hit the green ball. The white","
+A) Green
+B) Blue
+C) White
 
-The white ball fell in the hole.","
+C) White","
+
+1. White
+2. Blue
+3. Green","
 
 The white ball fell into the hole."
 18,The blue ball hit the brown ball. The brown ball hit the purple ball. The purple ball fell in the hole.,False,blue,brown,purple,"
 
-The blue ball hit the brown ball. The brown ball hit the purple ball. The purple","
+A) Blue
+B) Brown
+C) Green
+D) purple","
 
-The blue ball hit the brown ball. The brown ball hit the purple ball. The purple","
+The purple ball fell in the hole.","
 
 The blue ball hit the brown ball. The brown ball hit the purple ball. The purple"
 19,The brown ball hit the purple ball. The blue ball hit the brown ball. The purple ball fell in the hole.,True,blue,brown,purple,"
 
-The brown ball hit the purple ball. The blue ball hit the brown ball. The purple","
+A) purple
+B) blue
+C) brown
+
+C) Brown","
 
 The brown ball hit the purple ball. The blue ball hit the brown ball. The purple","
 
 The brown ball hit the purple ball. The blue ball hit the brown ball. The purple"
 20,The blue ball hit the brown ball. The brown ball hit the black ball. The black ball fell in the hole.,False,blue,brown,black,"
 
-The blue ball hit the brown ball. The brown ball hit the black ball. The black","
+A) Blue
+B) Brown
+C) Black
+
+C) Black","
 
 The black ball fell in the hole.","
 
 The black ball fell into the hole."
 21,The brown ball hit the black ball. The blue ball hit the brown ball. The black ball fell in the hole.,True,blue,brown,black,"
 
-The black ball fell in the hole.","
+The black ball started the chain.","
 
 The black ball hit the brown ball. The blue ball hit the black ball. The brown","
 
 The black ball fell into the hole."
 22,The blue ball hit the brown ball. The brown ball hit the white ball. The white ball fell in the hole.,False,blue,brown,white,"
 
-The blue ball hit the brown ball. The brown ball hit the white ball. The white","
+A) Blue
+B) Brown
+C) White
 
-The white ball fell in the hole.","
+C) White","
+
+The white ball was in the hole.","
 
 The blue ball hit the brown ball. The brown ball hit the white ball. The white"
 23,The brown ball hit the white ball. The blue ball hit the brown ball. The white ball fell in the hole.,True,blue,brown,white,"
 
-The brown ball hit the white ball. The blue ball hit the brown ball. The white","
+A) Red ball
+B) Black ball
+C) Blue ball
 
-The white ball fell in the hole.","
+C)","
+
+The white ball was in the hole.
+
+The black ball was in the brown ball","
 
 The white ball fell into the hole."
 24,The blue ball hit the purple ball. The purple ball hit the black ball. The black ball fell in the hole.,False,blue,purple,black,"
 
-The black ball fell in the hole.","
+A) Blue
+B) purple
+C) black
 
-The black ball fell in the hole.","
+C) Black","
+
+2, 3, 5","
 
 The black ball fell into the hole."
 25,The purple ball hit the black ball. The blue ball hit the purple ball. The black ball fell in the hole.,True,blue,purple,black,"
 
-The purple ball hit the black ball. The blue ball hit the purple ball. The black","
+A) purple
+B) black
+C) blue
 
-The black ball was second in the chain.","
+C) blue","
 
-The black ball fell into the hole."
+2, 3, 5","
+
+The black ball."
 26,The blue ball hit the purple ball. The purple ball hit the white ball. The white ball fell in the hole.,False,blue,purple,white,"
 
-The blue ball hit the purple ball. The purple ball hit the white ball. The white","
+A) Blue
+B) purple
+C) white
+
+C) White","
 
 The blue ball hit the purple ball. The purple ball hit the white ball. The white","
 
-The white ball fell into the hole."
+The blue ball hit the purple ball. The purple ball hit the white ball. The white"
 27,The purple ball hit the white ball. The blue ball hit the purple ball. The white ball fell in the hole.,True,blue,purple,white,"
 
-The purple ball hit the white ball. The blue ball hit the purple ball. The white","
+A) purple
+B) blue
+C) white
 
-The purple ball hit the white ball. The blue ball hit the purple ball. The white","
+C) white","
+
+2, 3, 5","
 
 The purple ball hit the white ball. The blue ball hit the purple ball. The white"
 28,The blue ball hit the black ball. The black ball hit the white ball. The white ball fell in the hole.,False,blue,black,white,"
 
-The blue ball hit the black ball. The black ball hit the white ball. The white","
+A) Blue
+B) Black
+C) White
 
-The white ball fell in the hole.","
+C) White","
 
-The white ball fell into the hole."
+The white ball was in the hole.","
+
+The white ball."
 29,The black ball hit the white ball. The blue ball hit the black ball. The white ball fell in the hole.,True,blue,black,white,"
 
-The black ball hit the white ball. The blue ball hit the black ball. The white","
+A) Black
+B) Blue
+C) White
 
-The black ball hit the white ball. The blue ball hit the black ball. The white","
+C) White","
+
+2, 3, 5","
 
 The black ball hit the white ball. The blue ball hit the black ball. The white"
 30,The red ball hit the green ball. The green ball hit the brown ball. The brown ball fell in the hole.,False,red,green,brown,"
 
-The red ball hit the green ball. The green ball hit the brown ball. The brown","
+A) red ball
+B) green ball
+C) brown ball
+
+C)","
 
 The red ball hit the green ball. The green ball hit the brown ball. The brown","
 
@@ -225,126 +356,213 @@ The green ball hit the brown ball. The red ball hit the green ball. The brown","
 The red ball fell into the hole."
 32,The red ball hit the green ball. The green ball hit the purple ball. The purple ball fell in the hole.,False,red,green,purple,"
 
-The red ball hit the green ball. The green ball hit the purple ball. The purple","
+A) red ball
+B) green ball
+C) purple ball
 
-The red ball hit the green ball. The green ball hit the purple ball. The purple","
+C)","
+
+2, 3, 5","
 
 The red ball hit the green ball. The green ball hit the purple ball. The purple"
 33,The green ball hit the purple ball. The red ball hit the green ball. The purple ball fell in the hole.,True,red,green,purple,"
 
-The green ball hit the purple ball. The red ball hit the green ball. The purple","
+A) Red
+B) Green
+C) Blue
 
-The green ball hit the purple ball. The red ball hit the green ball. The purple","
+C) Blue","
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+","
 
 The green ball hit the purple ball. The red ball hit the green ball. The purple"
 34,The red ball hit the green ball. The green ball hit the black ball. The black ball fell in the hole.,False,red,green,black,"
 
-The red ball hit the green ball. The green ball hit the black ball. The black","
+A) Red ball
+B) Green ball
+C) Black ball
 
-The black ball fell in the hole.","
+C)","
+
+2, 3, 5","
 
 The black ball fell into the hole."
 35,The green ball hit the black ball. The red ball hit the green ball. The black ball fell in the hole.,True,red,green,black,"
 
 The black ball hit the red ball. The red ball hit the black ball. The black","
 
-The black ball hit the red ball. The red ball hit the black ball. The black","
+2
+3
+4
+5
+6
+7
+8
+9
+10
+","
 
-The black ball fell into the hole."
+The black ball hit the green ball. The red ball hit the black ball."
 36,The red ball hit the green ball. The green ball hit the white ball. The white ball fell in the hole.,False,red,green,white,"
 
-The red ball hit the green ball. The green ball hit the white ball. The white","
+A) Red ball
+B) Green ball
+C) White ball
+
+C)","
 
 The red ball hit the green ball. The green ball hit the white ball. The white","
 
 The red ball hit the green ball. The green ball hit the white ball. The white"
 37,The green ball hit the white ball. The red ball hit the green ball. The white ball fell in the hole.,True,red,green,white,"
 
-The green ball hit the white ball. The red ball hit the green ball. The white","
+A) White
+B) Green
+C) Red
+
+C) Red","
 
 The green ball hit the white ball. The red ball hit the green ball. The white","
 
 The green ball hit the white ball. The red ball hit the green ball. The white"
 38,The red ball hit the brown ball. The brown ball hit the purple ball. The purple ball fell in the hole.,False,red,brown,purple,"
 
-The red ball hit the brown ball. The brown ball hit the purple ball. The purple","
+A) red ball
+B) brown ball
+C) purple ball
+
+C)","
 
 The red ball hit the brown ball. The brown ball hit the purple ball. The purple","
 
 The red ball hit the brown ball. The brown ball hit the purple ball. The purple"
 39,The brown ball hit the purple ball. The red ball hit the brown ball. The purple ball fell in the hole.,True,red,brown,purple,"
 
-The brown ball hit the purple ball. The red ball hit the brown ball. The purple","
+A) The brown ball hit the purple ball. The red ball hit the brown ball.","
 
-The brown ball hit the purple ball. The red ball hit the brown ball. The purple","
+The ball that was second in the chain was the ball that was hit by the brown ball","
 
-The brown ball hit the purple ball. The red ball hit the brown ball. The purple"
+The red ball fell into the hole."
 40,The red ball hit the brown ball. The brown ball hit the black ball. The black ball fell in the hole.,False,red,brown,black,"
 
-The red ball hit the brown ball. The brown ball hit the black ball. The black","
+A) Red ball
+B) Brown ball
+C) Black ball
+
+C)","
 
 The black ball fell in the hole.","
 
 The black ball fell into the hole."
 41,The brown ball hit the black ball. The red ball hit the brown ball. The black ball fell in the hole.,True,red,brown,black,"
 
-The red ball hit the brown ball. The black ball fell in the hole.","
+The red ball started the chain. The black ball fell in the hole.","
 
 The black ball hit the brown ball. The red ball hit the black ball. The brown","
 
 The red ball fell into the hole."
 42,The red ball hit the brown ball. The brown ball hit the white ball. The white ball fell in the hole.,False,red,brown,white,"
 
-The red ball hit the brown ball. The brown ball hit the white ball. The white","
+A) Red ball
+B) Brown ball
+C) White ball
+
+C)","
 
 The red ball hit the brown ball. The brown ball hit the white ball. The white","
 
 The white ball fell into the hole."
 43,The brown ball hit the white ball. The red ball hit the brown ball. The white ball fell in the hole.,True,red,brown,white,"
 
-The brown ball hit the white ball. The red ball hit the brown ball. The white","
+A) Red ball
+B) White ball
+C) Brown ball
+
+C)","
 
 The brown ball hit the white ball. The red ball hit the brown ball. The white","
 
 The brown ball hit the white ball. The red ball hit the brown ball. The white"
 44,The red ball hit the purple ball. The purple ball hit the black ball. The black ball fell in the hole.,False,red,purple,black,"
 
-The red ball hit the purple ball. The purple ball hit the black ball. The black","
+A) Red ball
+B) Green ball
+C) Blue ball
 
-The black ball fell in the hole.","
+C)","
+
+2, 3, 5","
 
 The black ball fell into the hole."
 45,The purple ball hit the black ball. The red ball hit the purple ball. The black ball fell in the hole.,True,red,purple,black,"
 
-The purple ball hit the black ball. The red ball hit the purple ball. The black","
+A) purple
+B) black
+C) red
 
-The black ball hit the purple ball. The red ball hit the black ball. The purple","
+C) red","
 
-The black ball fell into the hole."
+2
+3
+4
+5
+6
+7
+8
+9
+10
+","
+
+The red ball fell into the hole."
 46,The red ball hit the purple ball. The purple ball hit the white ball. The white ball fell in the hole.,False,red,purple,white,"
 
-The red ball hit the purple ball. The purple ball hit the white ball. The white","
+A) Red ball
+B) Green ball
+C) Blue ball
+
+C)","
 
 The red ball hit the purple ball. The purple ball hit the white ball. The white","
 
 The red ball hit the purple ball. The purple ball hit the white ball. The white"
 47,The purple ball hit the white ball. The red ball hit the purple ball. The white ball fell in the hole.,True,red,purple,white,"
 
-The purple ball hit the white ball. The red ball hit the purple ball. The white","
+A) purple
+B) white
+C) red
 
-The purple ball hit the white ball. The red ball hit the purple ball. The white","
+C) red","
+
+2, 3, 1","
 
 The purple ball hit the white ball. The red ball hit the purple ball. The white"
 48,The red ball hit the black ball. The black ball hit the white ball. The white ball fell in the hole.,False,red,black,white,"
 
-The red ball hit the black ball. The black ball hit the white ball. The white","
+A) Red ball
+B) Black ball
+C) White ball
+
+C)","
 
 The red ball hit the black ball. The black ball hit the white ball. The white","
 
 The red ball hit the black ball. The black ball hit the white ball. The white"
 49,The black ball hit the white ball. The red ball hit the black ball. The white ball fell in the hole.,True,red,black,white,"
 
-The black ball hit the white ball. The red ball hit the black ball. The white","
+A) Black
+B) Red
+C) White
+
+C) White","
 
 The black ball hit the white ball. The red ball hit the black ball. The white","
 
@@ -358,9 +576,9 @@ The green ball hit the brown ball. The brown ball hit the purple ball. The purpl
 The green ball hit the brown ball. The brown ball hit the purple ball. The purple"
 51,The brown ball hit the purple ball. The green ball hit the brown ball. The purple ball fell in the hole.,True,green,brown,purple,"
 
-The brown ball hit the purple ball. The green ball hit the brown ball. The purple","
+A) The brown ball hit the purple ball. The green ball hit the brown ball.","
 
-The brown ball hit the purple ball. The green ball hit the brown ball. The purple","
+The ball that was second in the chain was the ball that was hit by the brown ball","
 
 The brown ball hit the purple ball. The green ball hit the brown ball. The purple"
 52,The green ball hit the brown ball. The brown ball hit the black ball. The black ball fell in the hole.,False,green,brown,black,"
@@ -372,51 +590,71 @@ The black ball fell in the hole.","
 The black ball fell into the hole."
 53,The brown ball hit the black ball. The green ball hit the brown ball. The black ball fell in the hole.,True,green,brown,black,"
 
-The black ball fell in the hole.","
+The black ball started the chain.","
 
-The black ball hit the green ball. The brown ball hit the black ball. The green","
+The black ball was second in the chain.","
 
-The black ball fell into the hole."
+The black ball hit the brown ball. The green ball hit the black ball. The brown"
 54,The green ball hit the brown ball. The brown ball hit the white ball. The white ball fell in the hole.,False,green,brown,white,"
 
 The white ball fell in the hole.","
 
 The white ball fell in the hole.","
 
-The white ball fell into the hole."
+The white ball."
 55,The brown ball hit the white ball. The green ball hit the brown ball. The white ball fell in the hole.,True,green,brown,white,"
 
-The brown ball hit the white ball. The green ball hit the brown ball. The white","
+A) Red ball
+B) Black ball
+C) White ball
+
+C)","
 
 The brown ball hit the white ball. The green ball hit the brown ball. The white","
 
-The brown ball hit the white ball. The green ball hit the brown ball. The white"
+The white ball fell into the hole."
 56,The green ball hit the purple ball. The purple ball hit the black ball. The black ball fell in the hole.,False,green,purple,black,"
 
-The black ball fell in the hole.","
+A) Green
+B) purple
+C) black
 
-The black ball fell in the hole.","
+C) Black","
+
+2, 3, 5","
 
 The black ball fell into the hole."
 57,The purple ball hit the black ball. The green ball hit the purple ball. The black ball fell in the hole.,True,green,purple,black,"
 
-The purple ball hit the black ball. The green ball hit the purple ball. The black","
+A) purple
+B) green
+C) black
 
-The black ball was second in the chain.","
+C) black","
 
-The black ball fell into the hole."
+2, 3, 5","
+
+The black ball."
 58,The green ball hit the purple ball. The purple ball hit the white ball. The white ball fell in the hole.,False,green,purple,white,"
 
-The white ball fell in the hole.","
+A) White
+B) Green
+C) purple
+
+C) purple","
 
 The green ball hit the purple ball. The purple ball hit the white ball. The white","
 
 The white ball fell into the hole."
 59,The purple ball hit the white ball. The green ball hit the purple ball. The white ball fell in the hole.,True,green,purple,white,"
 
-The purple ball hit the white ball. The green ball hit the purple ball. The white","
+A) purple
+B) green
+C) white
 
-The purple ball hit the white ball. The green ball hit the purple ball. The white","
+C) white","
+
+2, 3, 5","
 
 The purple ball hit the white ball. The green ball hit the purple ball. The white"
 60,The green ball hit the black ball. The black ball hit the white ball. The white ball fell in the hole.,False,green,black,white,"
@@ -425,66 +663,93 @@ The white ball fell in the hole.","
 
 The white ball fell in the hole.","
 
-The white ball fell into the hole."
+The white ball."
 61,The black ball hit the white ball. The green ball hit the black ball. The white ball fell in the hole.,True,green,black,white,"
 
-The black ball hit the white ball. The green ball hit the black ball. The white","
+A) Black
+B) Green
+C) White
 
-The black ball hit the white ball. The green ball hit the black ball. The white","
+C) White","
+
+2, 3, 5","
 
 The black ball hit the white ball. The green ball hit the black ball. The white"
 62,The brown ball hit the purple ball. The purple ball hit the black ball. The black ball fell in the hole.,False,brown,purple,black,"
 
-The black ball fell in the hole.","
+A) The black ball
+B) The brown ball
+C) The purple ball
+","
 
 The black ball fell in the hole.","
 
 The black ball fell into the hole."
 63,The purple ball hit the black ball. The brown ball hit the purple ball. The black ball fell in the hole.,True,brown,purple,black,"
 
-The purple ball hit the black ball. The brown ball hit the purple ball. The black","
+A) purple
+B) black
+C) brown
 
-The black ball was second in the chain.","
+C) Brown","
 
-The black ball fell into the hole."
+2, 3, 5","
+
+The purple ball hit the black ball. The brown ball hit the purple ball. The black"
 64,The brown ball hit the purple ball. The purple ball hit the white ball. The white ball fell in the hole.,False,brown,purple,white,"
 
-The white ball fell in the hole.","
+The white ball started the chain.","
 
-The white ball fell in the hole.","
+The white ball was in the hole.","
 
-The white ball fell into the hole."
+The white ball."
 65,The purple ball hit the white ball. The brown ball hit the purple ball. The white ball fell in the hole.,True,brown,purple,white,"
 
-The purple ball hit the white ball. The brown ball hit the purple ball. The white","
+A) purple
+B) green
+C) white
 
-The purple ball hit the white ball. The brown ball hit the purple ball. The white","
+C) white","
+
+2, 3, 5","
 
 The purple ball hit the white ball. The brown ball hit the purple ball. The white"
 66,The brown ball hit the black ball. The black ball hit the white ball. The white ball fell in the hole.,False,brown,black,white,"
 
 The white ball fell in the hole.","
 
-The white ball fell in the hole.","
+The white ball was in the hole.","
 
-The white ball fell into the hole."
+The white ball."
 67,The black ball hit the white ball. The brown ball hit the black ball. The white ball fell in the hole.,True,brown,black,white,"
 
-The black ball hit the white ball. The brown ball hit the black ball. The white","
+A) Black
+B) Brown
+C) White
+
+C) White","
 
 The black ball hit the white ball. The brown ball hit the black ball. The white","
 
 The black ball hit the white ball. The brown ball hit the black ball. The white"
 68,The purple ball hit the black ball. The black ball hit the white ball. The white ball fell in the hole.,False,purple,black,white,"
 
-The purple ball hit the black ball. The black ball hit the white ball. The white","
+A) purple
+B) black
+C) white
 
-The white ball fell in the hole.","
+C) white","
 
-The white ball fell into the hole."
+2, 3, 5","
+
+The purple ball hit the black ball. The black ball hit the white ball. The white"
 69,The black ball hit the white ball. The purple ball hit the black ball. The white ball fell in the hole.,True,purple,black,white,"
 
-The black ball hit the white ball. The purple ball hit the black ball. The white","
+A) purple
+B) black
+C) white
+
+C) white","
 
 The black ball hit the white ball. The purple ball hit the black ball. The white","
 
