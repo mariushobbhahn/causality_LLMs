@@ -14,7 +14,7 @@ class CEOneSentence():
 
         # generate sequences and prompts
         self.question = "Which sentence describes the cause and effect relationship better?"
-        self.answer = " Answer by copying the sentence: "
+        self.answer = " Answer by copying the sentence:"
 
     def generate_sequences_df(self, filepath="data/bigbench_originals/ce_one_sentence.json"):
         
@@ -74,13 +74,13 @@ class CEOneSentence():
                 prompts.append(s + " Question: " + self.question + self.answer)
         return(prompts)
 
-    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, question='cause'):
+    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, switched_shot=False, question='cause'):
         assert(question in ["cause"])
         choices = np.random.choice(self.length, size=k, replace=False)
         k_shots = ""
         #create k-shots
         for c in choices: 
-            if switched:
+            if switched_shot:
                 row = self.df_ce_one_sentence_switched.iloc[c]
             else:
                 row = self.df_ce_one_sentence_non_switched.iloc[c]
@@ -112,11 +112,34 @@ class CEOneSentence():
             k_shots_prompts.append(k_shots)
         return(k_shots_prompts)
 
-    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, question='cause'):
-        return(self.generate_single_prompt_k_shot(n_subset, k=1, switched=switched, question=question))
+    def generate_all_prompts_k_shot_switched_shot(self, k=5, question='cause'):
+        assert(question in ["cause"])
+        zero_shot_prompts = self.generate_all_prompts_zero_shot(question)
+        k_shots_prompts = []
+        for i, row in self.df_ce_one_sentence.iterrows():
+            choices = np.random.choice(self.length, size=k, replace=False)
+            k_shots = ""
+            #create k-shots
+            for c in choices: 
+                if not row["switched"]:
+                    r = self.df_ce_one_sentence_switched.iloc[c]
+                else:
+                    r = self.df_ce_one_sentence_non_switched.iloc[c]
+                s = r["sequence"]
+                if question=='cause':
+                    k_shots += s + " Question: " + self.question + self.answer + r["answer_cause"] + "\n"
+            k_shots += zero_shot_prompts[i]
+            k_shots_prompts.append(k_shots)
+        return(k_shots_prompts)
+
+    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, switched_shot=False, question='cause'):
+        return(self.generate_single_prompt_k_shot(n_subset, k=1, switched=switched, switched_shot=switched_shot, question=question))
 
     def generate_all_prompts_one_shot(self, question='cause'):
         return(self.generate_all_prompts_k_shot(k=1, question=question))
+
+    def generate_all_prompts_one_shot_switched_shot(self, question='cause'):
+        return(self.generate_all_prompts_k_shot_switched_shot(k=1, question=question))
 
 
 

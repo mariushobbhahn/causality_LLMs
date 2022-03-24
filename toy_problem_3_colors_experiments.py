@@ -46,17 +46,26 @@ def run_3_colors_experiments_one_shot(setup, model_names, setup_df, filepath, ve
     prompts_one_shot_first = setup.generate_all_prompts_one_shot(question="first")
     prompts_one_shot_second = setup.generate_all_prompts_one_shot(question="second")
     prompts_one_shot_final = setup.generate_all_prompts_one_shot(question="final")
+    prompts_one_shot_first_ss = setup.generate_all_prompts_one_shot_switched_shot(question="first")
+    prompts_one_shot_second_ss = setup.generate_all_prompts_one_shot_switched_shot(question="second")
+    prompts_one_shot_final_ss = setup.generate_all_prompts_one_shot_switched_shot(question="final")
 
     for model in model_names:
 
         responses_first = run_gpt3_experiments(model, prompts_one_shot_first)
         responses_second = run_gpt3_experiments(model, prompts_one_shot_second)
         responses_final = run_gpt3_experiments(model, prompts_one_shot_final)
+        responses_first_ss = run_gpt3_experiments(model, prompts_one_shot_first_ss)
+        responses_second_ss = run_gpt3_experiments(model, prompts_one_shot_second_ss)
+        responses_final_ss = run_gpt3_experiments(model, prompts_one_shot_final_ss)
 
         df = setup_df.copy()
         df["responses_first"] = responses_first
         df["responses_second"] = responses_second
         df["responses_final"] = responses_final
+        df["responses_first_ss"] = responses_first_ss
+        df["responses_second_ss"] = responses_second_ss
+        df["responses_final_ss"] = responses_final_ss
 
         #save df
         df.to_csv(filepath.format(model))
@@ -66,17 +75,26 @@ def run_3_colors_experiments_k_shot(setup, k, model_names, setup_df, filepath, v
     prompts_k_shot_first = setup.generate_all_prompts_k_shot(k, question="first")
     prompts_k_shot_second = setup.generate_all_prompts_k_shot(k, question="second")
     prompts_k_shot_final = setup.generate_all_prompts_k_shot(k, question="final")
+    prompts_k_shot_first_ss = setup.generate_all_prompts_k_shot_switched_shot(k, question="first")
+    prompts_k_shot_second_ss = setup.generate_all_prompts_k_shot_switched_shot(k, question="second")
+    prompts_k_shot_final_ss = setup.generate_all_prompts_k_shot_switched_shot(k, question="final")
 
     for model in model_names:
 
         responses_first = run_gpt3_experiments(model, prompts_k_shot_first)
         responses_second = run_gpt3_experiments(model, prompts_k_shot_second)
         responses_final = run_gpt3_experiments(model, prompts_k_shot_final)
+        responses_first_ss = run_gpt3_experiments(model, prompts_k_shot_first_ss)
+        responses_second_ss = run_gpt3_experiments(model, prompts_k_shot_second_ss)
+        responses_final_ss = run_gpt3_experiments(model, prompts_k_shot_final_ss)
 
         df = setup_df.copy()
         df["responses_first"] = responses_first
         df["responses_second"] = responses_second
         df["responses_final"] = responses_final
+        df["responses_first_ss"] = responses_first_ss
+        df["responses_second_ss"] = responses_second_ss
+        df["responses_final_ss"] = responses_final_ss
 
         #save df
         df.to_csv(filepath.format(model))

@@ -38,13 +38,16 @@ def run_1_sentence_experiments_zero_shot(setup, model_names, setup_df, filepath,
 def run_1_sentence_experiments_one_shot(setup, model_names, setup_df, filepath, verbose=False):
 
     prompts_one_shot_cause = setup.generate_all_prompts_one_shot(question="cause")
+    prompts_one_shot_cause_ss = setup.generate_all_prompts_one_shot_switched_shot(question="cause")
 
     for model in model_names:
 
         responses_cause = run_gpt3_experiments(model, prompts_one_shot_cause)
+        responses_cause_ss = run_gpt3_experiments(model, prompts_one_shot_cause_ss)
 
         df = setup_df.copy()
         df["responses"] = responses_cause
+        df["responses_ss"] = responses_cause_ss
 
         #save df
         df.to_csv(filepath.format(model))
@@ -52,13 +55,16 @@ def run_1_sentence_experiments_one_shot(setup, model_names, setup_df, filepath, 
 def run_1_sentence_experiments_k_shot(setup, k, model_names, setup_df, filepath, verbose=False):
 
     prompts_k_shot_cause = setup.generate_all_prompts_k_shot(k, question="cause")
+    prompts_k_shot_cause_ss = setup.generate_all_prompts_k_shot_switched_shot(k, question="cause")
 
     for model in model_names:
 
         responses_cause = run_gpt3_experiments(model, prompts_k_shot_cause)
+        responses_cause_ss = run_gpt3_experiments(model, prompts_k_shot_cause_ss)
 
         df = setup_df.copy()
         df["responses"] = responses_cause
+        df["responses_ss"] = responses_cause_ss
 
         #save df
         df.to_csv(filepath.format(model))

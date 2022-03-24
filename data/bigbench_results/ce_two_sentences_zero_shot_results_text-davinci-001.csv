@@ -3,24 +3,22 @@
 
 The child started crying.","
 
-The child's crying caused them to hurt their knee."
+The child's knee was hurting."
 1,The child started crying. The child hurt their knee.,The child hurt their knee.,The child started crying.,True,"
 
-The child started crying.
-
-The child hurt their knee.","
+The child started crying.","
 
 The child started crying because they hurt their knee."
 2,My car got dirty. I washed the car.,My car got dirty.,I washed the car.,False,"
 
 The sentence ""I washed the car"" caused the other sentence.","
 
-The sentence is ""I washed the car."""
+The effect of the other sentence is that my car got clean."
 3,I washed the car. My car got dirty.,My car got dirty.,I washed the car.,True,"
 
-The sentence ""My car got dirty"" caused the other.","
+The sentence that caused the other sentence is ""My car got dirty.""","
 
-The sentence ""I washed the car"" is the effect of the other sentence ""My car"
+The car got dirty because I washed it."
 4,Someone fainted. Someone called 911.,Someone fainted.,Someone called 911.,False,"
 
 The sentence ""Someone fainted"" caused the other.","
@@ -37,7 +35,7 @@ The man accidently pushed the vase off a counter.","
 
 The man accidently pushed the vase off a counter.
 
-The effect of the"
+The vase shattered"
 7,The vase shattered on the floor. A man accidently pushed the vase off a counter.,A man accidently pushed the vase off a counter.,The vase shattered on the floor.,True,"
 
 The man accidently pushed the vase off a counter.","
@@ -47,12 +45,10 @@ The man accidently pushed the vase off a counter."
 
 The sentence ""The woman who was walking on the street opened her umbrella."" caused the other","
 
-The woman who was walking on the street opened her umbrella.
-
-The effect of the"
+The woman who was walking on the street opened her umbrella."
 9,The woman who was walking on the street opened her umbrella. It started raining.,It started raining.,The woman who was walking on the street opened her umbrella.,True,"
 
-The sentence ""It started raining"" caused the other sentence.","
+The sentence that caused the other sentence is ""It started raining.""","
 
 The woman who was walking on the street opened her umbrella."
 10,There was a loud noise. The boy lifted his eyes from the book.,There was a loud noise.,The boy lifted his eyes from the book.,False,"
@@ -73,9 +69,7 @@ The boy lifted his eyes from the book.
 The noise made the boy lift his"
 12,The girl had a nightmare. The girl woke up covered in cold sweat.,The girl had a nightmare.,The girl woke up covered in cold sweat.,False,"
 
-The girl had a nightmare.
-
-The girl woke up covered in cold sweat.","
+The girl had a nightmare.","
 
 The girl had a nightmare.
 
@@ -84,30 +78,28 @@ The girl woke up covered in cold sweat."
 
 The girl woke up covered in cold sweat.
 
-The nightmare caused the girl to wake","
+The girl had a nightmare.","
 
 The girl woke up covered in cold sweat.
 
 The girl's nightmare caused her to"
 14,It started raining. The driver turned the wipers on.,It started raining.,The driver turned the wipers on.,False,"
 
-The driver turned the wipers on.
-
-It started raining.","
+The driver turned the wipers on.","
 
 The driver turned the wipers on.
 
-The wipers were turned on by the"
+The effect of this is that it started"
 15,The driver turned the wipers on. It started raining.,It started raining.,The driver turned the wipers on.,True,"
 
 The driver turned the wipers on.","
 
-The wipers turned on. It started raining."
+The driver turned the wipers on.
+
+It started raining."
 16,A watermelon exploded. A man was covered in sticky red goo.,A watermelon exploded.,A man was covered in sticky red goo.,False,"
 
-A watermelon exploded.
-
-A man was covered in sticky red goo.","
+The sentence that caused the other sentence is ""A man was covered in sticky red goo","
 
 A watermelon exploded.
 
@@ -121,43 +113,41 @@ A watermelon exploded.
 The man was covered in sticky red goo."
 18,She noticed that she was out of toilet paper. She went to the store and bought toilet paper.,She noticed that she was out of toilet paper.,She went to the store and bought toilet paper.,False,"
 
-The sentence ""She went to the store and bought toilet paper"" caused the other sentence.","
+The sentence ""She went to the store and bought toilet paper"" caused the other.","
 
-The sentence ""She went to the store and bought toilet paper"" is the effect of the"
+The sentence is ""She went to the store and bought toilet paper."""
 19,She went to the store and bought toilet paper. She noticed that she was out of toilet paper.,She noticed that she was out of toilet paper.,She went to the store and bought toilet paper.,True,"
 
 The sentence ""She went to the store and bought toilet paper."" caused the other sentence.","
 
-The sentence is ""She went to the store and bought toilet paper."""
+The effect of the other sentence is that she went to the store and bought toilet paper."
 20,A large object hit the Earth. The dinosaurs became extinct.,A large object hit the Earth.,The dinosaurs became extinct.,False,"
 
-The sentence ""The dinosaurs became extinct"" caused the other sentence.","
+The large object hit the Earth.","
 
-A large object hit the Earth, causing the dinosaurs to become extinct."
+The large object hitting the Earth is the effect of the dinosaurs becoming extinct."
 21,The dinosaurs became extinct. A large object hit the Earth.,A large object hit the Earth.,The dinosaurs became extinct.,True,"
 
-A large object hit the Earth.
+A large object hit the Earth.","
 
-The dinosaurs became extinct.","
-
-The large object hit the Earth is the effect of the dinosaurs becoming extinct."
+The large object hit the Earth, causing the dinosaurs to become extinct."
 22,The bottle was left open. The soda went flat.,The bottle was left open.,The soda went flat.,False,"
 
 The sentence ""The soda went flat"" caused the other.","
 
-The sentence is not a direct effect of the other."
+The soda went flat."
 23,The soda went flat. The bottle was left open.,The bottle was left open.,The soda went flat.,True,"
 
 The sentence ""The bottle was left open"" caused the other.","
 
-The sentence is ""The bottle was left open."""
+The soda went flat.
+
+The bottle was left open."
 24,The laptop ran out of battery. George plugged the laptop charger in.,The laptop ran out of battery.,George plugged the laptop charger in.,False,"
 
-The laptop charger was plugged in by George.","
+George plugged the laptop charger in.","
 
-George plugged the laptop charger in.
-
-The laptop charger was plugged in by George."
+George plugged the laptop charger in."
 25,George plugged the laptop charger in. The laptop ran out of battery.,The laptop ran out of battery.,George plugged the laptop charger in.,True,"
 
 The laptop ran out of battery.","
@@ -172,18 +162,16 @@ Sunlight filled the room.","
 The sunlight filled the room."
 27,Sunlight filled the room. The curtains were opened.,The curtains were opened.,Sunlight filled the room.,True,"
 
-The sunlight caused the curtains to be opened.","
+The curtains were opened.","
 
-The sunlight filled the room.
-
-The curtains were opened."
+The sunlight filled the room."
 28,The insect pollinated the tomato flowers. Tomatoes grew on the vine.,The insect pollinated the tomato flowers.,Tomatoes grew on the vine.,False,"
 
 The insect pollinated the tomato flowers.","
 
 The insect pollinated the tomato flowers.
 
-The effect of the other sentence is that"
+The insect pollinated the tomato flowers,"
 29,Tomatoes grew on the vine. The insect pollinated the tomato flowers.,The insect pollinated the tomato flowers.,Tomatoes grew on the vine.,True,"
 
 The insect pollinated the tomato flowers.","
@@ -195,9 +183,7 @@ The girl stepped onto the street.
 
 The driver hit the brakes.","
 
-The driver hit the brakes.
-
-The girl stepped onto the street."
+The driver hit the brakes."
 31,The driver hit the brakes. The girl stepped onto the street.,The girl stepped onto the street.,The driver hit the brakes.,True,"
 
 The girl stepped onto the street.","
@@ -207,20 +193,18 @@ The driver hit the brakes.
 The girl stepped onto the street."
 32,There was a wardrobe malfunction. The performer ran off the stage.,There was a wardrobe malfunction.,The performer ran off the stage.,False,"
 
-The performer ran off the stage.
-
-There was a wardrobe malfunction.","
+The performer ran off the stage.","
 
 The performer ran off the stage.
 
-The performer's clothing came off."
+This is the effect of the other sentence."
 33,The performer ran off the stage. There was a wardrobe malfunction.,There was a wardrobe malfunction.,The performer ran off the stage.,True,"
 
 The sentence ""Which sentence caused the other?"" caused the other sentence.","
 
 The performer ran off the stage.
 
-The performer's clothing came off."
+The performer's clothing came loose and fell off"
 34,"A bird hit the engine. The pilot turned on the ""fasten seatbelts"" light.",A bird hit the engine.,"The pilot turned on the ""fasten seatbelts"" light.",False,"
 
 The bird hit the engine.
@@ -249,14 +233,16 @@ The milk was left outside the fridge over night.","
 The man's reaction to the milk is the effect of it being left outside the fridge over"
 38,The man couldn't hear what the woman was saying. The man turned down the music volume.,The man couldn't hear what the woman was saying.,The man turned down the music volume.,False,"
 
-The sentence ""The man turned down the music volume."" caused the other.","
+The man turned down the music volume.","
 
-The man turned down the music volume because he couldn't hear what the woman was saying."
+The man turned down the music volume."
 39,The man turned down the music volume. The man couldn't hear what the woman was saying.,The man couldn't hear what the woman was saying.,The man turned down the music volume.,True,"
 
 The man turned down the music volume.","
 
-The man turned down the music volume, so the man could hear what the woman was saying"
+The man turned down the music volume.
+
+The man couldn't hear what the woman"
 40,The power was out for days. The meat spoiled.,The power was out for days.,The meat spoiled.,False,"
 
 The meat spoiled because the power was out for days.","
@@ -271,16 +257,18 @@ The power was out for days.","
 The meat spoiled because the power was out for days."
 42,The gardener planted a seed. A flower grew.,The gardener planted a seed.,A flower grew.,False,"
 
-The seed caused the flower to grow.","
+The gardener planted a seed.
 
-The seed was planted by the gardener."
+A flower grew.","
+
+The gardener planted a seed.
+
+A flower grew."
 43,A flower grew. The gardener planted a seed.,The gardener planted a seed.,A flower grew.,True,"
 
 The gardener planted a seed. A flower grew.","
 
-A flower grew.
-
-The gardener planted a seed."
+The gardener planted a seed. A flower grew."
 44,The team won the game. The team won the championship.,The team won the game.,The team won the championship.,False,"
 
 The team won the championship.","
@@ -288,7 +276,7 @@ The team won the championship.","
 The team won the championship."
 45,The team won the championship. The team won the game.,The team won the game.,The team won the championship.,True,"
 
-The sentence ""The team won the game."" caused the other.","
+The team won the game.","
 
 The team won the game."
 46,The door was locked. The man climbed in through the window.,The door was locked.,The man climbed in through the window.,False,"
@@ -306,7 +294,7 @@ The door was locked.","
 
 The man climbed in through the window.
 
-The man's entry into the room through"
+The door was locked."
 48,The wind blew strong. The ship capsized.,The wind blew strong.,The ship capsized.,False,"
 
 The wind blew strong.
@@ -318,7 +306,7 @@ The wind blew strong.
 The ship capsized."
 49,The ship capsized. The wind blew strong.,The wind blew strong.,The ship capsized.,True,"
 
-The ship capsized because of the strong wind.","
+The wind blew strong.","
 
 The wind blew strong.
 
@@ -338,7 +326,9 @@ The man robbed a gas station.","
 
 The man went to jail.
 
-The man robbed a gas station."
+The man robbed a gas station.
+
+The"
 52,Jill won the lawsuit against Acme. Acme paid Jill's legal fees.,Jill won the lawsuit against Acme.,Acme paid Jill's legal fees.,False,"
 
 The sentence ""Acme paid Jill's legal fees"" caused the other.","
@@ -351,30 +341,32 @@ The sentence ""Acme paid Jill's legal fees"" caused the other sentence.","
 The effect of the other sentence is that Acme paid Jill's legal fees."
 54,There was a snowstorm. School was cancelled.,There was a snowstorm.,School was cancelled.,False,"
 
-The sentence ""School was cancelled."" caused the other sentence.","
+The snowstorm caused school to be cancelled.","
 
-The sentence ""School was cancelled."" is the effect of the other."
+The snowstorm caused school to be cancelled."
 55,School was cancelled. There was a snowstorm.,There was a snowstorm.,School was cancelled.,True,"
 
 The sentence ""School was cancelled."" caused the other sentence.","
 
-The sentence is ""There was a snowstorm."""
+The sentence ""School was cancelled."" is the effect of the other sentence ""There was a"
 56,The tenants noticed mold on the bathroom ceiling. The tenants contacted their landlord.,The tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord.,False,"
 
 The tenants noticed mold on the bathroom ceiling.
 
 The tenants contacted their landlord.","
 
-The landlord painted the bathroom ceiling.
+The tenants noticed mold on the bathroom ceiling.
 
-The landlord's action was the effect of the"
+The tenants contacted their landlord."
 57,The tenants contacted their landlord. The tenants noticed mold on the bathroom ceiling.,The tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord.,True,"
-
-The sentence ""The tenants contacted their landlord."" caused the other.","
 
 The tenants contacted their landlord.
 
-The landlord fixed the roof."
+The tenants noticed mold on the bathroom ceiling.","
+
+The tenants contacted their landlord.
+
+The tenants noticed mold on the bathroom ceiling."
 58,I studied hard. I got an A on the test.,I studied hard.,I got an A on the test.,False,"
 
 The sentence ""I got an A on the test"" caused the other sentence.","
@@ -382,14 +374,16 @@ The sentence ""I got an A on the test"" caused the other sentence.","
 The effect of studying hard is getting an A on the test."
 59,I got an A on the test. I studied hard.,I studied hard.,I got an A on the test.,True,"
 
-The sentence ""I got an A on the test"" caused the other sentence.","
+I got an A on the test.
 
-The effect of the other sentence is that I got an A on the test."
+The other sentence is I studied hard.","
+
+I got an A on the test.
+
+The effect of the other sentence is that"
 60,The boy threw a rock. The window broke.,The boy threw a rock.,The window broke.,False,"
 
-The boy threw a rock.
-
-The window broke.","
+The boy threw a rock.","
 
 The boy threw a rock.
 
@@ -415,19 +409,21 @@ The driver was fined for running a red light.","
 The driver was fined for running a red light."
 64,The girl skipped school. The girl got detention.,The girl skipped school.,The girl got detention.,False,"
 
-The sentence ""The girl skipped school."" caused the other sentence ""The girl got detention.""","
+The girl skipped school.","
 
-The sentence ""The girl skipped school"" is the effect of the other sentence ""The girl"
+The girl skipped school, so she got detention."
 65,The girl got detention. The girl skipped school.,The girl skipped school.,The girl got detention.,True,"
+
+The girl got detention.","
 
 The girl got detention.
 
-The girl skipped school.","
+The girl skipped school.
 
-The girl got detention because she skipped school."
+The effect of the"
 66,I flipped the switch. Light filled the room.,I flipped the switch.,Light filled the room.,False,"
 
-The light filled the room.","
+The light switch caused the light to fill the room.","
 
 The light filled the room."
 67,Light filled the room. I flipped the switch.,I flipped the switch.,Light filled the room.,True,"
@@ -438,17 +434,19 @@ I flipped the switch.","
 
 The light filled the room.
 
-The light switch caused the light to fill the room"
+I flipped the switch."
 68,I pulled the dog's tail. The dog bit me.,I pulled the dog's tail.,The dog bit me.,False,"
 
 The sentence that caused the other sentence is ""The dog bit me.""","
 
-The sentence that is the effect of the other is ""The dog bit me."""
+The dog bit me."
 69,The dog bit me. I pulled the dog's tail.,I pulled the dog's tail.,The dog bit me.,True,"
 
-The sentence ""I pulled the dog's tail"" caused the other.","
+The dog bit me.","
 
-The sentence is the effect of the other."
+The dog bit me.
+
+The dog's tail was pulled."
 70,School was on break. The family went on vacation.,School was on break.,The family went on vacation.,False,"
 
 The family went on vacation.
@@ -469,9 +467,9 @@ The family went on vacation.
 School was on break."
 72,The air conditioner broke. The family went to the beach.,The air conditioner broke.,The family went to the beach.,False,"
 
-The family went to the beach.
+The air conditioner broke.
 
-The air conditioner broke.","
+The family went to the beach.","
 
 The family went to the beach.
 
@@ -505,7 +503,7 @@ We made French toast.","
 
 The bread was dry.
 
-The French toast was dry."
+We made French toast."
 77,We made French toast. The bread was dry.,The bread was dry.,We made French toast.,True,"
 
 The bread was dry.","
@@ -513,12 +511,14 @@ The bread was dry.","
 The bread was dry."
 78,The company's posted strong earnings. The company's stock went up.,The company's posted strong earnings.,The company's stock went up.,False,"
 
-The company's stock went up because the company's posted strong earnings.","
+The company's stock went up.","
 
 The company's stock went up because the company posted strong earnings."
 79,The company's stock went up. The company's posted strong earnings.,The company's posted strong earnings.,The company's stock went up.,True,"
 
-The company's stock went up because the company's posted strong earnings.","
+The company's stock went up.
+
+The company's posted strong earnings.","
 
 The company's stock went up because the company's posted strong earnings."
 80,My clothes got dirty. I put my clothes in the washing machine.,My clothes got dirty.,I put my clothes in the washing machine.,False,"
@@ -527,31 +527,29 @@ My clothes got dirty.
 
 I put my clothes in the washing machine.","
 
-The clothes got dirty."
+I put my clothes in the washing machine.
+
+The effect of this sentence is that"
 81,I put my clothes in the washing machine. My clothes got dirty.,My clothes got dirty.,I put my clothes in the washing machine.,True,"
 
 The sentence ""My clothes got dirty"" caused the other.","
 
-The sentence ""My clothes got dirty"" is the effect of the other sentence ""I put"
+The effect of putting my clothes in the washing machine is that they get dirty."
 82,My friend got a promotion. My friend celebrated with their family.,My friend got a promotion.,My friend celebrated with their family.,False,"
 
 My friend got a promotion.
 
 My friend celebrated with their family.","
 
-The promotion was celebrated with their family."
+My friend's promotion was celebrated by their family."
 83,My friend celebrated with their family. My friend got a promotion.,My friend got a promotion.,My friend celebrated with their family.,True,"
 
-My friend got a promotion.
-
-This sentence caused the other.","
+My friend got a promotion.","
 
 My friend's promotion is the effect of their family's celebration."
 84,The basketball player was shoved. The basketball player took a free throw.,The basketball player was shoved.,The basketball player took a free throw.,False,"
 
-The basketball player was shoved.
-
-The basketball player took a free throw.","
+The basketball player was shoved.","
 
 The basketball player was shoved.
 
@@ -565,21 +563,23 @@ The basketball player was shoved.
 This is the effect of the other sentence."
 86,Alice didn't wake up. Alice missed her flight.,Alice didn't wake up.,Alice missed her flight.,False,"
 
-The sentence ""Alice didn't wake up"" caused the other sentence ""Alice missed her flight","
+The sentence that caused the other sentence is ""Alice missed her flight.""","
 
 Alice didn't wake up.
 
 Alice missed her flight."
 87,Alice missed her flight. Alice didn't wake up.,Alice didn't wake up.,Alice missed her flight.,True,"
 
-The sentence ""Alice didn't wake up"" caused the other.","
+The sentence that caused the other sentence is ""Alice didn't wake up.""","
 
 The effect of the other sentence is that Alice missed her flight."
 88,The floor was wet. The man sued.,The floor was wet.,The man sued.,False,"
 
 The wet floor caused the man to sue.","
 
-The floor was wet so the man sued."
+The floor was wet.
+
+The man sued."
 89,The man sued. The floor was wet.,The floor was wet.,The man sued.,True,"
 
 The man sued because the floor was wet.","
@@ -587,12 +587,12 @@ The man sued because the floor was wet.","
 The man sued because the floor was wet."
 90,It rained. The picnic was cancelled.,It rained.,The picnic was cancelled.,False,"
 
-The picnic was cancelled because it rained.","
+The picnic was cancelled.","
 
 The picnic was cancelled because it rained."
 91,The picnic was cancelled. It rained.,It rained.,The picnic was cancelled.,True,"
 
-The picnic was cancelled because it rained.","
+It rained.","
 
 The picnic was cancelled because of the rain."
 92,The girl didn't wear her sweater. The girl caught a cold.,The girl didn't wear her sweater.,The girl caught a cold.,False,"
@@ -611,9 +611,13 @@ The girl caught a cold.","
 The girl caught a cold because she didn't wear her sweater."
 94,The man got lost in the woods. A search party was assembled.,The man got lost in the woods.,A search party was assembled.,False,"
 
-The sentence ""A search party was assembled."" caused the other sentence.","
+The man got lost in the woods.
 
-The search party was assembled because the man got lost in the woods."
+A search party was assembled.","
+
+The man got lost in the woods.
+
+A search party was assembled."
 95,A search party was assembled. The man got lost in the woods.,The man got lost in the woods.,A search party was assembled.,True,"
 
 The man got lost in the woods.","
@@ -623,35 +627,33 @@ The man got lost in the woods.
 A search party was assembled."
 96,Ted went out drinking. Ted had a hangover.,Ted went out drinking.,Ted had a hangover.,False,"
 
-The sentence ""Ted had a hangover"" caused the other.","
+The sentence that caused the other sentence is ""Ted had a hangover.""","
 
 The sentence is ""Which sentence is the effect of the other?"""
 97,Ted had a hangover. Ted went out drinking.,Ted went out drinking.,Ted had a hangover.,True,"
 
 The sentence that caused the other is ""went out drinking.""","
 
-The sentence is ""Ted went out drinking."""
+The sentence is the effect of the other."
 98,Alice ate the last cookie. Bob opened the jar and was frustrated.,Alice ate the last cookie.,Bob opened the jar and was frustrated.,False,"
 
 The sentence ""Bob opened the jar and was frustrated"" caused the other.","
 
-The sentence ""Bob opened the jar and was frustrated"" is the effect of the other."
+The effect of the other sentence is that Alice ate the last cookie."
 99,Bob opened the jar and was frustrated. Alice ate the last cookie.,Alice ate the last cookie.,Bob opened the jar and was frustrated.,True,"
 
 The sentence ""Alice ate the last cookie"" caused the other.","
 
-The sentence ""Alice ate the last cookie"" is the effect of the other."
+The effect of the other sentence is that Bob was frustrated."
 100,Jimmy took the last piece of cake. Mom rinsed the tray.,Jimmy took the last piece of cake.,Mom rinsed the tray.,False,"
 
 The last piece of cake caused Jimmy to take it.","
 
 The last piece of cake was taken by Jimmy.
 
-The rinsing of the"
+The tray was rinsed"
 101,Mom rinsed the tray. Jimmy took the last piece of cake.,Jimmy took the last piece of cake.,Mom rinsed the tray.,True,"
 
 Jimmy took the last piece of cake.","
 
-Jimmy took the last piece of cake.
-
-The effect of this sentence is that Jimmy"
+Jimmy took the last piece of cake."

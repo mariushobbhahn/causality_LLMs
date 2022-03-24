@@ -7,10 +7,10 @@ The child started crying because the child hurt their knee."
 The child started crying because the child hurt their knee."
 2,I washed the car because my car got dirty. My car got dirty because i washed the car.,I washed the car because my car got dirty.,False,"
 
-The sentence that describes the cause and effect relationship better is ""My car got dirty because i"
+The sentence that describes the cause and effect relationship better is ""I washed the car because my"
 3,My car got dirty because i washed the car. I washed the car because my car got dirty.,I washed the car because my car got dirty.,True,"
 
-My car got dirty because I washed the car."
+My car got dirty because i washed the car."
 4,Someone called 911 because someone fainted. Someone fainted because someone called 911.,Someone called 911 because someone fainted.,False,"
 
 The sentence that describes the cause and effect relationship better is ""Someone called 911 because someone f"
@@ -19,16 +19,16 @@ The sentence that describes the cause and effect relationship better is ""Someon
 Someone called 911 because someone fainted."
 6,The vase shattered on the floor because a man accidently pushed the vase off a counter. A man accidently pushed the vase off a counter because the vase shattered on the floor.,The vase shattered on the floor because a man accidently pushed the vase off a counter.,False,"
 
-A man accidently pushed the vase off a counter because the vase shattered on the"
+The vase shattered on the floor because a man accidently pushed it off a counter."
 7,A man accidently pushed the vase off a counter because the vase shattered on the floor. The vase shattered on the floor because a man accidently pushed the vase off a counter.,The vase shattered on the floor because a man accidently pushed the vase off a counter.,True,"
 
 A man accidently pushed the vase off a counter because the vase shattered on the"
 8,The woman who was walking on the street opened her umbrella because it started raining. It started raining because the woman who was walking on the street opened her umbrella.,The woman who was walking on the street opened her umbrella because it started raining.,False,"
 
-The sentence that describes the cause and effect relationship better is ""It started raining because the woman"
+The woman who was walking on the street opened her umbrella because it started raining."
 9,It started raining because the woman who was walking on the street opened her umbrella. The woman who was walking on the street opened her umbrella because it started raining.,The woman who was walking on the street opened her umbrella because it started raining.,True,"
 
-The sentence that describes the cause and effect relationship better is ""The woman who was walking on"
+The woman who was walking on the street opened her umbrella because it started raining."
 10,The boy lifted his eyes from the book because there was a loud noise. There was a loud noise because the boy lifted his eyes from the book.,The boy lifted his eyes from the book because there was a loud noise.,False,"
 
 The boy lifted his eyes from the book because there was a loud noise."
@@ -37,7 +37,7 @@ The boy lifted his eyes from the book because there was a loud noise."
 The boy lifted his eyes from the book because there was a loud noise."
 12,The girl woke up covered in cold sweat because the girl had a nightmare. The girl had a nightmare because the girl woke up covered in cold sweat.,The girl woke up covered in cold sweat because the girl had a nightmare.,False,"
 
-The sentence describes the cause and effect relationship better."
+The girl woke up covered in cold sweat because she had a nightmare."
 13,The girl had a nightmare because the girl woke up covered in cold sweat. The girl woke up covered in cold sweat because the girl had a nightmare.,The girl woke up covered in cold sweat because the girl had a nightmare.,True,"
 
 The sentence describes the cause and effect relationship better."
@@ -55,10 +55,10 @@ A man was covered in sticky red goo because a watermelon exploded."
 A watermelon exploded because a man was covered in sticky red goo."
 18,She went to the store and bought toilet paper because she noticed that she was out of toilet paper. She noticed that she was out of toilet paper because she went to the store and bought toilet paper.,She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,False,"
 
-The sentence describes the cause and effect relationship better."
+She went to the store and bought toilet paper because she was out of toilet paper."
 19,She noticed that she was out of toilet paper because she went to the store and bought toilet paper. She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,True,"
 
-The sentence describes the cause and effect relationship better."
+She noticed that she was out of toilet paper because she went to the store and bought toilet"
 20,The dinosaurs became extinct because a large object hit the Earth. A large object hit the Earth because the dinosaurs became extinct.,The dinosaurs became extinct because a large object hit the Earth.,False,"
 
 The dinosaurs became extinct because a large object hit the Earth."
@@ -70,7 +70,7 @@ A large object hit the Earth because the dinosaurs became extinct."
 The soda went flat because the bottle was left open."
 23,The bottle was left open because the soda went flat. The soda went flat because the bottle was left open.,The soda went flat because the bottle was left open.,True,"
 
-The sentence that describes the cause and effect relationship better is ""The soda went flat because the"
+The bottle was left open because the soda went flat."
 24,George plugged the laptop charger in because the laptop ran out of battery. The laptop ran out of battery because George plugged the laptop charger in.,George plugged the laptop charger in because the laptop ran out of battery.,False,"
 
 The laptop ran out of battery because George plugged the laptop charger in."
@@ -88,7 +88,7 @@ The curtains were opened because sunlight filled the room."
 Tomatoes grew on the vine because the insect pollinated the tomato flowers."
 29,The insect pollinated the tomato flowers because tomatoes grew on the vine. Tomatoes grew on the vine because the insect pollinated the tomato flowers.,Tomatoes grew on the vine because the insect pollinated the tomato flowers.,True,"
 
-The insect pollinated the tomato flowers because they needed the pollen to make their own food."
+The insect pollinated the tomato flowers because tomatoes grew on the vine."
 30,The driver hit the brakes because the girl stepped onto the street. The girl stepped onto the street because the driver hit the brakes.,The driver hit the brakes because the girl stepped onto the street.,False,"
 
 The driver hit the brakes because the girl stepped onto the street."
@@ -124,7 +124,7 @@ The man turned down the music volume because the man couldn't hear what the woma
 The meat spoiled because the power was out for days."
 41,The power was out for days because the meat spoiled. The meat spoiled because the power was out for days.,The meat spoiled because the power was out for days.,True,"
 
-The meat spoiled because the power was out for days."
+The power was out for days because the meat spoiled."
 42,A flower grew because the gardener planted a seed. The gardener planted a seed because a flower grew.,A flower grew because the gardener planted a seed.,False,"
 
 A flower grew because the gardener planted a seed."
@@ -133,7 +133,7 @@ A flower grew because the gardener planted a seed."
 A flower grew because the gardener planted a seed."
 44,The team won the championship because the team won the game. The team won the game because the team won the championship.,The team won the championship because the team won the game.,False,"
 
-The sentence describes the cause and effect relationship better."
+The team won the championship because the team won the game."
 45,The team won the game because the team won the championship. The team won the championship because the team won the game.,The team won the championship because the team won the game.,True,"
 
 The team won the game because the team won the championship."
@@ -148,19 +148,19 @@ The door was locked because the man climbed in through the window."
 The wind blew strong because the ship capsized."
 49,The wind blew strong because the ship capsized. The ship capsized because the wind blew strong.,The ship capsized because the wind blew strong.,True,"
 
-The sentence describes the cause and effect relationship better."
+The wind blew strong because the ship capsized."
 50,The man went to jail because the man robbed a gas station. The man robbed a gas station because the man went to jail.,The man went to jail because the man robbed a gas station.,False,"
 
-The man went to jail because he robbed a gas station."
+The man robbed a gas station because the man went to jail."
 51,The man robbed a gas station because the man went to jail. The man went to jail because the man robbed a gas station.,The man went to jail because the man robbed a gas station.,True,"
 
-The man robbed a gas station because he needed money."
+The man robbed a gas station because the man went to jail."
 52,Acme paid Jill's legal fees because Jill won the lawsuit against Acme. Jill won the lawsuit against Acme because acme paid Jill's legal fees.,Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,False,"
 
-The sentence ""Acme paid Jill's legal fees"" better describes the cause and effect relationship"
+The sentence describes the cause and effect relationship better."
 53,Jill won the lawsuit against Acme because acme paid Jill's legal fees. Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,True,"
 
-The sentence ""Jill won the lawsuit against Acme"" better describes the cause and effect"
+The sentence describes the cause and effect relationship better."
 54,School was cancelled because there was a snowstorm. There was a snowstorm because school was cancelled.,School was cancelled because there was a snowstorm.,False,"
 
 There was a snowstorm because school was cancelled."
@@ -172,10 +172,10 @@ There was a snowstorm because school was cancelled."
 The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord."
 57,The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord. The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,True,"
 
-The tenants noticed mold on the bathroom ceiling because the bathroom had been leaking."
+The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord."
 58,I got an A on the test because i studied hard. I studied hard because i got an A on the test.,I got an A on the test because i studied hard.,False,"
 
-I got an A on the test because I studied hard."
+I got an A on the test because i studied hard."
 59,I studied hard because i got an A on the test. I got an A on the test because i studied hard.,I got an A on the test because i studied hard.,True,"
 
 The sentence describes the cause and effect relationship better."
@@ -193,10 +193,10 @@ The driver was fined because the driver ran a red light."
 The driver ran a red light because the driver was pulled over and was fined."
 64,The girl got detention because the girl skipped school. The girl skipped school because the girl got detention.,The girl got detention because the girl skipped school.,False,"
 
-The sentence ""The girl got detention because the girl skipped school"" describes the cause and effect"
+The girl got detention because the girl skipped school."
 65,The girl skipped school because the girl got detention. The girl got detention because the girl skipped school.,The girl got detention because the girl skipped school.,True,"
 
-The sentence ""The girl skipped school because the girl got detention"" describes the cause and effect"
+The girl skipped school because the girl got detention."
 66,Light filled the room because i flipped the switch. I flipped the switch because light filled the room.,Light filled the room because i flipped the switch.,False,"
 
 The sentence ""I flipped the switch because light filled the room"" describes the cause and effect"
@@ -241,10 +241,10 @@ The company's stock went up because the company's posted strong earnings."
 The company's stock went up because the company's posted strong earnings."
 80,I put my clothes in the washing machine because my clothes got dirty. My clothes got dirty because i put my clothes in the washing machine.,I put my clothes in the washing machine because my clothes got dirty.,False,"
 
-The sentence that describes the cause and effect relationship better is ""I put my clothes in the"
+My clothes got dirty because I put my clothes in the washing machine."
 81,My clothes got dirty because i put my clothes in the washing machine. I put my clothes in the washing machine because my clothes got dirty.,I put my clothes in the washing machine because my clothes got dirty.,True,"
 
-My clothes got dirty because I put them in the washing machine."
+My clothes got dirty because i put my clothes in the washing machine."
 82,My friend celebrated with their family because my friend got a promotion. My friend got a promotion because my friend celebrated with their family.,My friend celebrated with their family because my friend got a promotion.,False,"
 
 My friend got a promotion because my friend celebrated with their family."
@@ -253,7 +253,7 @@ My friend got a promotion because my friend celebrated with their family."
 My friend got a promotion because my friend celebrated with their family."
 84,The basketball player took a free throw because the basketball player was shoved. The basketball player was shoved because the basketball player took a free throw.,The basketball player took a free throw because the basketball player was shoved.,False,"
 
-The basketball player took a free throw because the basketball player was shoved."
+The basketball player was shoved because the basketball player took a free throw."
 85,The basketball player was shoved because the basketball player took a free throw. The basketball player took a free throw because the basketball player was shoved.,The basketball player took a free throw because the basketball player was shoved.,True,"
 
 The basketball player was shoved because the basketball player took a free throw."
@@ -277,7 +277,7 @@ The picnic was cancelled because it rained."
 It rained because the picnic was cancelled."
 92,The girl caught a cold because the girl didn't wear her sweater. The girl didn't wear her sweater because the girl caught a cold.,The girl caught a cold because the girl didn't wear her sweater.,False,"
 
-The sentence describes the cause and effect relationship better."
+The girl caught a cold because she didn't wear her sweater."
 93,The girl didn't wear her sweater because the girl caught a cold. The girl caught a cold because the girl didn't wear her sweater.,The girl caught a cold because the girl didn't wear her sweater.,True,"
 
 The girl didn't wear her sweater because the girl caught a cold."
@@ -289,10 +289,10 @@ A search party was assembled because the man got lost in the woods."
 The man got lost in the woods because a search party was assembled."
 96,Ted had a hangover because Ted went out drinking. Ted went out drinking because Ted had a hangover.,Ted had a hangover because Ted went out drinking.,False,"
 
-The sentence ""Ted had a hangover because Ted went out drinking"" describes the cause and"
+The sentence that describes the cause and effect relationship better is ""Ted went out drinking because Ted"
 97,Ted went out drinking because Ted had a hangover. Ted had a hangover because Ted went out drinking.,Ted had a hangover because Ted went out drinking.,True,"
 
-The sentence ""Ted had a hangover because Ted went out drinking"" describes the cause and"
+Ted had a hangover because Ted went out drinking."
 98,Bob opened the jar and was frustrated because Alice ate the last cookie. Alice ate the last cookie because Bob opened the jar and was frustrated.,Bob opened the jar and was frustrated because Alice ate the last cookie.,False,"
 
 Alice ate the last cookie because Bob opened the jar and was frustrated."

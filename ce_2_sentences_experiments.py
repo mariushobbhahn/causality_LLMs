@@ -42,15 +42,21 @@ def run_2_sentences_experiments_one_shot(setup, model_names, setup_df, filepath,
 
     prompts_one_shot_cause = setup.generate_all_prompts_one_shot(question="cause")
     prompts_one_shot_effect = setup.generate_all_prompts_one_shot(question="effect")
+    prompts_one_shot_cause_ss = setup.generate_all_prompts_one_shot_switched_shot(question="cause")
+    prompts_one_shot_effect_ss = setup.generate_all_prompts_one_shot_switched_shot(question="effect")
 
     for model in model_names:
 
         responses_cause = run_gpt3_experiments(model, prompts_one_shot_cause)
         responses_effect = run_gpt3_experiments(model, prompts_one_shot_effect)
+        responses_cause_ss = run_gpt3_experiments(model, prompts_one_shot_cause_ss)
+        responses_effect_ss = run_gpt3_experiments(model, prompts_one_shot_effect_ss)
 
         df = setup_df.copy()
         df["responses_cause"] = responses_cause
         df["responses_effect"] = responses_effect
+        df["responses_cause_ss"] = responses_cause_ss
+        df["responses_effect_ss"] = responses_effect_ss
 
         #save df
         df.to_csv(filepath.format(model))
@@ -59,15 +65,21 @@ def run_2_sentences_experiments_k_shot(setup, k, model_names, setup_df, filepath
 
     prompts_k_shot_cause = setup.generate_all_prompts_k_shot(k, question="cause")
     prompts_k_shot_effect = setup.generate_all_prompts_k_shot(k, question="effect")
+    prompts_k_shot_cause_ss = setup.generate_all_prompts_k_shot_switched_shot(k, question="cause")
+    prompts_k_shot_effect_ss = setup.generate_all_prompts_k_shot_switched_shot(k, question="effect")
 
     for model in model_names:
 
         responses_cause = run_gpt3_experiments(model, prompts_k_shot_cause)
         responses_effect = run_gpt3_experiments(model, prompts_k_shot_effect)
+        responses_cause_ss = run_gpt3_experiments(model, prompts_k_shot_cause_ss)
+        responses_effect_ss= run_gpt3_experiments(model, prompts_k_shot_effect_ss)
 
         df = setup_df.copy()
         df["responses_cause"] = responses_cause
         df["responses_effect"] = responses_effect
+        df["responses_cause_ss"] = responses_cause_ss
+        df["responses_effect_ss"] = responses_effect_ss
 
         #save df
         df.to_csv(filepath.format(model))

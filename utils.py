@@ -7,9 +7,12 @@ colors = definitions.def_3_colors["colors"]
 words = definitions.def_3_nonsense_words["words"]
 
 ### helpers for color
-def eval_first_color(df):
+def eval_first_color(df, switched_shot=False):
     fc = df["first_color"].values
-    fc_answers = df["responses_first"].values
+    if switched_shot:
+        fc_answers = df["responses_first_ss"].values
+    else:
+        fc_answers = df["responses_first"].values
     correct = []
     for i, c in enumerate(fc):
         color_in_answer = c in fc_answers[i]
@@ -19,9 +22,12 @@ def eval_first_color(df):
         
     return(correct)
 
-def eval_second_color(df):
+def eval_second_color(df, switched_shot=False):
     sc = df["second_color"].values
-    sc_answers = df["responses_second"].values
+    if switched_shot:
+        sc_answers = df["responses_second_ss"].values
+    else:
+        sc_answers = df["responses_second"].values
     correct = []
     for i, c in enumerate(sc):
         color_in_answer = c in sc_answers[i]
@@ -31,9 +37,12 @@ def eval_second_color(df):
         
     return(correct)
 
-def eval_final_color(df):
+def eval_final_color(df, switched_shot=False):
     fc = df["final_color"].values
-    fc_answers = df["responses_final"].values
+    if switched_shot:
+        fc_answers = df["responses_final_ss"].values
+    else:
+        fc_answers = df["responses_final"].values
     correct = []
     for i, c in enumerate(fc):
         color_in_answer = c in fc_answers[i]
@@ -43,7 +52,7 @@ def eval_final_color(df):
         
     return(correct)
 
-def eval_df_colors(df):
+def eval_df_colors(df, switched_shot=False):
     
     df_switched = df[df["switched"] == True]
     df_non_switched = df[df["switched"] == False]
@@ -52,17 +61,17 @@ def eval_df_colors(df):
     len_df_switched = len(df_switched)
     len_df_non_switched = len(df_non_switched)
     
-    sum_first_color_total = np.sum(eval_first_color(df))
-    sum_first_color_non_switched = np.sum(eval_first_color(df_non_switched))
-    sum_first_color_switched = np.sum(eval_first_color(df_switched))
+    sum_first_color_total = np.sum(eval_first_color(df, switched_shot))
+    sum_first_color_non_switched = np.sum(eval_first_color(df_non_switched, switched_shot))
+    sum_first_color_switched = np.sum(eval_first_color(df_switched, switched_shot))
     
-    sum_second_color_total = np.sum(eval_second_color(df))
-    sum_second_color_non_switched = np.sum(eval_second_color(df_non_switched))
-    sum_second_color_switched = np.sum(eval_second_color(df_switched))
+    sum_second_color_total = np.sum(eval_second_color(df, switched_shot))
+    sum_second_color_non_switched = np.sum(eval_second_color(df_non_switched, switched_shot))
+    sum_second_color_switched = np.sum(eval_second_color(df_switched, switched_shot))
     
-    sum_final_color_total = np.sum(eval_final_color(df))
-    sum_final_color_non_switched = np.sum(eval_final_color(df_non_switched))
-    sum_final_color_switched = np.sum(eval_final_color(df_switched))
+    sum_final_color_total = np.sum(eval_final_color(df, switched_shot))
+    sum_final_color_non_switched = np.sum(eval_final_color(df_non_switched, switched_shot))
+    sum_final_color_switched = np.sum(eval_final_color(df_switched, switched_shot))
     
     sum_array = np.array([[sum_first_color_total,
                 sum_first_color_non_switched,
@@ -80,10 +89,10 @@ def eval_df_colors(df):
     
     return(sum_array, len_array)
 
-def plot_single_model_colors(path_string, percentages=True):
+def plot_single_model_colors(path_string, switched_shot=False, percentages=True):
     
     df = pd.read_csv(path_string)
-    results, len_array = eval_df_colors(df)
+    results, len_array = eval_df_colors(df, switched_shot)
     perc = results / len_array
     
     x = np.arange(3)
@@ -103,12 +112,15 @@ def plot_single_model_colors(path_string, percentages=True):
     ax.set_ylabel("accuracy")
     ax.set_xticklabels(["first color", "second color", "final color"])
 
+    if switched_shot:
+        plt.suptitle("switched shots")
+
     plt.legend()
     plt.grid()
     plt.show();
     
 ### compare models
-def compare_model_sizes_colors(path_string, gpt2=False):
+def compare_model_sizes_colors(path_string, switched_shot=False, gpt2=False):
     if gpt2:
         # df_small =  pd.read_csv(path_string.format("gpt2"))
         df_medium =  pd.read_csv(path_string.format("gpt2-medium"))
@@ -127,14 +139,14 @@ def compare_model_sizes_colors(path_string, gpt2=False):
         df_curie =  pd.read_csv(path_string.format("text-curie-001"))
         df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
 
-        results_ada, len_ada = np.array(eval_df_colors(df_ada))
-        results_babbage, len_babbage = np.array(eval_df_colors(df_babbage))
-        results_curie, len_curie = np.array(eval_df_colors(df_curie))
-        results_davinci, len_davinci = np.array(eval_df_colors(df_davinci))
+        results_ada, len_ada = np.array(eval_df_colors(df_ada, switched_shot))
+        results_babbage, len_babbage = np.array(eval_df_colors(df_babbage, switched_shot))
+        results_curie, len_curie = np.array(eval_df_colors(df_curie, switched_shot))
+        results_davinci, len_davinci = np.array(eval_df_colors(df_davinci, switched_shot))
         return([results_ada, results_babbage, results_curie, results_davinci],
                [len_ada, len_babbage, len_curie, len_davinci])
 
-def plot_model_sizes_colors(path_string, gpt2=False, percentages=True):
+def plot_model_sizes_colors(path_string, switched_shot=False, gpt2=False, percentages=True):
     
     if gpt2:
         labels = ["Medium", "Large", "XL"]
@@ -145,7 +157,7 @@ def plot_model_sizes_colors(path_string, gpt2=False, percentages=True):
     colors = ["aqua", "lightskyblue", "violet", "darkviolet"]
     alphas = [1, 0.6, 0.6]
     
-    results, lengths = compare_model_sizes_colors(path_string, gpt2)
+    results, lengths = compare_model_sizes_colors(path_string, switched_shot, gpt2)
     
     fig, ax = plt.subplots(3, 1, figsize=(14, 10), sharex=True)
     
@@ -171,7 +183,7 @@ def plot_model_sizes_colors(path_string, gpt2=False, percentages=True):
     if gpt2:
         plt.suptitle('GPT2')
     else:
-        plt.suptitle('GPT3')
+        plt.suptitle('GPT3, switched_shot={}'.format(switched_shot))
     ax[0].legend()
     plt.show();
 
@@ -179,9 +191,12 @@ def plot_model_sizes_colors(path_string, gpt2=False, percentages=True):
 ### helpers for nonsense words
 ###############################
 
-def eval_first_word(df):
+def eval_first_word(df, switched_shot=False):
     fw = df["first_word"].values
-    fw_answers = df["responses_first"].values
+    if switched_shot:
+        fw_answers = df["responses_first_ss"].values
+    else:
+        fw_answers = df["responses_first"].values
     correct = []
     for i, w in enumerate(fw):
         word_in_answer = w in fw_answers[i]
@@ -192,9 +207,12 @@ def eval_first_word(df):
         
     return(correct)
 
-def eval_second_word(df):
+def eval_second_word(df, switched_shot=False):
     sw = df["second_word"].values
-    sw_answers = df["responses_second"].values
+    if switched_shot:
+        sw_answers = df["responses_second_ss"].values
+    else:
+        sw_answers = df["responses_second"].values
     correct = []
     for i, w in enumerate(sw):
         word_in_answer = w in sw_answers[i]
@@ -204,9 +222,12 @@ def eval_second_word(df):
         
     return(correct)
 
-def eval_final_word(df):
+def eval_final_word(df, switched_shot=False):
     fw = df["final_word"].values
-    fw_answers = df["responses_final"].values
+    if switched_shot:
+        fw_answers = df["responses_final_ss"].values
+    else:
+        fw_answers = df["responses_final"].values
     correct = []
     for i, w in enumerate(fw):
         word_in_answer = w in fw_answers[i]
@@ -216,7 +237,7 @@ def eval_final_word(df):
         
     return(correct)
 
-def eval_df_nonsense_words(df):
+def eval_df_nonsense_words(df, switched_shot=False):
     
     df_switched = df[df["switched"] == True]
     df_non_switched = df[df["switched"] == False]
@@ -225,17 +246,17 @@ def eval_df_nonsense_words(df):
     len_df_switched = len(df_switched)
     len_df_non_switched = len(df_non_switched)
     
-    sum_first_word_total = np.sum(eval_first_word(df))
-    sum_first_word_non_switched = np.sum(eval_first_word(df_non_switched))
-    sum_first_word_switched = np.sum(eval_first_word(df_switched))
+    sum_first_word_total = np.sum(eval_first_word(df, switched_shot))
+    sum_first_word_non_switched = np.sum(eval_first_word(df_non_switched, switched_shot))
+    sum_first_word_switched = np.sum(eval_first_word(df_switched, switched_shot))
     
-    sum_second_word_total = np.sum(eval_second_word(df))
-    sum_second_word_non_switched = np.sum(eval_second_word(df_non_switched))
-    sum_second_word_switched = np.sum(eval_second_word(df_switched))
+    sum_second_word_total = np.sum(eval_second_word(df, switched_shot))
+    sum_second_word_non_switched = np.sum(eval_second_word(df_non_switched, switched_shot))
+    sum_second_word_switched = np.sum(eval_second_word(df_switched, switched_shot))
     
-    sum_final_word_total = np.sum(eval_final_word(df))
-    sum_final_word_non_switched = np.sum(eval_final_word(df_non_switched))
-    sum_final_word_switched = np.sum(eval_final_word(df_switched))
+    sum_final_word_total = np.sum(eval_final_word(df, switched_shot))
+    sum_final_word_non_switched = np.sum(eval_final_word(df_non_switched, switched_shot))
+    sum_final_word_switched = np.sum(eval_final_word(df_switched, switched_shot))
     
     results_array = np.array([[sum_first_word_total,
             sum_first_word_non_switched,
@@ -253,10 +274,10 @@ def eval_df_nonsense_words(df):
     
     return(results_array, len_array)
 
-def plot_single_model_nonsense_words(path_string, percentages=True):
+def plot_single_model_nonsense_words(path_string, switched_shot=False, percentages=True):
     
     df = pd.read_csv(path_string)
-    results, len_array = eval_df_nonsense_words(df)
+    results, len_array = eval_df_nonsense_words(df, switched_shot)
     perc = results / len_array
     
     x = np.arange(3)
@@ -276,12 +297,15 @@ def plot_single_model_nonsense_words(path_string, percentages=True):
     ax.set_ylabel("accuracy")
     ax.set_xticklabels(["first word", "second word", "final word"])
 
+    if switched_shot:
+        plt.suptitle("switched shots")
+
     plt.legend()
     plt.grid()
     plt.show();
     
 ### compare models
-def compare_model_sizes_nonsense_words(path_string, gpt2=False):
+def compare_model_sizes_nonsense_words(path_string, switched_shot=False, gpt2=False):
     
     # TODO add option for gpt2
     df_ada =  pd.read_csv(path_string.format("text-ada-001"))    
@@ -290,15 +314,15 @@ def compare_model_sizes_nonsense_words(path_string, gpt2=False):
     df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
 
    
-    results_ada, len_ada = np.array(eval_df_nonsense_words(df_ada))  
-    results_babbage, len_babbage = np.array(eval_df_nonsense_words(df_babbage))  
-    results_curie, len_curie = np.array(eval_df_nonsense_words(df_curie))
-    results_davinci, len_davinci = np.array(eval_df_nonsense_words(df_davinci))
+    results_ada, len_ada = np.array(eval_df_nonsense_words(df_ada, switched_shot))  
+    results_babbage, len_babbage = np.array(eval_df_nonsense_words(df_babbage, switched_shot))  
+    results_curie, len_curie = np.array(eval_df_nonsense_words(df_curie, switched_shot))
+    results_davinci, len_davinci = np.array(eval_df_nonsense_words(df_davinci, switched_shot))
     
     return([results_ada, results_babbage, results_curie, results_davinci],
            [len_ada, len_babbage, len_curie, len_davinci])
 
-def plot_model_sizes_nonsense_words(path_string, gpt2=False, percentages=True):
+def plot_model_sizes_nonsense_words(path_string, switched_shot=False, gpt2=False, percentages=True):
     
     if gpt2:
         labels = ["Medium", "Large", "XL"]
@@ -309,7 +333,7 @@ def plot_model_sizes_nonsense_words(path_string, gpt2=False, percentages=True):
     colors = ["aqua", "lightskyblue", "violet", "darkviolet"]
     alphas = [1, 0.6, 0.6]
     
-    results, lengths = compare_model_sizes_nonsense_words(path_string, gpt2)
+    results, lengths = compare_model_sizes_nonsense_words(path_string, switched_shot, gpt2)
     
     fig, ax = plt.subplots(3, 1, figsize=(14, 10), sharex=True)
     
@@ -335,7 +359,7 @@ def plot_model_sizes_nonsense_words(path_string, gpt2=False, percentages=True):
     if gpt2:
         plt.suptitle('GPT2')
     else:
-        plt.suptitle('GPT3')
+        plt.suptitle('GPT3, switched shot={}'.format(switched_shot))
     ax[0].legend()
     plt.show();
 
@@ -343,31 +367,37 @@ def plot_model_sizes_nonsense_words(path_string, gpt2=False, percentages=True):
 ### helpers for cause and effect two sentences
 ###############################
 
-def eval_ce_2_cause(df):
+def eval_ce_2_cause(df, switched_shot=False):
     cause_sentence = df["answer_cause"].values
-    cause_sentence_answers = df["responses_cause"].values
+    if switched_shot:
+        cause_sentence_answers = df["responses_cause_ss"].values
+    else:
+        cause_sentence_answers = df["responses_cause"].values
     correct = []
     for i, s in enumerate(cause_sentence):
-        answer_clean = cause_sentence_answers[i].replace("\n", "")
+        answer_clean = cause_sentence_answers[i].replace("\n", "").lstrip()
         c = s == answer_clean 
         #print(answer_clean, s, c)
         correct.append(c)
         
     return(correct)
 
-def eval_ce_2_effect(df):
+def eval_ce_2_effect(df, switched_shot=False):
     effect_sentence = df["answer_effect"].values
-    effect_sentence_answers = df["responses_effect"].values
+    if switched_shot:
+        effect_sentence_answers = df["responses_effect_ss"].values
+    else:
+        effect_sentence_answers = df["responses_effect"].values
     correct = []
     for i, s in enumerate(effect_sentence):
-        answer_clean = effect_sentence_answers[i].replace("\n", "")
+        answer_clean = effect_sentence_answers[i].replace("\n", "").lstrip()
         c = s == answer_clean 
         #print(answer_clean, s, c)
         correct.append(c)
         
     return(correct)
 
-def eval_df_ce_2_sentences(df):
+def eval_df_ce_2_sentences(df, switched_shot=False):
     
     df_switched = df[df["switched"] == True]
     df_non_switched = df[df["switched"] == False]
@@ -376,13 +406,13 @@ def eval_df_ce_2_sentences(df):
     len_df_switched = len(df_switched)
     len_df_non_switched = len(df_non_switched)
     
-    sum_cause_total = np.sum(eval_ce_2_cause(df))
-    sum_cause_non_switched = np.sum(eval_ce_2_cause(df_non_switched))
-    sum_cause_switched = np.sum(eval_ce_2_cause(df_switched))
+    sum_cause_total = np.sum(eval_ce_2_cause(df, switched_shot))
+    sum_cause_non_switched = np.sum(eval_ce_2_cause(df_non_switched, switched_shot))
+    sum_cause_switched = np.sum(eval_ce_2_cause(df_switched, switched_shot))
     
-    sum_effect_total = np.sum(eval_ce_2_effect(df))
-    sum_effect_non_switched = np.sum(eval_ce_2_effect(df_non_switched))
-    sum_effect_switched = np.sum(eval_ce_2_effect(df_switched))
+    sum_effect_total = np.sum(eval_ce_2_effect(df, switched_shot))
+    sum_effect_non_switched = np.sum(eval_ce_2_effect(df_non_switched, switched_shot))
+    sum_effect_switched = np.sum(eval_ce_2_effect(df_switched, switched_shot))
     
     results_array = np.array([[sum_cause_total,
             sum_cause_non_switched,
@@ -396,10 +426,10 @@ def eval_df_ce_2_sentences(df):
     
     return(results_array, len_array)
 
-def plot_single_model_ce_2_sentences(path_string, percentages=True):
+def plot_single_model_ce_2_sentences(path_string, switched_shot=False, percentages=True):
     
     df = pd.read_csv(path_string)
-    results, len_array = eval_df_ce_2_sentences(df)
+    results, len_array = eval_df_ce_2_sentences(df, switched_shot)
     perc = results / len_array
     
     x = np.arange(2)
@@ -419,12 +449,15 @@ def plot_single_model_ce_2_sentences(path_string, percentages=True):
     ax.set_ylabel("accuracy")
     ax.set_xticklabels(["cause", "effect"])
 
+    if switched_shot:
+        plt.suptitle("switched shots")
+
     plt.legend()
     plt.grid()
     plt.show();
 
 ### compare models
-def compare_model_sizes_ce_2_sentences(path_string, gpt2=False):
+def compare_model_sizes_ce_2_sentences(path_string, switched_shot=False, gpt2=False):
     
     # TODO add option for gpt2
     df_ada =  pd.read_csv(path_string.format("text-ada-001"))    
@@ -433,15 +466,15 @@ def compare_model_sizes_ce_2_sentences(path_string, gpt2=False):
     df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
 
    
-    results_ada, len_ada = np.array(eval_df_ce_2_sentences(df_ada))  
-    results_babbage, len_babbage = np.array(eval_df_ce_2_sentences(df_babbage))  
-    results_curie, len_curie = np.array(eval_df_ce_2_sentences(df_curie))
-    results_davinci, len_davinci = np.array(eval_df_ce_2_sentences(df_davinci))
+    results_ada, len_ada = np.array(eval_df_ce_2_sentences(df_ada, switched_shot))  
+    results_babbage, len_babbage = np.array(eval_df_ce_2_sentences(df_babbage, switched_shot))  
+    results_curie, len_curie = np.array(eval_df_ce_2_sentences(df_curie, switched_shot))
+    results_davinci, len_davinci = np.array(eval_df_ce_2_sentences(df_davinci, switched_shot))
     
     return([results_ada, results_babbage, results_curie, results_davinci],
            [len_ada, len_babbage, len_curie, len_davinci])
 
-def plot_model_sizes_ce_2_sentences(path_string, gpt2=False, percentages=True):
+def plot_model_sizes_ce_2_sentences(path_string, switched_shot=False, gpt2=False, percentages=True):
     
     if gpt2:
         labels = ["Medium", "Large", "XL"]
@@ -452,7 +485,7 @@ def plot_model_sizes_ce_2_sentences(path_string, gpt2=False, percentages=True):
     colors = ["aqua", "lightskyblue", "violet", "darkviolet"]
     alphas = [1, 0.6, 0.6]
     
-    results, lengths = compare_model_sizes_ce_2_sentences(path_string, gpt2)
+    results, lengths = compare_model_sizes_ce_2_sentences(path_string, switched_shot, gpt2)
     
     fig, ax = plt.subplots(3, 1, figsize=(14, 10), sharex=True)
     
@@ -478,7 +511,7 @@ def plot_model_sizes_ce_2_sentences(path_string, gpt2=False, percentages=True):
     if gpt2:
         plt.suptitle('GPT2')
     else:
-        plt.suptitle('GPT3')
+        plt.suptitle('GPT3; switched_shot={}'.format(switched_shot))
     ax[0].legend()
     plt.show();
 
@@ -487,19 +520,22 @@ def plot_model_sizes_ce_2_sentences(path_string, gpt2=False, percentages=True):
 ### helpers for cause and effect one sentence
 ###############################
 
-def eval_ce_1(df):
+def eval_ce_1(df, switched_shot=False):
     cause_sentence = df["answer_cause"].values
-    cause_sentence_answers = df["responses"].values
+    if switched_shot:
+        cause_sentence_answers = df["responses_ss"].values
+    else:
+        cause_sentence_answers = df["responses"].values
     correct = []
     for i, s in enumerate(cause_sentence):
-        answer_clean = cause_sentence_answers[i].replace("\n", "")
+        answer_clean = cause_sentence_answers[i].replace("\n", "").lstrip()
         c = s == answer_clean 
         #print(answer_clean, s, c)
         correct.append(c)
         
     return(correct)
 
-def eval_df_ce_1_sentence(df):
+def eval_df_ce_1_sentence(df, switched_shot=False):
     
     df_switched = df[df["switched"] == True]
     df_non_switched = df[df["switched"] == False]
@@ -508,9 +544,9 @@ def eval_df_ce_1_sentence(df):
     len_df_switched = len(df_switched)
     len_df_non_switched = len(df_non_switched)
     
-    sum_total = np.sum(eval_ce_1(df))
-    sum_non_switched = np.sum(eval_ce_1(df_non_switched))
-    sum_switched = np.sum(eval_ce_1(df_switched))
+    sum_total = np.sum(eval_ce_1(df, switched_shot))
+    sum_non_switched = np.sum(eval_ce_1(df_non_switched, switched_shot))
+    sum_switched = np.sum(eval_ce_1(df_switched, switched_shot))
     
     results_array = np.array([[sum_total,
             sum_non_switched,
@@ -520,10 +556,10 @@ def eval_df_ce_1_sentence(df):
     
     return(results_array, len_array)
 
-def plot_single_model_ce_1_sentence(path_string, percentages=True):
+def plot_single_model_ce_1_sentence(path_string, switched_shot=False, percentages=True):
     
     df = pd.read_csv(path_string)
-    results, len_array = eval_df_ce_1_sentence(df)
+    results, len_array = eval_df_ce_1_sentence(df, switched_shot)
     perc = results / len_array
     
     x = np.arange(1)
@@ -543,12 +579,15 @@ def plot_single_model_ce_1_sentence(path_string, percentages=True):
     ax.set_ylabel("accuracy")
     ax.set_xticklabels(["cause & effect"])
 
+    if switched_shot:
+        plt.suptitle("switched shot")
+
     plt.legend()
     plt.grid()
     plt.show();
 
 ### compare models
-def compare_model_sizes_ce_1_sentence(path_string, gpt2=False):
+def compare_model_sizes_ce_1_sentence(path_string, switched_shot=False, gpt2=False):
     
     # TODO add option for gpt2
     df_ada =  pd.read_csv(path_string.format("text-ada-001"))    
@@ -556,15 +595,15 @@ def compare_model_sizes_ce_1_sentence(path_string, gpt2=False):
     df_curie =  pd.read_csv(path_string.format("text-curie-001"))
     df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
 
-    results_ada, len_ada = np.array(eval_df_ce_1_sentence(df_ada))  
-    results_babbage, len_babbage = np.array(eval_df_ce_1_sentence(df_babbage))  
-    results_curie, len_curie = np.array(eval_df_ce_1_sentence(df_curie))
-    results_davinci, len_davinci = np.array(eval_df_ce_1_sentence(df_davinci))
+    results_ada, len_ada = np.array(eval_df_ce_1_sentence(df_ada, switched_shot))  
+    results_babbage, len_babbage = np.array(eval_df_ce_1_sentence(df_babbage, switched_shot))  
+    results_curie, len_curie = np.array(eval_df_ce_1_sentence(df_curie, switched_shot))
+    results_davinci, len_davinci = np.array(eval_df_ce_1_sentence(df_davinci, switched_shot))
     
     return([results_ada, results_babbage, results_curie, results_davinci],
            [len_ada, len_babbage, len_curie, len_davinci])
 
-def plot_model_sizes_ce_1_sentence(path_string, gpt2=False, percentages=True):
+def plot_model_sizes_ce_1_sentence(path_string, switched_shot=False, gpt2=False, percentages=True):
     
     if gpt2:
         labels = ["Medium", "Large", "XL"]
@@ -575,7 +614,7 @@ def plot_model_sizes_ce_1_sentence(path_string, gpt2=False, percentages=True):
     colors = ["aqua", "lightskyblue", "violet", "darkviolet"]
     alphas = [1, 0.6, 0.6]
     
-    results, lengths = compare_model_sizes_ce_1_sentence(path_string, gpt2)
+    results, lengths = compare_model_sizes_ce_1_sentence(path_string, switched_shot, gpt2)
     
     fig, ax = plt.subplots(3, 1, figsize=(14, 10), sharex=True)
     
@@ -601,6 +640,6 @@ def plot_model_sizes_ce_1_sentence(path_string, gpt2=False, percentages=True):
     if gpt2:
         plt.suptitle('GPT2')
     else:
-        plt.suptitle('GPT3')
+        plt.suptitle('GPT3; switched shot={}'.format(switched_shot))
     ax[0].legend()
     plt.show();

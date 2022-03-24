@@ -101,13 +101,13 @@ class ToyProblem3Colors():
                 prompts.append(s + " Question: " + self.question_final + self.answer)
         return(prompts)
 
-    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, question='first'):
+    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, switched_shot=False, question='first'):
         assert(question in ["first", "second", "final"])
         choices = np.random.choice(self.num_subsets, size=k, replace=False)
         k_shots = ""
         #create k-shots
         for c in choices: 
-            if switched:
+            if switched_shot:
                 row = self.sequences_df_switched.iloc[c]
             else:
                 row = self.sequences_df_non_switched.iloc[c]
@@ -147,11 +147,38 @@ class ToyProblem3Colors():
             k_shots_prompts.append(k_shots)
         return(k_shots_prompts)
 
-    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, question='first'):
-        return(self.generate_single_prompt_k_shot(n_subset, k=1, switched=switched, question=question))
+    def generate_all_prompts_k_shot_switched_shot(self, k=5, question='first'):
+        assert(question in ["first", "second", "final"])
+        zero_shot_prompts = self.generate_all_prompts_zero_shot(question)
+        k_shots_prompts = []
+        for i, row in self.sequences_df.iterrows():
+            choices = np.random.choice(self.num_subsets, size=k, replace=False)
+            k_shots = ""
+            #create k-shots
+            for c in choices: 
+                if not row["switched"]:
+                    r = self.sequences_df_switched.iloc[c]
+                else:
+                    r = self.sequences_df_non_switched.iloc[c]
+                s = r["sequence"]
+                if question=='first':
+                    k_shots += s + " Question: " + self.question_first + self.answer + " The {} ball.\n".format(r["first_color"])
+                elif question=='second':
+                    k_shots += s + " Question: " + self.question_second + self.answer + " The {} ball.\n".format(r["second_color"])
+                elif question=='final':
+                    k_shots += s + " Question: " + self.question_final + self.answer + " The {} ball.\n".format(r["final_color"])
+            k_shots += zero_shot_prompts[i]
+            k_shots_prompts.append(k_shots)
+        return(k_shots_prompts)
+
+    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, switched_shot=False, question='first'):
+        return(self.generate_single_prompt_k_shot(n_subset, k=1, switched=switched, switched_shot=switched_shot, question=question))
 
     def generate_all_prompts_one_shot(self, question='first'):
         return(self.generate_all_prompts_k_shot(k=1, question=question))
+
+    def generate_all_prompts_one_shot_switched_shot(self, question='first'):
+        return(self.generate_all_prompts_k_shot_switched_shot(k=1, question=question))
 
 
 

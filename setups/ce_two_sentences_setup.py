@@ -15,7 +15,7 @@ class CETwoSentences():
         # generate sequences and prompts
         self.question_cause = "Which sentence caused the other?"
         self.question_effect = "Which sentence is the effect of the other?"
-        self.answer = " Answer by copying the sentence: "
+        self.answer = " Answer by copying the sentence:"
 
     def generate_sequences_df(self, filepath="data/bigbench_originals/ce_two_sentences.json"):
         
@@ -69,35 +69,35 @@ class CETwoSentences():
         assert(question in ["cause", "effect"])
         sequence = self.get_single_sequence(n_subset, switched)
         if question=='cause':
-            return(sequence + " Question: " + self.question_cause + self.answer)
+            return(sequence + " Question: " + self.question_cause + " " + self.answer)
         elif question=='effect':
-            return(sequence + " Question: " + self.question_effect + self.answer)
+            return(sequence + " Question: " + self.question_effect + " " + self.answer)
 
     def generate_all_prompts_zero_shot(self, question='cause'):
         assert(question in ["cause", "effect"])
         prompts = []
         for s in self.df_ce_two_sentences["sequence"]:
             if question=='cause':
-                prompts.append(s + " Question: " + self.question_cause + self.answer)
+                prompts.append(s + " Question: " + self.question_cause + " " + self.answer)
             elif question=='effect':
-                prompts.append(s + " Question: " + self.question_effect + self.answer)
+                prompts.append(s + " Question: " + self.question_effect + " " + self.answer)
         return(prompts)
 
-    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, question='cause'):
+    def generate_single_prompt_k_shot(self, n_subset=0, k=5, switched=False, switched_shot=False, question='cause'):
         assert(question in ["cause", "effect"])
         choices = np.random.choice(self.length, size=k, replace=False)
         k_shots = ""
         #create k-shots
         for c in choices: 
-            if switched:
+            if switched_shot:
                 row = self.df_ce_two_sentences_switched.iloc[c]
             else:
                 row = self.df_ce_two_sentences_non_switched.iloc[c]
             s = row["sequence"]
             if question=='cause':
-                k_shots += s + " Question: " + self.question_cause + self.answer + row["answer_cause"] + "\n"
+                k_shots += s + " Question: " + self.question_cause + self.answer + " " + row["answer_cause"] + "\n"
             elif question=='effect':
-                k_shots += s + " Question: " + self.question_effect + self.answer + row["answer_effect"] + "\n"
+                k_shots += s + " Question: " + self.question_effect + self.answer + " " + row["answer_effect"] + "\n"
 
         #add prompt on top
         prompt = self.generate_single_prompt_zero_shot(n_subset, switched, question)
@@ -118,18 +118,43 @@ class CETwoSentences():
                     r = self.df_ce_two_sentences_non_switched.iloc[c]
                 s = r["sequence"]
                 if question=='cause':
-                    k_shots += s + " Question: " + self.question_cause + self.answer + r["answer_cause"] + "\n"
+                    k_shots += s + " Question: " + self.question_cause + self.answer + " " + r["answer_cause"] + "\n"
                 elif question=='effect':
-                    k_shots += s + " Question: " + self.question_effect + self.answer + r["answer_effect"] + "\n"
+                    k_shots += s + " Question: " + self.question_effect + self.answer + " " + r["answer_effect"] + "\n"
             k_shots += zero_shot_prompts[i]
             k_shots_prompts.append(k_shots)
         return(k_shots_prompts)
 
-    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, question='cause'):
-        return(self.generate_single_prompt_k_shot(n_subset, k=1, switched=switched, question=question))
+    def generate_all_prompts_k_shot_switched_shot(self, k=5, question='cause'):
+        assert(question in ["cause", "effect"])
+        zero_shot_prompts = self.generate_all_prompts_zero_shot(question)
+        k_shots_prompts = []
+        for i, row in self.df_ce_two_sentences.iterrows():
+            choices = np.random.choice(self.length, size=k, replace=False)
+            k_shots = ""
+            #create k-shots
+            for c in choices: 
+                if not row["switched"]:
+                    r = self.df_ce_two_sentences_switched.iloc[c]
+                else:
+                    r = self.df_ce_two_sentences_non_switched.iloc[c]
+                s = r["sequence"]
+                if question=='cause':
+                    k_shots += s + " Question: " + self.question_cause + self.answer + " " + r["answer_cause"] + "\n"
+                elif question=='effect':
+                    k_shots += s + " Question: " + self.question_effect + self.answer + " " + r["answer_effect"] + "\n"
+            k_shots += zero_shot_prompts[i]
+            k_shots_prompts.append(k_shots)
+        return(k_shots_prompts)
+
+    def generate_single_prompt_one_shot(self, n_subset=0, switched=False, switched_shot=False, question='cause'):
+        return(self.generate_single_prompt_k_shot(n_subset, k=1, switched=switched, switched_shot=switched_shot, question=question))
 
     def generate_all_prompts_one_shot(self, question='cause'):
         return(self.generate_all_prompts_k_shot(k=1, question=question))
+
+    def generate_all_prompts_one_shot_switched_shot(self, question='cause'):
+        return(self.generate_all_prompts_k_shot_switched_shot(k=1, question=question))
 
 
 
