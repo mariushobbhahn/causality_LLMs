@@ -1,199 +1,207 @@
 ,sequence,switched,first_word,second_word,final_word,responses_first,responses_second,responses_final,responses_first_ss,responses_second_ss,responses_final_ss
-0,The baz hit the fuu. The fuu hit the schleep. The schleep fell in the hole.,False,baz,fuu,schleep, the baz hit the fuu. The fuu hit the schleep. The schleep fell," the schleep
+0,The baz hit the fuu. The fuu hit the schleep. The schleep fell in the hole.,False,baz,fuu,schleep, the baz hit the fuu. The fuu hit the schleep. The schleep fell," the baz
 
-The dling hit the dinglebob. The dinglebob", the dinglebob hit the baz. The baz hit the fuu. The f, the baz hit the fuu. The fuu hit the schleep. The schleep fell, the blubb hit the dly. The dly hit the schleep. The schleep fell, the dinglebob
-1,The fuu hit the schleep. The baz hit the fuu. The schleep fell in the hole.,True,baz,fuu,schleep, the baz hit the dinglebob. The dling hit the dinglebob., the dling hit the plomp. The baz hit the dling. The plomp fell," the plomp hit the baz.
+The baz hit the fuu. The fuu hit the schleep", the dinglebob, the blubb hit the dling. The baz hit the blubb. The dling fell, the blubb hit the plomp. The baz hit the blubb. The plomp fell, the dinglebob
+1,The fuu hit the schleep. The baz hit the fuu. The schleep fell in the hole.,True,baz,fuu,schleep, the baz hit the fuu. The baz fell in the hole., the fuu hit the blubb. The baz hit the fuu. The blubb fell," the dinglebob.
 
-The plomp hit the blubb. The b", the baz hit the schleep. The baz hit the fuu. The fuu hit, the baz hit the fuu. The fuu hit the baz. The baz was, the dinglebob hit the blubb
-2,The baz hit the fuu. The fuu hit the blubb. The blubb fell in the hole.,False,baz,fuu,blubb, the baz hit the schleep. The schleep hit the dinglebob. The d," the schleep.
+The dinglebob hit the dingle. The b", the baz hit the fuu. The fuu hit the plomp. The plomp fell, the dling hit the dinglebob. The dinglebob hit the blubb., the dinglebob.
+2,The baz hit the fuu. The fuu hit the blubb. The blubb fell in the hole.,False,baz,fuu,blubb, the baz hit the schleep. The schleep hit the blubb. The blubb fell, the dinglebob," the plomp hit the baz.
 
-The schleep fell in the hole.", the dinglebob hit the fuu. The fuu hit the blubb. The bl, the baz hit the fuu. The fuu hit the blubb. The blubb fell, the schleep, the plomp
-3,The fuu hit the blubb. The baz hit the fuu. The blubb fell in the hole.,True,baz,fuu,blubb, the fuu hit the plomp. The plomp hit the dinglebob. The d, the schleep, the plomp hit the blubb. The schleep hit the plomp. The baz hit, the baz hit the schleep. The schleep hit the dinglebob. The d, the baz hit the fuu. The baz fell in the hole., the baz hit the fuu. The fuu hit the blubb. The blubb fell
-4,The baz hit the fuu. The fuu hit the dling. The dling fell in the hole.,False,baz,fuu,dling, the baz hit the fuu. The fuu hit the dling. The dling fell," the dinglebob.
+The baz hit the fuu. The f", the baz hit the fuu. The fuu hit the blubb. The blubb fell, the fuu hit the blubb. The baz hit the fuu. The blubb fell, the dinglebob
+3,The fuu hit the blubb. The baz hit the fuu. The blubb fell in the hole.,True,baz,fuu,blubb," the baz hit the dling.
 
-The dinglebob hit the blubb. The bl", the plomp, the blubb hit the dinglebob. The dinglebob fell in the hole.," the dinglebob.
+The dling hit the plomp. The b", the dling hit the plomp. The blubb hit the dling. The plomp fell, the dling hit the blubb. The baz hit the fuu. The blubb fell, the baz hit the schleep. The schleep hit the dinglebob. The d, the dling hit the plomp. The plomp fell in the hole., the blubb hit the fuu. The baz hit the fuu.
+4,The baz hit the fuu. The fuu hit the dling. The dling fell in the hole.,False,baz,fuu,dling," the schleep
 
-The dinglebob hit the schleep. The sch", the baz hit the schleep. The schleep fell in the hole.
-5,The fuu hit the dling. The baz hit the fuu. The dling fell in the hole.,True,baz,fuu,dling, the schleep hit the dling. The schleep hit the baz., the blubb hit the plomp. The baz hit the blubb. The plomp hit," the plomp hit the baz.
+The plomp hit the dinglebob. The dinglebob"," the baz
 
-The plomp hit the baz. The b", the fuu hit the dling. The baz hit the fuu. The dling fell, the baz hit the plomp. The plomp hit the dinglebob. The d, the dling hit the blubb. The blubb hit the dling. The dling fell
-6,The baz hit the fuu. The fuu hit the plomp. The plomp fell in the hole.,False,baz,fuu,plomp, the baz hit the fuu. The fuu hit the plomp. The plomp fell," the baz
-The baz hit the fuu. The fuu hit the plomp.", the dling, the baz hit the fuu. The fuu hit the plomp. The plomp fell, the dling and the baz., the dling hit the blubb. The baz hit the blubb. The dling fell
-7,The fuu hit the plomp. The baz hit the fuu. The plomp fell in the hole.,True,baz,fuu,plomp, the baz hit the fuu.," the dinglebob
+The baz hit the fuu. The fuu hit the dling", the dling, the plomp started the chain., the schleep, the dinglebob
+5,The fuu hit the dling. The baz hit the fuu. The dling fell in the hole.,True,baz,fuu,dling, the baz hit the dling. The dling fell in the hole., the plomp and the baz., the dinglebob, the schleep hit the blubb. The blubb hit the dinglebob. The d," the baz
 
-The dinglebob hit the schleep. The baz", the dinglebob hit the plomp. The baz hit the dinglebob., the baz hit the dly. The dly hit the plomp. The plomp fell, the dling and the plomp., the plomp hit the baz.
-8,The baz hit the fuu. The fuu hit the dinglebob. The dinglebob fell in the hole.,False,baz,fuu,dinglebob, the baz hit the schleep. The schleep hit the dinglebob. The d, the dinglebob hit the fuu. The fuu hit the dinglebob., the plomp hit the baz. The baz hit the dling. The dling hit, the fuu hit the dinglebob. The dinglebob fell in the hole., the blubb hit the plomp. The plomp hit the dinglebob. The d, the dinglebob hit the blubb
-9,The fuu hit the dinglebob. The baz hit the fuu. The dinglebob fell in the hole.,True,baz,fuu,dinglebob, the baz hit the fuu., the fuu hit the schleep. The baz hit the fuu. The schleep fell, the baz hit the fuu. The dinglebob fell in the hole., the schleep hit the blubb. The blubb hit the dinglebob. The d, the baz, the dinglebob hit the fuu. The fuu hit the dinglebob.
-10,The baz hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,baz,schleep,blubb, the baz hit the blubb. The blubb hit the dinglebob. The d, the baz, the plomp hit the baz. The baz fell in the hole., the baz hit the baz. The baz hit the schleep. The schleep hit," the schleep hit the baz.
+The baz hit the dling. The baz hit the plomp", the plomp hit the baz.
+6,The baz hit the fuu. The fuu hit the plomp. The plomp fell in the hole.,False,baz,fuu,plomp, the blubb hit the dinglebob. The dinglebob fell in the hole.," the dinglebob.
 
-The baz hit the baz. The b", the dling hit the blubb. The blubb fell in the hole.
-11,The schleep hit the blubb. The baz hit the schleep. The blubb fell in the hole.,True,baz,schleep,blubb, the blubb hit the plomp. The baz hit the blubb. The plomp fell, the plomp., the dinglebob hit the dinglebob. The fuu hit the dingleb, the fuu hit the fiddler. The fiddler hit the schleep. The baz hit," the fuu
+The dinglebob hit the blubb. The bl", the dinglebob hit the fuu. The fuu hit the plomp. The pl, the dling hit the plomp. The dling hit the baz. The baz fell," the baz
 
-The fuu hit the schleep. The schleep hit the plomp", the dinglebob hit the plomp. The plomp hit the dinglebob.
-12,The baz hit the schleep. The schleep hit the dling. The dling fell in the hole.,False,baz,schleep,dling, the baz hit the schleep. The schleep hit the dling. The dling fell, the dling hit the dinglebob. The dinglebob hit the zingleb, the dinglebob, the baz hit the schleep. The baz hit the schleep. The dling fell, the blubb hit the dinglebob. The schleep hit the blubb. The d, the dling
-13,The schleep hit the dling. The baz hit the schleep. The dling fell in the hole.,True,baz,schleep,dling, the fuu hit the dling. The dinglebob hit the baz.," the fuu
+The baz hit the fuu. The fuu hit the plomp", the dling hit the schleep. The baz hit the schleep. The dling fell
+7,The fuu hit the plomp. The baz hit the fuu. The plomp fell in the hole.,True,baz,fuu,plomp, the baz hit the baz. The baz fell in the hole., the baz, the blubb hit the plomp. The baz hit the fuu. The plomp fell, the baz hit the blubb. The blubb hit the dinglebob. The d," the dling.
 
-The fuu hit the plomp. The baz hit the fuu", the dinglebob hit the plomp. The plomp hit the baz. The b, the baz hit the schleep. The dling fell in the hole., the baz, the dinglebob
-14,The baz hit the schleep. The schleep hit the plomp. The plomp fell in the hole.,False,baz,schleep,plomp, the fuu hit the dling. The dling hit the dinglebob. The d, the dinglebob hit the dlyte. The dlyte hit the stapler, the plomp hit the schleep., the fuu hit the blubb. The blubb hit the plomp. The plomp fell, the blubb hit the dly. The schleep hit the blubb. The dly fell, the plomp
-15,The schleep hit the plomp. The baz hit the schleep. The plomp fell in the hole.,True,baz,schleep,plomp, the blubb hit the dinglebob. The baz hit the blubb. The d, the blubb hit the plomp. The baz hit the blubb. The plomp fell, the dinglebob hit the plomp. The baz hit the dinglebob., the fuu hit the blubb. The blubb hit the dling. The dling fell," the dling
+The dling fell in the hole.", the dinglebob hit the plomp. The plomp hit the baz.
+8,The baz hit the fuu. The fuu hit the dinglebob. The dinglebob fell in the hole.,False,baz,fuu,dinglebob, the baz hit the fuu. The fuu hit the dinglebob. The d, the dinglebob hit the fuu. The fuu hit the dinglebob., the dinglebob," the chain hit the fuu.
 
-The plomp hit the plomp. The baz hit the plomp", the plomp
-16,The baz hit the schleep. The schleep hit the dinglebob. The dinglebob fell in the hole.,False,baz,schleep,dinglebob, the baz hit the fuu. The fuu hit the plomp. The plomp fell," the fuu
+The chain hit the fuu. The fuu hit", the blubb hit the dling. The baz hit the blubb. The dingleb, the plomp hit the dinglebob. The dinglebob fell in the hole.
+9,The fuu hit the dinglebob. The baz hit the fuu. The dinglebob fell in the hole.,True,baz,fuu,dinglebob, the blubb hit the plomp. The baz hit the plomp. The dingleb," the dinglebob
 
-The fuu hit the schleep. The schleep hit the plomp", the dinglebob hit the blubb. The blubb hit the dinglebob., the baz hit the plomp. The plomp hit the dinglebob. The d, the dling hit the plomp. The plomp fell in the hole., the dinglebob
-17,The schleep hit the dinglebob. The baz hit the schleep. The dinglebob fell in the hole.,True,baz,schleep,dinglebob," the blubbob
+The dinglebob fell in the hole.", the dinglebob hit the dingle. The baz hit the bing. The b, the baz hit the schleep. The schleep hit the dinglebob. The d," the baz
 
-The dling hit the dinglebob. The blubb hit", the baz, the dinglebob, the baz hit the fuu. The fuu hit the plomp. The plomp fell, the dinglebob, the dinglebob
-18,The baz hit the blubb. The blubb hit the dling. The dling fell in the hole.,False,baz,blubb,dling, the fuu hit the plomp. The plomp hit the dinglebob. The d," the dinglebob
+The baz hit the blubb. The blubb hit the dling", the blubb hit the dinglebob. The baz hit the fuu. The d
+10,The baz hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,baz,schleep,blubb, the baz hit the schleep. The schleep hit the plomp. The plomp fell, the dling and the schleep., the dling hit the baz. The baz fell in the hole., the dling hit the dinglebob. The dling fell in the hole.," the dinglebob
 
-The dinglebob hit the schleep. The schleep", the dinglebob hit the blubb. The blubb hit the dingle. The d, the baz hit the blubb. The baz hit the dling. The dling fell," the plomp
+The dinglebob hit the blubb. The blubb", the dling hit the schleep. The schleep hit the baz.
+11,The schleep hit the blubb. The baz hit the schleep. The blubb fell in the hole.,True,baz,schleep,blubb, the baz hit the schleep. The baz hit the fuu. The schleep fell," the fuu
 
-The plomp hit the dinglebob. The schleep hit the", the plomp hit the blubb. The blubb hit the dling. The dling fell
-19,The blubb hit the dling. The baz hit the blubb. The dling fell in the hole.,True,baz,blubb,dling," the fuu
+The fuu hit the schleep. The baz hit the fuu", the dinglebob, the dling hit the plomp. The plomp hit the dinglebob. The d," the dling
 
-The dinglebob hit the dingle. The fuu hit the", the dling hit the plomp. The baz hit the dling. The plomp fell, the plomp, the fuu hit the plomp. The plomp hit the dinglebob. The d, the baz hit the schleep. The schleep hit the plomp. The plomp fell, the dinglebob hit the plomp. The plomp hit the baz. The b
-20,The baz hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,baz,blubb,plomp, the baz hit the dly. The dly hit the plomp. The plomp fell," the fuu
-The baz hit the fuu. The fuu hit the blubb.", the dinglebob, the fuu hit the schleep. The schleep fell in the hole., the blubb hit the dly. The schleep hit the blubb. The dly fell, the baz hit the plomp. The plomp fell in the hole.
-21,The blubb hit the plomp. The baz hit the blubb. The plomp fell in the hole.,True,baz,blubb,plomp, the baz hit the plomp. The baz hit the blubb. The plomp fell," the baz
-The baz hit the blubb. The plomp fell in the hole.", the dinglebob hit the dinglebob. The fuu hit the dingleb, the blubb hit the plomp. The baz hit the blubb. The plomp fell, the baz, the dinglebob hit the plomp. The baz hit the blubb. The pl
-22,The baz hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,baz,blubb,dinglebob, the blubb hit the blubb. The blubb hit the dinglebob. The d, the dinglebob, the dinglebob, the chain hit the dinglebob.," the dinglebob
+The schleep hit the blubb. The baz hit the schleep", the dinglebob hit the plomp. The plomp hit the dinglebob.
+12,The baz hit the schleep. The schleep hit the dling. The dling fell in the hole.,False,baz,schleep,dling, the baz hit the fuu. The fuu hit the dling. The dling fell," the plomp hit the dinglebob.
 
-The dling hit the dinglebob. The fuu", the dinglebob hit the fuu. The fuu hit the dinglebob.
-23,The blubb hit the dinglebob. The baz hit the blubb. The dinglebob fell in the hole.,True,baz,blubb,dinglebob, the blubb hit the dinglebob. The baz hit the blubb. The d," the fuu
+The dinglebob hit the pl", the dinglebob hit the blubb, the fuu hit the plomp. The plomp hit the baz. The baz hit, the blubb hit the dly. The dly hit the blubb. The blubb fell, the plomp hit the blubb. The blubb hit the plomp. The plomp fell
+13,The schleep hit the dling. The baz hit the schleep. The dling fell in the hole.,True,baz,schleep,dling, the fuu hit the dling. The plomp hit the baz., the blubb hit the plomp. The fuu hit the blubb. The plomp fell, the schleep hit the dling. The baz hit the schleep. The dling fell, the blubb hit the dling. The dling hit the dinglebob. The d, the plomp hit the dinglebob. The dinglebob hit the plomp., the plomp fell in the hole.
+14,The baz hit the schleep. The schleep hit the plomp. The plomp fell in the hole.,False,baz,schleep,plomp, the fuu hit the blubb. The blubb hit the dling. The dling fell, the dinglebob hit the dlyte. The dlyte hit the stapler, the dinglebob hit the plomp. The plomp hit the baz., the blubb hit the dinglebob. The dinglebob fell in the hole.," the dinglebob
 
-The fuu hit the dling. The baz hit the fuu", the plomp hit the dinglebob. The baz hit the plomp. The d, the fuu hit the schleep. The schleep hit the blubb. The blubb fell," the baz
-The baz hit the dinglebob. The dinglebob fell", the dinglebob hit the blubb. The baz hit the dinglebob.
-24,The baz hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,baz,dling,plomp, the fuu hit the dling. The dling hit the plomp. The plomp fell, the blubb hit the dly. The dly hit the plomp. The plomp fell, the plomp, the dling hit the dinglebob. The baz hit the dling. The d, the schleep hit the dling. The dling hit the plomp. The plomp fell, the plomp
-25,The dling hit the plomp. The baz hit the dling. The plomp fell in the hole.,True,baz,dling,plomp, the baz hit the dling. The baz hit the plomp. The baz hit," the dinglebob
+The blubb hit the dingle. The dinglebob", the baz hit the plomp. The plomp fell in the hole.
+15,The schleep hit the plomp. The baz hit the schleep. The plomp fell in the hole.,True,baz,schleep,plomp, the dling hit the plomp. The baz hit the schleep. The plomp fell, the baz, the baz, the baz hit the schleep. The schleep hit the dinglebob. The d," the dinglebob
 
-The dling hit the dinglebob. The baz", the dling hit the plomp. The baz hit the dling. The plomp fell, the dling hit the zap. The zap hit the baz. The baz fell, the dling hit the plomp. The baz hit the dling. The plomp fell, the plomp hit the baz.
-26,The baz hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,baz,dling,dinglebob, the fuu hit the schleep. The schleep hit the plomp. The plomp fell," the plomp
+The dinglebob fell in the hole.", the dinglebob
+16,The baz hit the schleep. The schleep hit the dinglebob. The dinglebob fell in the hole.,False,baz,schleep,dinglebob, the baz hit the schleep. The schleep hit the dinglebob. The d," the fuu
+The baz hit the fuu. The fuu hit the schleep.", the dinglebob hit the schleep. The schleep hit the dinglebob., the schleep hit the dinglebob. The dinglebob fell in the hole., the fuu hit the plomp. The baz hit the fuu. The plomp fell, the baz hit the schleep. The schleep hit the dingle. The dingleb
+17,The schleep hit the dinglebob. The baz hit the schleep. The dinglebob fell in the hole.,True,baz,schleep,dinglebob, the baz hit the schleep. The schleep hit the dinglebob. The b, the dling hit the dinglebob. The schleep hit the dinglebob., the dinglebob, the blubb hit the dling. The dling hit the plomp. The plomp fell," the plomp
 
-The plomp hit the dinglebob. The dinglebob", the dinglebob, the schleep hit the dling. The dinglebob fell in the hole.," the blubb
+The plomp hit the dinglebob. The dinglebob", the plomp fell in the hole
+18,The baz hit the blubb. The blubb hit the dling. The dling fell in the hole.,False,baz,blubb,dling, the schleep hit the dling. The dling hit the plomp. The plomp fell," the plomp.
 
-The blubb hit the dinglebob. The dinglebob", the dinglebob
-27,The dling hit the dinglebob. The baz hit the dling. The dinglebob fell in the hole.,True,baz,dling,dinglebob, the baz hit the dinglebob. The baz hit the dinglebob., the dling hit the dinglebob. The baz hit the dling. The d, the dinglebob," the schleep
+The plomp hit the blubb. The blubb hit the d", the schleep, the baz hit the blubb. The baz hit the blubb. The dling fell, the dling hit the dinglebob. The baz hit the dling. The d, the plomp hit the blubb. The plomp fell in the hole.
+19,The blubb hit the dling. The baz hit the blubb. The dling fell in the hole.,True,baz,blubb,dling, the fuu hit the blubb. The faz hit the blubb. The daz fell, the dling, the baz hit the fuu. The dling fell in the hole., the fuu hit the blubb. The blubb hit the plomp. The plomp fell," the plomp
 
-The dling hit the dinglebob. The baz hit the"," the dinglebob
+The baz hit the plomp. The plomp hit the dingle", the plomp hit the dling. The baz hit the plomp. The plomp fell
+20,The baz hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,baz,blubb,plomp, the baz hit the fuu. The fuu hit the plomp. The plomp fell," the dly.
 
-The dinglebob fell in the hole.", the plomp hit the dinglebob. The baz hit the dling. The d
-28,The baz hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,baz,plomp,dinglebob, the fuu hit the fuu hit the schleep. The schleep hit the blubb., the dinglebob hit the plomp. The plomp hit the dinglebob., the dinglebob hit the baz., the baz hit the plomp. The baz hit the dinglebob. The d, the blubb hit the plomp. The plomp hit the dinglebob. The d, the dinglebob
-29,The plomp hit the dinglebob. The baz hit the plomp. The dinglebob fell in the hole.,True,baz,plomp,dinglebob," the baz hit the plomp.
+The baz hit the dly. The dly hit the pl", the dinglebob hit the plomp. The plomp hit the baz.," the dinglebob
 
-The baz hit the plomp. The b", the baz, the dinglebob, the blubb hit the plomp. The plomp hit the dinglebob. The d, the baz, the baz
-30,The fuu hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,fuu,schleep,blubb, the baz hit the schleep. The schleep hit the dling. The dling fell, the baz hit the schleep. The schleep hit the plomp. The plomp fell, the dinglebob, the baz hit the fuu. The dinglebob hit the schleep. The sch, the plomp hit the schleep. The plomp fell in the hole., the plomp hit the schleep. The schleep hit the fuu. The fuu hit
-31,The schleep hit the blubb. The fuu hit the schleep. The blubb fell in the hole.,True,fuu,schleep,blubb, the baz hit the schleep. The fuu hit the schleep. The blubb fell, the baz hit the dinglebob. The baz hit the baz. The d, the baz hit the fuu. The blubb fell in the hole., the baz hit the fuu. The fuu hit the dinglebob. The d, the baz hit the blubb. The blubb hit the dinglebob. The d, the dinglebob hit the plomp. The plomp hit the dinglebob.
-32,The fuu hit the schleep. The schleep hit the dling. The dling fell in the hole.,False,fuu,schleep,dling, the schleep hit the dling., the blubb hit the fuu. The fuu hit the blubb. The blubb fell, the dinglebob, the blubb hit the dling. The dinglebob hit the blubb. The bl, the dling hit the dinglebob. The blubb hit the dling. The d, the fuu hit the schleep. The schleep hit the blubb. The blubb fell
-33,The schleep hit the dling. The fuu hit the schleep. The dling fell in the hole.,True,fuu,schleep,dling, the blubb hit the dling. The plomp hit the blubb. The dling fell, the fuu hit the dling. The baz hit the fuu. The dling fell, the plomp hit the dling. The baz hit the schleep. The dling fell, the fuu hit the dling. The dling fell in the hole.," the dling.
+The dling hit the dinglebob. The blubb", the dling hit the dl. The dl hit the plomp. The plomp fell, the dinglebob hit the blubb. The blubb hit the plomp. The pl
+21,The blubb hit the plomp. The baz hit the blubb. The plomp fell in the hole.,True,baz,blubb,plomp, the blubb hit the plomp. The baz hit the blubb. The plomp fell," the baz
+The baz hit the blubb. The plomp fell in the hole.", the dinglebob hit the plomp. The dinglebob fell in the hole., the fuu hit the blubb. The blubb hit the dinglebob. The d, the baz, the baz hit the baz. The baz fell in the hole.
+22,The baz hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,baz,blubb,dinglebob, the schleep hit the plomp. The plomp fell in the hole., the plomp, the plomp hit the dingle. The dingle hit the baz. The baz fell, the blubb hit the dling. The baz hit the blubb. The dingleb," the plomp
 
-The dling hit the schleep. The fuu hit the d", the plomp fell in the hole.
-34,The fuu hit the schleep. The schleep hit the plomp. The plomp fell in the hole.,False,fuu,schleep,plomp, the baz hit the schleep. The schleep hit the dinglebob. The d, the baz hit the schleep. The schleep hit the dling. The dling fell, the plomp hit the schleep., the dling hit the dlk. The dlk fell in the hole., the dling hit the dling. The dling fell in the hole., the dling hit the blubb. The blubb hit the dling. The fuu hit
-35,The schleep hit the plomp. The fuu hit the schleep. The plomp fell in the hole.,True,fuu,schleep,plomp, the baz hit the plomp. The dinglebob hit the baz. The d, the fuu hit the schleep. The dling hit the plomp. The fuu hit, the dling hit the fuu. The baz hit the dling. The fuu hit, the fuu hit the fuu. The fuu hit the plomp. The plomp hit," the blubb hit the fuu, and the fuu hit the blubb.", the dinglebob
-36,The fuu hit the schleep. The schleep hit the dinglebob. The dinglebob fell in the hole.,False,fuu,schleep,dinglebob, the schleep hit the dinglebob. The dinglebob hit the dingle., the blubb, the dinglebob, the fuu hit the schleep. The schleep hit the dinglebob. The d, the schleep, the dinglebob
-37,The schleep hit the dinglebob. The fuu hit the schleep. The dinglebob fell in the hole.,True,fuu,schleep,dinglebob, the fuu hit the dinglebob. The fuu hit the schleep. The d," the dinglebob
+The plomp hit the dinglebob. The blubb hit the", the plomp hit the dinglebob. The dinglebob fell in the hole.
+23,The blubb hit the dinglebob. The baz hit the blubb. The dinglebob fell in the hole.,True,baz,blubb,dinglebob, the blubb hit the dinglebob. The baz hit the blubb. The d, the dling hit the plomp. The blubb hit the dinglebob. The pl, the plomp hit the dinglebob. The baz hit the plomp. The d, the blubb hit the dinglebob. The dinglebob fell in the hole.," the schleep
 
-The dling hit the dinglebob. The blubb", the blubb, the baz hit the schleep. The schleep hit the dinglebob. The d," the blubb hit the baz.
+The dinglebob hit the dinglebob. The dingle", the dinglebob hit the blubb. The baz hit the dinglebob.
+24,The baz hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,baz,dling,plomp, the schleep hit the blubb. The blubb hit the plomp. The plomp fell, the dinglebob hit the dling. The dinglebob hit the plomp., the dling hit the plomp. The plomp hit the baz., the blubb hit the dling. The dling hit the plomp. The plomp fell, the blubb hit the plomp. The schleep hit the blubb. The plomp fell," the dinglebob.
 
-The baz hit the fuu. The f", the dinglebob
-38,The fuu hit the blubb. The blubb hit the dling. The dling fell in the hole.,False,fuu,blubb,dling, the blubb hit the plomp. The plomp hit the dinglebob. The d," the dinglebob?
+The dinglebob hit the fuu. The f"
+25,The dling hit the plomp. The baz hit the dling. The plomp fell in the hole.,True,baz,dling,plomp, the blubb hit the plomp. The baz hit the dinglebob. The pl, the blubb hit the plomp. The baz hit the blubb. The plomp fell, the dinglebob, the blubb hit the dling. The dling fell in the hole., the dinglebob, the plomp hit the baz.
+26,The baz hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,baz,dling,dinglebob, the fuu hit the schleep. The schleep hit the blubb. The blubb fell, the blubb hit the schleep. The schleep hit the blubb. The blubb fell, the dinglebob hit the dling. The dling hit the dinglebob., the blubb hit the dling. The dling hit the dinglebob. The d," the fuu
 
-The dinglebob hit the schleep. The sch", the blubb hit the dling. The dling hit the baz. The baz fell, the fuu hit the fuu. The fuu hit the blubb. The blubb hit, the blubb hit the dling. The fuu hit the blubb. The blubb hit, the fuu hit the blubb. The blubb hit the dling. The dling fell
-39,The blubb hit the dling. The fuu hit the blubb. The dling fell in the hole.,True,fuu,blubb,dling, the baz hit the dling. The dinglebob hit the baz. The b," the fuu
+The fuu hit the schleep. The baz hit the fuu", the baz hit the dling. The dling hit the dinglebob. The d
+27,The dling hit the dinglebob. The baz hit the dling. The dinglebob fell in the hole.,True,baz,dling,dinglebob, the fuu hit the dinglebob. The zigzags hit the dingleb," the plomp
 
-The baz hit the fuu. The dinglebob hit the"," the plomp hit the baz.
+The plomp hit the dinglebob. The baz hit the", the dinglebob," the schleep
 
-The blubb hit the dling. The f", the fuu hit the plomp. The plomp hit the dinglebob. The d, the dinglebob, the blubb hit the dling.
-40,The fuu hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,fuu,blubb,plomp, the baz hit the fuu. The fuu hit the blubb. The blubb fell, the dinglebob, the plomp hit the baz., the fuu hit the blubb. The blubb hit the plomp. The plomp fell," the dly.
+The dling hit the dinglebob. The baz hit the", the dling hit the dinglebob. The baz hit the dling. The d, the dinglebob hit the dinglebob. The dinglebob fell in the
+28,The baz hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,baz,plomp,dinglebob, the schleep, the dinglebob hit the plomp. The plomp hit the dinglebob., the dinglebob hit the baz., the fuu hit the dinglebob. The dinglebob fell in the hole., the blubb hit the dinglebob. The fuu hit the blubb. The d, the dinglebob
+29,The plomp hit the dinglebob. The baz hit the plomp. The dinglebob fell in the hole.,True,baz,plomp,dinglebob, the fuu hit the schleep. The schleep fell in the hole.," the dinglebob
 
-The dly hit the blubb. The blubb hit the pl", the blubb hit the fuu.
-41,The blubb hit the plomp. The fuu hit the blubb. The plomp fell in the hole.,True,fuu,blubb,plomp, the fuu hit the plomp. The fuu hit the dling. The dling fell, the fuu., the dling hit the plomp. The fuu hit the blubb. The plomp fell, the baz hit the fuu. The fuu hit the schleep. The schleep fell, the baz hit the schleep. The schleep hit the dling. The dling fell, the baz hit the fuu. The fuu hit the blubb. The blubb fell
-42,The fuu hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,fuu,blubb,dinglebob, the fuu hit the blubb. The blubb hit the dinglebob. The d," the schleep.
+The dling hit the dinglebob. The fuu", the dinglebob hit the plomp. The baz hit the plomp. The d, the dling hit the plomp. The plomp hit the dinglebob. The d," the baz
 
-The schleep hit the baz. The baz fell in the", the plomp hit the baz., the fuu hit the dinglebob. The dinglebob fell in the hole.," the fuu
+The baz hit the fuu. The fuu hit the baz", the plomp hit the dinglebob. The baz hit the plomp. The d
+30,The fuu hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,fuu,schleep,blubb, the blubb hit the dling. The dling hit the dinglebob. The d," the dinglebob
 
-The fuu hit the blubb. The blubb hit the dingle", the dinglebob hit the blubb. The blubb hit the dinglebob.
-43,The blubb hit the dinglebob. The fuu hit the blubb. The dinglebob fell in the hole.,True,fuu,blubb,dinglebob, the schleep hit the dinglebob. The fuu hit the fuu. The d," the plomp
+The dinglebob fell in the hole.", the dling hit the schleep. The schleep hit the blubb. The blubb fell, the blubb hit the plomp. The plomp hit the dinglebob. The d," the dinglebob
 
-The plomp hit the dinglebob. The blubb hit the", the dinglebob hit the dingle. The fuu hit the blubb. The d, the schleep hit the blubb. The blubb hit the dinglebob. The d, the baz hit the schleep. The schleep hit the dinglebob. The d, the dinglebob hit the blubb. The fuu hit the dinglebob.
-44,The fuu hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,fuu,dling,plomp, the schleep hit the dling. The dling hit the dinglebob. The d," the schleep.
+The dinglebob hit the blubb. The blubb", the plomp
+31,The schleep hit the blubb. The fuu hit the schleep. The blubb fell in the hole.,True,fuu,schleep,blubb, the baz hit the blubb. The dling fell in the hole., the dling hit the dinglebob. The baz hit the dling. The d, the dinglebob hit the plomp. The fuu hit the dinglebob., the baz hit the fuu. The fuu hit the plomp. The plomp fell, the dling and the schleep, the plomp fell in the hole
+32,The fuu hit the schleep. The schleep hit the dling. The dling fell in the hole.,False,fuu,schleep,dling, the baz hit the blubb. The blubb hit the plomp. The plomp fell, the plomp hit the dinglebob. The dinglebob hit the plomp., the schleep hit the dling. The dling fell in the hole., the baz hit the schleep. The schleep hit the dling. The dling fell, the dling hit the dinglebob. The baz hit the dling. The d, the plomp hit the schleep. The schleep hit the dling. The dling fell
+33,The schleep hit the dling. The fuu hit the schleep. The dling fell in the hole.,True,fuu,schleep,dling, the blubb hit the plomp. The baz hit the blubb. The plomp fell, the blubb hit the plomp. The baz hit the blubb. The plomp fell, the dling hit the blubb. The schleep hit the dling. The fuu hit, the fuu hit the schleep. The schleep hit the dinglebob. The d," the plomp.
 
-The fuu hit the schleep. The schleep hit the d", the dinglebob," the dinglebob.
+The plomp was the first in the chain.", the dinglebob
+34,The fuu hit the schleep. The schleep hit the plomp. The plomp fell in the hole.,False,fuu,schleep,plomp, the fuu hit the schleep. The schleep hit the plomp. The plomp fell, the baz hit the schleep. The schleep hit the plomp. The plomp fell, the dling," the blubb hit the dling.
 
-The dinglebob fell in the hole."," the schleep.
+The dling hit the plomp. The bl", the blubb hit the fuu. The fuu hit the blubb. The schleep hit, the baz hit the fuu. The fuu hit the baz. The baz fell
+35,The schleep hit the plomp. The fuu hit the schleep. The plomp fell in the hole.,True,fuu,schleep,plomp, the baz hit the plomp. The dinglebob hit the baz. The d," the dlyb.
 
-The schleep hit the dling. The dling hit the pl", the dling hit the fuu.
-45,The dling hit the plomp. The fuu hit the dling. The plomp fell in the hole.,True,fuu,dling,plomp, the schleep hit the plomp. The dinglebob hit the dinglebob.," the dling hit the dinglebob.
+The dlyb hit the blubb. The blubb hit", the dinglebob, the baz hit the fuu. The fuu hit the schleep. The schleep fell, the dinglebob, the blubb
+36,The fuu hit the schleep. The schleep hit the dinglebob. The dinglebob fell in the hole.,False,fuu,schleep,dinglebob, the blubb hit the plomp. The plomp hit the dinglebob. The d, the blubb hit the fuu. The fuu hit the blubb. The blubb fell, the plomp hit the baz. The baz fell in the hole., the blubb hit the plomp. The baz hit the blubb. The plomp fell, the baz hit the baz. The baz hit the schleep. The schleep hit, the dinglebob
+37,The schleep hit the dinglebob. The fuu hit the schleep. The dinglebob fell in the hole.,True,fuu,schleep,dinglebob, the fuu hit the dinglebob. The fuu hit the schleep. The d, the fuu hit the plomp. The baz hit the fuu. The plomp fell, the plomp," the schleep hit the dinglebob.
 
-The dling hit the dingleb", the blubb hit the plomp. The fuu hit the blubb. The plomp fell, the baz hit the fuu. The fuu hit the blubb. The blubb fell, the fuu hit the dinglebob. The dinglebob fell in the hole., the baz hit the fuu. The fuu hit the dling. The dling fell
-46,The fuu hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,fuu,dling,dinglebob, the baz hit the fuu. The fuu hit the dinglebob. The d, the dinglebob, the plomp hit the dling. The dling hit the dinglebob. The d," the schleep hit the blubb.
+The schleep hit the dingleb", the blubb, the dinglebob
+38,The fuu hit the blubb. The blubb hit the dling. The dling fell in the hole.,False,fuu,blubb,dling, the baz hit the schleep. The schleep hit the plomp. The plomp fell," the plomp.
 
-The blubb hit the dling. The sch", the dinglebob, the baz hit the fuu. The fuu hit the baz. The baz fell
-47,The dling hit the dinglebob. The fuu hit the dling. The dinglebob fell in the hole.,True,fuu,dling,dinglebob, the fuu hit the blubb. The plomp hit the blubb. The plomp fell, the dling hit the plomp. The fuu hit the dling. The plomp fell, the dling hit the dinglebob. The fuu hit the dling. The d, the baz hit the blubb. The blubb hit the plomp. The plomp fell, the fuu hit the dling. The dling hit the dingle. The dingle fell, the dling hit the dinglebob.
-48,The fuu hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,fuu,plomp,dinglebob, the baz hit the schleep. The schleep hit the plomp. The plomp fell, the baz hit the schleep. The schleep hit the dling. The dling fell, the dinglebob hit the plomp. The plomp hit the baz.," the fuu hit the blubb, the blubb hit the dling, and the dingle", the schleep hit the dinglebob. The baz hit the schleep. The d, the dinglebob
-49,The plomp hit the dinglebob. The fuu hit the plomp. The dinglebob fell in the hole.,True,fuu,plomp,dinglebob, the fuu hit the dinglebob. The blubb hit the blubb. The d, the baz, the dinglebob, the schleep hit the blubb. The blubb hit the dinglebob. The d, the blubb hit the plomp. The plomp hit the dinglebob. The d, the dinglebob hit the plomp.
-50,The schleep hit the blubb. The blubb hit the dling. The dling fell in the hole.,False,schleep,blubb,dling, the fuu hit the blubb. The blubb hit the plomp. The plomp fell, the dling., the dinglebob, the plomp hit the dinglebob. The dinglebob fell in the hole.," the dinglebob
+The plomp hit the blubb. The blubb hit the d", the dinglebob, the blubb hit the dling. The dling fell in the hole., the baz hit the plomp. The plomp hit the baz. The baz fell," the plomp hit the baz.
 
-The dling hit the dinglebob. The blubb", the dling hit the schleep. The blubb hit the schleep. The dling fell
-51,The blubb hit the dling. The schleep hit the blubb. The dling fell in the hole.,True,schleep,blubb,dling, the baz hit the dling. The plomp hit the baz. The plomp fell, the blubb hit the dinglebob. The fuu hit the blubb. The d, the plomp, the baz hit the dling. The dling fell in the hole., the dling hit the dinglebob. The dinglebob hit the dlez., the plomp
-52,The schleep hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,schleep,blubb,plomp," the fuu
+The baz hit the schleep. The pl"
+39,The blubb hit the dling. The fuu hit the blubb. The dling fell in the hole.,True,fuu,blubb,dling, the fuu hit the dling. The fuu hit the blubb. The dling fell, the schleep, the dling hit the blubb., the fuu hit the fuu. The fuu hit the fuu. The dling fell," the plomp
 
-The fuu hit the schleep. The schleep hit the dingle"," the dling
+The plomp hit the plomp. The plomp fell in the hole", the plomp fell in the hole.
+40,The fuu hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,fuu,blubb,plomp, the blubb hit the dly. The dly hit the plomp. The plomp fell, the dinglebob, the fuu hit the fuu. The fuu hit the schleep. The schleep hit, the blubb hit the plomp. The blubb hit the dinglebob. The d," the fuu
 
-The fuu hit the dling. The dling hit the plomp", the dling hit the plomp. The plomp fell in the hole., the baz hit the schleep. The dinglebob hit the baz. The b, the baz, the baz hit the fuu. The fuu hit the baz. The baz fell
-53,The blubb hit the plomp. The schleep hit the blubb. The plomp fell in the hole.,True,schleep,blubb,plomp, the fuu hit the schleep. The schleep fell in the hole.," the plomp
+The fuu hit the blubb. The blubb hit the plomp", the fuu hit the blubb. The blubb hit the plomp. The plomp fell
+41,The blubb hit the plomp. The fuu hit the blubb. The plomp fell in the hole.,True,fuu,blubb,plomp, the baz hit the dling. The dling fell in the hole., the dling hit the plomp. The schleep hit the dling. The plomp fell, the plomp, the baz hit the fuu. The fuu hit the dinglebob. The d, the dinglebob hit the plomp. The plomp fell in the hole., the dling The blubb hit the plomp. The fuu hit the blubb. The
+42,The fuu hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,fuu,blubb,dinglebob, the fuu hit the blubb. The blubb hit the dinglebob. The d, the plomp and the dling., the plomp hit the dingle. The dingle hit the fuu. The fuu hit, the fuu hit the blubb. The blubb hit the dinglebob. The d," the schleep
 
-The plomp hit the dinglebob. The schleep hit the", the dinglebob hit the plomp. The fuu hit the dinglebob., the schleep hit the dling. The dling fell in the hole.," the dling.
+The dinglebob hit the schleep. The schleep hit the", the dinglebob
+43,The blubb hit the dinglebob. The fuu hit the blubb. The dinglebob fell in the hole.,True,fuu,blubb,dinglebob, the baz hit the fuu. The schleep fell in the hole., the schleep hit the dinglebob. The fuu hit the blubb. The d, the dinglebob hit the dingle., the schleep hit the dling. The dling hit the blubb. The blubb hit," the fuu
 
-The dling fell in the hole.", the plomp
-54,The schleep hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,schleep,blubb,dinglebob, the baz hit the dling. The dling hit the plomp. The plomp fell," the fuu
+The fuu hit the blubb. The blubb fell in the hole", the plomp fell in the hole
+44,The fuu hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,fuu,dling,plomp, the baz hit the blubb. The blubb hit the plomp. The plomp fell, the blubb hit the fuu. The fuu hit the blubb. The blubb fell, the dinglebob hit the plomp. The plomp hit the fuu. The f, the schleep hit the dling. The dling hit the plomp. The plomp fell, the baz, the plomp
+45,The dling hit the plomp. The fuu hit the dling. The plomp fell in the hole.,True,fuu,dling,plomp, the fuu hit the dling. The fuu hit the schleep. The dling fell, the baz, the dling hit the plomp. The fuu hit the dling. The plomp fell, the blubb hit the plomp. The plomp hit the dinglebob. The d, the baz hit the plomp. The plomp fell in the hole., the dinglebob
+46,The fuu hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,fuu,dling,dinglebob, the baz hit the blubb. The blubb hit the dling. The dling fell, the dling hit the dinglebob. The dinglebob fell in the hole., the dinglebob hit the dling. The dinglebob hit the dingleb, the schleep hit the plomp. The plomp fell in the hole.," the fuu
 
-The baz hit the fuu. The fuu hit the dingle", the dinglebob hit the plomp. The plomp hit the dinglebob., the baz hit the plomp. The plomp hit the baz. The baz hit," the fuu
+The fuu hit the dling. The dling hit the dingle"," the plomp hit the blubb, the dling hit the dingle, and the plomp"
+47,The dling hit the dinglebob. The fuu hit the dling. The dinglebob fell in the hole.,True,fuu,dling,dinglebob, the fuu hit the schleep. The dling hit the dinglebob. The f," the dling hit the dinglebob.
 
-The fuu hit the plomp. The baz hit the fuu", the blubb hit the dinglebob. The dinglebob fell in the hole.
-55,The blubb hit the dinglebob. The schleep hit the blubb. The dinglebob fell in the hole.,True,schleep,blubb,dinglebob, the blubb hit the dinglebob. The schleep hit the blubb. The d, the blubb hit the dinglebob. The schleep hit the blubb. The d, the dinglebob," the schleep hit the dinglebob.
+The dling hit the dingleb", the dinglebob, the blubb hit the plomp. The plomp hit the dinglebob. The d, the dling hit the dinglebob. The dinglebob fell in the hole., the dinglebob
+48,The fuu hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,fuu,plomp,dinglebob, the fuu hit the dinglebob. The dinglebob hit the plomp.," the dinglebob
 
-The blubb hit the dingleb", the dinglebob, the dinglebob hit the dinglebob. The schleep hit the schleep.
-56,The schleep hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,schleep,dling,plomp, the baz hit the zing. The zing hit the dinglebob. The d," the dling.
+The dinglebob hit the dingle. The dingle", the schleep, the baz hit the fuu. The fuu hit the dinglebob. The d, the blubb hit the dling. The baz hit the blubb. The dingleb, the dinglebob
+49,The plomp hit the dinglebob. The fuu hit the plomp. The dinglebob fell in the hole.,True,fuu,plomp,dinglebob, the blubb hit the plomp. The dinglebob fell in the hole., the fuu, the dinglebob hit the plomb. The fuu hit the dinglebob., the schleep hit the dingle. The dingle hit the plomp. The plomp fell," the dinglebob.
 
-The fuu hit the blubb. The blubb hit the d", the plomp, the fuu hit the dling. The dinglebob hit the dling. The d, the dling and the plomp., the dinglebob
-57,The dling hit the plomp. The schleep hit the dling. The plomp fell in the hole.,True,schleep,dling,plomp, the blubb hit the dly. The schleep hit the blubb. The dly fell," the dling hit the dinglebob.
+The dinglebob hit the dinglebob.", the dinglebob hit the plomp.
+50,The schleep hit the blubb. The blubb hit the dling. The dling fell in the hole.,False,schleep,blubb,dling, the baz hit the plomp. The plomp hit the dinglebob. The d, the plomp, the dinglebob, the fuu," the plomp
 
-The dling hit the dingleb", the dling hit the plomp. The schleep hit the dling. The plomp fell, the fuu hit the fuu. The fuu hit the dinglebob. The d," the baz.
+The plomp hit the blubb. The blubb hit the dling", the dinglebob
+51,The blubb hit the dling. The schleep hit the blubb. The dling fell in the hole.,True,schleep,blubb,dling, the fuu hit the schleep. The schleep fell in the hole., the dling, the plomp," the blubb hit the dling.
 
-The baz was the second in the chain, and was hit by", the dling hit the plomp.
-58,The schleep hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,schleep,dling,dinglebob, the baz hit the blubb. The blubb hit the dling. The dling fell," the plomp.
+The blubb hit the dling. The sch"," the fuu
 
-The plomp hit the dling. The dling hit the d", the dling hit the dinglebob. The dinglebob hit the dingle., the blubb hit the plomp. The baz hit the blubb. The plomp fell," the fuu
+The fuu hit the plomp. The plomp fell in the hole", the schleep hit the blubb. The blubb hit the dling. The schleep hit
+52,The schleep hit the blubb. The blubb hit the plomp. The plomp fell in the hole.,False,schleep,blubb,plomp, the fuu hit the schleep. The schleep hit the blubb. The blubb fell, the dling hit the plomp. The plomp fell in the hole., the dinglebob hit the dingle. The dinglebob hit the clog., the baz hit the schleep. The baz fell in the hole., the baz hit the baz. The baz hit the plomp. The plomp fell, the plomp
+53,The blubb hit the plomp. The schleep hit the blubb. The plomp fell in the hole.,True,schleep,blubb,plomp, the fuu hit the blubb. The schleep hit the blubb.," the dinglebob
 
-The fuu hit the blubb. The baz hit the fuu", the dinglebob
-59,The dling hit the dinglebob. The schleep hit the dling. The dinglebob fell in the hole.,True,schleep,dling,dinglebob," the baz hit the fuu.
+The dinglebob hit the dinglebob. The", the dinglebob, the baz hit the schleep. The schleep hit the dling. The dling fell, the dinglebob, the plomp
+54,The schleep hit the blubb. The blubb hit the dinglebob. The dinglebob fell in the hole.,False,schleep,blubb,dinglebob, the fuu hit the plomp. The plomp hit the dinglebob. The d," the dinglebob
 
-The plomp fell in the hole."," the plomp hit the baz.
+The Schleep hit the blubb. The blubb hit the"," the plomp hit the baz.
 
-The plomp hit the baz. The b", the blubb, the fuu hit the finglebob. The finglebob hit the dingleb," the dinglebob
+The baz hit the fuu. The f", the fuu hit the schleep. The fuu hit the schleep. The schleep fell," the plomp
 
-The dinglebob hit the dingle. The schleep", the dling hit the dinglebob. The dinglebob fell in the hole.
-60,The schleep hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,schleep,plomp,dinglebob, the fuu hit the dling. The dling hit the dinglebob. The d, the fuu hit the fuu. The fuu hit the dinglebob. The d, the plomp hit the dinglebob. The dinglebob fell into the hole., the fuu hit the blubb. The blubb hit the dling. The dling fell, the blubb hit the plomp. The plomp hit the dinglebob. The d, the dinglebob
-61,The plomp hit the dinglebob. The schleep hit the plomp. The dinglebob fell in the hole.,True,schleep,plomp,dinglebob, the fuu hit the schleep. The schleep hit the plomp. The fuu fell, the dling hit the plomp. The schleep hit the plomp. The dingleb, the baz hit the fuu. The blubb hit the baz. The fuu hit, the baz hit the dling. The dling hit the plomp. The plomp fell, the baz hit the schleep. The schleep hit the blubb. The blubb fell, the dinglebob
-62,The blubb hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,blubb,dling,plomp, the fuu hit the blubb. The blubb hit the plomp. The plomp fell," the dinglebob.
+The plomp hit the blubb. The blubb hit the dingle", the dinglebob
+55,The blubb hit the dinglebob. The schleep hit the blubb. The dinglebob fell in the hole.,True,schleep,blubb,dinglebob, the baz hit the dinglebob. The schleep hit the baz. The d," the fuu
 
-The dinglebob hit the plomp. The pl", the plomp hit the dling., the baz hit the fuu. The fuu hit the dinglebob. The d, the baz, the blubb hit the dling. The dling hit the plomp. The plomp fell
-63,The dling hit the plomp. The blubb hit the dling. The plomp fell in the hole.,True,blubb,dling,plomp, the fuu hit the dling. The dinglebob hit the blubb. The bl, the fuu hit the plomp. The baz hit the fuu. The plomp fell, the dinglebob, the schleep hit the dling.," the dinglebob.
+The baz hit the fuu. The plomp fell in the hole", the dinglebob, the baz hit the fuu. The fuu hit the dinglebob. The d, the dinglebob, the dinglebob hit the baz.
+56,The schleep hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,schleep,dling,plomp, the fuu hit the fllip. The fllip hit the dinglebob.," the dling.
 
-The dling hit the plomp. The blubb hit", the blubb hit the plomp. The blubb hit the dling. The dling fell
-64,The blubb hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,blubb,dling,dinglebob," the fuu
+The dling hit the plomp. The plomp fell in the", the dinglebob, the dinglebob the dinglebob., the blubb hit the dling. The dling hit the plomp. The plomp fell, the plomp
+57,The dling hit the plomp. The schleep hit the dling. The plomp fell in the hole.,True,schleep,dling,plomp, the fuu hit the dling. The schleep hit the fuu. The dling fell, the dling hit the plomp. The schleep hit the dling. The plomp fell," the dling hit the blubb, the schleep hit the dling.", the fuu hit the fuu. The fuu hit the dinglebob. The d," the plomp hit the dinglebob.
 
-The fuu hit the schleep. The schleep hit the dingle", the dinglebob, the plomp hit the dling. The dling hit the dinglebob. The d, the blubb hit the dling. The dling hit the dinglebob. The d, the blubb hit the dling. The dling hit the dinglebob. The d, the dinglebob hit the blubb. The blubb hit the dinglebob.
-65,The dling hit the dinglebob. The blubb hit the dling. The dinglebob fell in the hole.,True,blubb,dling,dinglebob," the baz hit the schleep.
+The plomp hit the dingleb", the dinglebob
+58,The schleep hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,schleep,dling,dinglebob, the schleep hit the dling. The dling hit the dinglebob. The d, the blubb hit the fuu. The fuu hit the blubb. The blubb fell, the plomp, the schleep hit the dling. The dling hit the dinglebob. The d," the plomp, the blubb, the plomb", the plomp
+59,The dling hit the dinglebob. The schleep hit the dling. The dinglebob fell in the hole.,True,schleep,dling,dinglebob," the blubb hit the dingle, the plomb hit the dingle, and the plomb"," the fuu
 
-The dling hit the dinglebob."," the dinglebob
+The fuu hit the plomp. The baz hit the fuu", the dinglebob," the fuu
 
-The dling hit the dinglebob. The blubb", the blubb hit the dinglebob. The baz hit the dinglebob., the fuu hit the schleep. The schleep hit the plomp. The plomp fell, the dinglebob, the dinglebob
-66,The blubb hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,blubb,plomp,dinglebob, the baz hit the plomp. The plomp hit the dinglebob. The d, the dinglebob, the plomp hit the dinglebob. The dinglebob fell in the hole., the blubb hit the plomp. The plomp hit the dinglebob. The d," the blubb
+The dingle hit the dinglebob. The dinglebob", the dling hit the dinglebob. The dinglebob fell in the hole., the dling hit the dinglebob.
+60,The schleep hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,schleep,plomp,dinglebob, the baz hit the fuu. The fuu hit the schleep. The schleep fell, the baz hit the plomp. The plomp hit the zinger. The zinger fell, the dinglebob, the fuu hit the plomp. The plomp hit the dinglebob. The d, the dling hit the plomp. The baz hit the dling. The plomp fell, the dinglebob
+61,The plomp hit the dinglebob. The schleep hit the plomp. The dinglebob fell in the hole.,True,schleep,plomp,dinglebob," the baz hit the fuu.
 
-The blubb hit the plomp. The plomp hit the dingle", the dinglebob
-67,The plomp hit the dinglebob. The blubb hit the plomp. The dinglebob fell in the hole.,True,blubb,plomp,dinglebob, the baz hit the dinglebob. The blubb hit the plomp. The d, the blubb hit the plomp., the plomp hit the dinglebob. The blubb hit the plomp. The d, the baz hit the fuu. The fuu hit the schleep. The schleep fell, the dinglebob, the dinglebob hit the plomp. The plomp hit the dinglebob.
-68,The dling hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,dling,plomp,dinglebob, the dling hit the plomp. The plomp hit the dinglebob. The d," the dinglebob.
+The baz hit the fuu. The sch", the dinglebob, the dinglebob, the baz hit the blubb. The blubb hit the plomp. The plomp fell," the dinglebob.
 
-The dinglebob hit the plomp. The pl", the blubb hit the fuu. The fuu hit the blubb. The blubb fell, the blubb hit the plomp. The plomp fell in the hole., the blubb hit the dling. The fuu hit the blubb. The dingleb, the dinglebob
-69,The plomp hit the dinglebob. The dling hit the plomp. The dinglebob fell in the hole.,True,dling,plomp,dinglebob, the fuu hit the blubb. The dinglebob fell in the hole., the dinglebob, the dling hit the plomp. The plomp hit the dinglebob. The d, the schleep hit the dingle., the baz hit the fuu. The fuu hit the dling. The dling fell, the dinglebob
+The dinglebob hit the plomp. The sch", the plomp hit the dinglebob. The schleep hit the plomp. The d
+62,The blubb hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,blubb,dling,plomp, the baz hit the blubb. The blubb hit the dinglebob. The d," the dling.
+
+The dling hit the plomp. The plomp fell in the", the plomp, the blubb hit the dinglebob. The dinglebob fell in the hole., the blubb hit the dling. The dling hit the plomp. The plomp fell, the dinglebob hit the dling. The dling hit the plomp. The pl
+63,The dling hit the plomp. The blubb hit the dling. The plomp fell in the hole.,True,blubb,dling,plomp, the dling hit the plomp. The blubb hit the dling. The plomp fell," the dinglebob
+
+The dinglebob hit the plomp. The blubb", the baz hit the fuu. The baz fell in the hole., the baz hit the schleep. The schleep hit the blubb. The blubb fell, the dling hit the plomp. The blubb hit the dling. The plomp fell, the dinglebob
+64,The blubb hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,blubb,dling,dinglebob, the schleep, the dling hit the dinglebob. The dinglebob hit the dingle., the dinglebob hit the dling. The dinglebob hit the dingleb, the fuu hit the dling. The dling hit the dinglebob. The d, the blubb hit the plomp. The plomp hit the baz. The baz hit, the baz hit the fuu. The fuu hit the baz. The baz hit
+65,The dling hit the dinglebob. The blubb hit the dling. The dinglebob fell in the hole.,True,blubb,dling,dinglebob, the baz hit the blubb. The dling hit the dinglebob. The d, the baz hit the baz. The dinglebob fell in the hole., the plomp hit the baz and the blubb hit the plomp., the baz hit the schleep. The schleep hit the dling. The dlinger fell," the fuu
+
+The fuu hit the dinglebob. The dinglebob", the dinglebob
+66,The blubb hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,blubb,plomp,dinglebob," the dling
+
+The blubb hit the plomp. The plomp hit the dingle", the baz hit the schleep. The schleep hit the dling. The dling fell, the dinglebob hit the plomp. The plomp hit the zinger. The z, the fuu hit the dinglebob. The dinglebob fell in the hole., the schleep hit the dling. The fuu hit the schleep. The dling fell, the dinglebob hit the plomp. The plomp hit the dinglebob.
+67,The plomp hit the dinglebob. The blubb hit the plomp. The dinglebob fell in the hole.,True,blubb,plomp,dinglebob, the blubb hit the plomp. The plomp fell in the hole., the schleep hit the dling. The fuu hit the schleep. The dling fell, the dinglebob, the schleep hit the blubb. The blubb hit the dinglebob. The d, the baz hit the schleep. The schleep hit the dinglebob. The d, the dinglebob hit the plomp. The plomp hit the dinglebob.
+68,The dling hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,dling,plomp,dinglebob, the baz hit the blubb. The blubb hit the dinglebob. The d, the dinglebob, the dinglebob, the blubb hit the dinglebob. The dinglebob fell in the hole., the fuu hit the dling. The baz hit the fuu. The dling fell, the dinglebob
+69,The plomp hit the dinglebob. The dling hit the plomp. The dinglebob fell in the hole.,True,dling,plomp,dinglebob, the baz hit the fuu. The fuu hit the schleep. The baz hit, the dling hit the plomp. The dinglebob hit the plomp. The pl, the dinglebob, the blubb hit the plomp. The plomp hit the dinglebob. The d," the fuu
+
+The dinglebob hit the fuu. The fuu hit the", the dinglebob

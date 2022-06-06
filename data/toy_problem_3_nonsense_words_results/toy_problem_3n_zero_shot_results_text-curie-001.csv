@@ -62,10 +62,10 @@
 60,The schleep hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,schleep,plomp,dinglebob, The schleep hit the plomp., The schleep., The schleep.
 61,The plomp hit the dinglebob. The schleep hit the plomp. The dinglebob fell in the hole.,True,schleep,plomp,dinglebob, The plomp hit the dinglebob., Dinglebob., The dinglebob.
 62,The blubb hit the dling. The dling hit the plomp. The plomp fell in the hole.,False,blubb,dling,plomp, The blubb hit the dling., The dling., the plomp.
-63,The dling hit the plomp. The blubb hit the dling. The plomp fell in the hole.,True,blubb,dling,plomp, The blubb hit the dling., Dling, the plomp.
+63,The dling hit the plomp. The blubb hit the dling. The plomp fell in the hole.,True,blubb,dling,plomp, The blubb hit the dling., Dling.Blubb.Plomp., the plomp.
 64,The blubb hit the dling. The dling hit the dinglebob. The dinglebob fell in the hole.,False,blubb,dling,dinglebob, The dinglebob., The dinglebob., The dinglebob.
 65,The dling hit the dinglebob. The blubb hit the dling. The dinglebob fell in the hole.,True,blubb,dling,dinglebob, Dinglebob falls in the hole., Dinglebob, The dinglebob.
 66,The blubb hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,blubb,plomp,dinglebob, The blubb hit the plomp., The dinglebob., The dinglebob.
 67,The plomp hit the dinglebob. The blubb hit the plomp. The dinglebob fell in the hole.,True,blubb,plomp,dinglebob, The plomp hit the dinglebob., Dinglebob, The dinglebob.
-68,The dling hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,dling,plomp,dinglebob, Dinglebob falls in hole., Dinglebob., The dinglebob.
+68,The dling hit the plomp. The plomp hit the dinglebob. The dinglebob fell in the hole.,False,dling,plomp,dinglebob, Dinglebob falls in hole., Dinglebob, The dinglebob.
 69,The plomp hit the dinglebob. The dling hit the plomp. The dinglebob fell in the hole.,True,dling,plomp,dinglebob, The dinglebob fell in the hole., Dinglebob, The dinglebob.

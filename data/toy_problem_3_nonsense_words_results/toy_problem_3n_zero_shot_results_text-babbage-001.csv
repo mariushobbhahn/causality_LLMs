@@ -97,7 +97,9 @@ The baz.", The baz., dinglebob
 29,The plomp hit the dinglebob. The baz hit the plomp. The dinglebob fell in the hole.,True,baz,plomp,dinglebob, The plomp., The plomp., dinglebob and plomp.
 30,The fuu hit the schleep. The schleep hit the blubb. The blubb fell in the hole.,False,fuu,schleep,blubb,"
 
-The fuu.", The blubb., Fuu and blubb.
+The fuu.", The blubb.,"
+
+The fuu."
 31,The schleep hit the blubb. The fuu hit the schleep. The blubb fell in the hole.,True,fuu,schleep,blubb,"
 
 The blubb.", The blubb.," Schleep, Fuu."

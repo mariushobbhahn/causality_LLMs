@@ -1,442 +1,409 @@
 ,sequence,answer_cause,answer_effect,switched,responses_cause,responses_effect,responses_cause_ss,responses_effect_ss
 0,The child hurt their knee. The child started crying.,The child hurt their knee.,The child started crying.,False," The child hurt their knee.
-The girl was wearing her sweater. The girl caught a cold.", The child started crying., The child started crying.," The child hurt their knee.
 
-The family went to the beach. The air conditioner broke"
-1,The child started crying. The child hurt their knee.,The child hurt their knee.,The child started crying.,True, The child started crying.," The child started crying.
+The child started crying.", The child started crying., The child started crying.," The child hurt their knee.
 
-The child started crying. The child hurt their knee."," The child started crying.
+The child hurt their knee. The child started crying."
+1,The child started crying. The child hurt their knee.,The child hurt their knee.,The child started crying.,True, The child hurt their knee.," The child started crying.
 
-The child started crying. The child hurt their knee.", The child hurt their knee.
+The tenants contacted their landlord. The tenants noticed mold on the bathroom"," The child started crying.
+The cat ate a can. I told the cat to stop. Question"," The child started crying.
+The man was covered in red sauce. The man was covered in sauce"
 2,My car got dirty. I washed the car.,My car got dirty.,I washed the car.,False," My car got dirty.
-My friend got a promotion. My friend celebrated with their family.", I washed the car.,"
 
-My car got dirty. I washed the car."," My car got dirty.
+My car got dirty. I washed the car.
 
-The child's backpack was in the trash. The child didn't"
-3,I washed the car. My car got dirty.,My car got dirty.,I washed the car.,True, My car got dirty.,"
+I"," My car got dirty. I washed the car.
 
-The man climbed in through the window. The door was locked.", I washed the car., My car got dirty.
-4,Someone fainted. Someone called 911.,Someone fainted.,Someone called 911.,False," Someone fainted.
+The man climbed in through the window."," My car was washed.
 
-The band was sick. The frontman was sick. Question: Which sentence", The person called 911., Someone called 911., Someone fainted.
-5,Someone called 911. Someone fainted.,Someone fainted.,Someone called 911.,True, Someone fainted., Someone called 911.," Someone called 911.
+The man was arrested. The man was pulled over. The man", My car got dirty. I washed the car.
+3,I washed the car. My car got dirty.,My car got dirty.,I washed the car.,True, My car got dirty.," I washed the car. My car got dirty.
 
-The team won the game. The team won the championship.", Someone fainted.
+The man sipped the milk and spit"," I washed the car. My car got dirty.
+I put the car in the garage. Question", My car got dirty.
+4,Someone fainted. Someone called 911.,Someone fainted.,Someone called 911.,False, The girl called 911., Someone called 911., Someone called 911., Someone fainted.
+5,Someone called 911. Someone fainted.,Someone fainted.,Someone called 911.,True, The man fell asleep.," The person called 911.
+
+The girl was crying. The girl didn't wear her sweater.", Someone called 911., Someone fainted.
 6,A man accidently pushed the vase off a counter. The vase shattered on the floor.,A man accidently pushed the vase off a counter.,The vase shattered on the floor.,False," A man accidently pushed the vase off a counter.
-A man accidentally pushed the vase", The vase shattered on the floor., The vase shattered on the floor.,"
-
-The dog bit me. I pulled the dog's tail."
+The cat died from a food poisoning", The vase shattered on the floor., The vase shattered on the floor.," The man accidently pushed the vase off a counter.
+The cat slept in the bowl."
 7,The vase shattered on the floor. A man accidently pushed the vase off a counter.,A man accidently pushed the vase off a counter.,The vase shattered on the floor.,True, A man accidently pushed the vase off a counter.," The vase shattered on the floor.
-The man was carrying a bag of groceries. The man"," The vase shattered on the floor.
-A man accidently pushed the vase off a counter", The man accidently pushed the vase off a counter.
-8,It started raining. The woman who was walking on the street opened her umbrella.,It started raining.,The woman who was walking on the street opened her umbrella.,False,"
-
-The woman who was walking on the street opened her umbrella."," It started raining.
-
-The man went to the store and bought toilet paper.", It started raining.," It started raining.
-
-It started raining. The woman who was walking on the street opened her"
-9,The woman who was walking on the street opened her umbrella. It started raining.,It started raining.,The woman who was walking on the street opened her umbrella.,True, The woman who was walking on the street opened her umbrella. It started raining., The woman who was walking on the street opened her umbrella. It started raining., The woman who was walking on the street opened her umbrella. It started raining., The woman who was walking on the street opened her umbrella.
+The cat slept through the storm. The man went outside"," The vase shattered on the floor.
+The cat slept in the sun. The sun woke the", A man accidently pushed the vase off a counter.
+8,It started raining. The woman who was walking on the street opened her umbrella.,It started raining.,The woman who was walking on the street opened her umbrella.,False," It started raining.
+It started raining outside.
+The dog was left in the car park."," The woman who was walking on the street opened her umbrella.
+The woman noticed that she was out"," The woman who was walking on the street opened her umbrella.
+The sun was setting. There was", It started raining.
+9,The woman who was walking on the street opened her umbrella. It started raining.,It started raining.,The woman who was walking on the street opened her umbrella.,True, The woman who was walking on the street opened her umbrella. It started raining., The woman who was walking on the street opened her umbrella. It started raining.," The woman who was walking on the street opened her umbrella. It started raining.
+The light switch", The woman opened her umbrella. It started raining.
 10,There was a loud noise. The boy lifted his eyes from the book.,There was a loud noise.,The boy lifted his eyes from the book.,False," There was a loud noise.
-The sun was shining. The sky was dark."," There was a loud noise.
 
-The girl was crying. The girl's mother cried.
-"," There was a loud noise.
+There was a loud noise. The boy lifted his eyes from"," There was a loud noise.
+The cat slept through the storm. The cat slept through the storm", The boy lifted his eyes from the book.," There was a loud noise.
 
-The man was holding a knife. The man was holding a"," There was a loud noise.
-The man's phone was stolen. He didn't know where it"
-11,The boy lifted his eyes from the book. There was a loud noise.,There was a loud noise.,The boy lifted his eyes from the book.,True, The boy lifted his eyes from the book. There was a loud noise., There was a loud noise.," The boy lifted his eyes from the book.
-The dog barked a warning. The family went", There was a loud noise.
-12,The girl had a nightmare. The girl woke up covered in cold sweat.,The girl had a nightmare.,The girl woke up covered in cold sweat.,False," The girl had a nightmare.
-
-The girl woke up covered in cold sweat.", The girl woke up covered in cold sweat.," The girl woke up covered in cold sweat.
-The girl had a dream. The dream was about"," The girl had a nightmare.
-The man was in jail. The man robbed a gas station."
-13,The girl woke up covered in cold sweat. The girl had a nightmare.,The girl had a nightmare.,The girl woke up covered in cold sweat.,True, The girl had a nightmare.,"
-
-The girl woke up covered in cold sweat. The girl had a nightmare.", The girl woke up covered in cold sweat., The girl had a nightmare.
-14,It started raining. The driver turned the wipers on.,It started raining.,The driver turned the wipers on.,False, It started raining., It started raining., It started raining., The driver turned the wipers on.
-15,The driver turned the wipers on. It started raining.,It started raining.,The driver turned the wipers on.,True, It started raining.," The driver turned the wipers on. It started raining.
-The sun was shining. The sun"," The driver turned the wipers on.
-The dog died. The dog was found dead.", It started raining.
-16,A watermelon exploded. A man was covered in sticky red goo.,A watermelon exploded.,A man was covered in sticky red goo.,False," A watermelon exploded.
-
-The boy was crying. Question: Which sentence caused the other?", A watermelon exploded.," A man was covered in sticky red goo.
-
-The family went to the beach. The", A watermelon exploded.
-17,A man was covered in sticky red goo. A watermelon exploded.,A watermelon exploded.,A man was covered in sticky red goo.,True, A watermelon exploded.," A man was covered in sticky red goo.
-A watermelon exploded.
-
-The girl", A man was covered in sticky red goo., A watermelon exploded.
-18,She noticed that she was out of toilet paper. She went to the store and bought toilet paper.,She noticed that she was out of toilet paper.,She went to the store and bought toilet paper.,False," She noticed that she was out of toilet paper.
-She went to the store and bought toilet paper", The girl went to the store and bought toilet paper., She noticed that she was out of toilet paper. She went to the store and bought toilet paper.," She noticed that she was out of toilet paper.
-The man climbed in through the window. The"
-19,She went to the store and bought toilet paper. She noticed that she was out of toilet paper.,She noticed that she was out of toilet paper.,She went to the store and bought toilet paper.,True, She noticed that she was out of toilet paper., She went to the store and bought toilet paper. She noticed that she was out of toilet paper.," She went to the store and bought toilet paper.
-The cat slept through the night. The man"," She noticed that she was out of toilet paper.
-The man was kicked out of the party."
-20,A large object hit the Earth. The dinosaurs became extinct.,A large object hit the Earth.,The dinosaurs became extinct.,False, A large object hit the Earth. The dinosaurs became extinct., The dinosaurs became extinct., A large object hit the Earth. The dinosaurs became extinct.," A large object hit the Earth.
-A large object hit the Earth. The man sued."
-21,The dinosaurs became extinct. A large object hit the Earth.,A large object hit the Earth.,The dinosaurs became extinct.,True, A large object hit the Earth., The dinosaurs became extinct.," The dinosaurs became extinct.
-The sun was too bright. The sky was dark.
-Question:", A large object hit the Earth.
-22,The bottle was left open. The soda went flat.,The bottle was left open.,The soda went flat.,False, The bottle was left open., The bottle went flat., The soda went flat.," The bottle was left open.
-The cat slept through the storm. Question: Which sentence is the"
-23,The soda went flat. The bottle was left open.,The bottle was left open.,The soda went flat.,True,"
-
-The man fell. The floor was wet. Question: Which sentence caused the other? Answer"," The soda went flat.
-The dog died. The sun was setting.", The soda went flat.," The soda went flat.
-
-The man couldn't hear what the woman was saying. The man"
-24,The laptop ran out of battery. George plugged the laptop charger in.,The laptop ran out of battery.,George plugged the laptop charger in.,False," The laptop ran out of battery.
-The woman who was walking on the street opened her umbrella."," George plugged the laptop charger in.
-The snow was deep andellectually challenging.
-
-The"," The laptop ran out of battery.
-The girl was sick with a cold. The boy gave her"," The laptop ran out of battery.
-The cat slept through the storm. A large object hit the"
-25,George plugged the laptop charger in. The laptop ran out of battery.,The laptop ran out of battery.,George plugged the laptop charger in.,True, The laptop ran out of battery.," The child started crying.
-The speaker's voice was heard over the music.
-
-The speaker", George plugged the laptop charger in. The laptop ran out of battery.," The laptop ran out of battery.
-
-The girl didn't wear her sweater. The girl caught"
-26,The curtains were opened. Sunlight filled the room.,The curtains were opened.,Sunlight filled the room.,False," The curtains were opened.
-The cat slept through the storm. The house was damaged. Question:"," The curtains were opened.
-
-The driver ran a red light. The driver was pulled over and", The curtains were opened.," The curtains were opened.
-
-The man climbed in through the window. The girl caught a cold"
-27,Sunlight filled the room. The curtains were opened.,The curtains were opened.,Sunlight filled the room.,True,"
-
-The curtains were opened.", The curtains were opened.," sunlight filled the room. The curtains were opened.
-The dog barked. The dog was run", The sunlight filled the room. The curtains were opened.
-28,The insect pollinated the tomato flowers. Tomatoes grew on the vine.,The insect pollinated the tomato flowers.,Tomatoes grew on the vine.,False," The insect pollinated the tomato flowers.
-The man was stealing. The man was stealing from a"," The insect pollinated the tomato flowers.
-The dog ate the apple. The dog loved the taste", The insect pollinated the tomato flowers. Tomatoes grew on the vine.," The insect pollinated the tomato flowers.
-
-The company's stock went up. The company's"
-29,Tomatoes grew on the vine. The insect pollinated the tomato flowers.,The insect pollinated the tomato flowers.,Tomatoes grew on the vine.,True, The insect pollinated the tomato flowers.," The insect pollinated the tomato flowers.
-
-The man climbed in through the window. The door"," Tomatoes grew on the vine.
-The dog ate the cake. The cake was made from the", The insect pollinated the tomato flowers.
-30,The girl stepped onto the street. The driver hit the brakes.,The girl stepped onto the street.,The driver hit the brakes.,False," The girl stepped onto the street.
-The man was carrying a lot of money. The man was"," The girl stepped onto the street.
-
-The girl stepped onto the street. The driver hit the"," The driver hit the brakes.
-The sun was setting. The sky was dark.
-
-The", The girl stepped onto the street.
-31,The driver hit the brakes. The girl stepped onto the street.,The girl stepped onto the street.,The driver hit the brakes.,True, The girl stepped onto the street.," The driver hit the brakes.
-The sun was shining. The sky was dark.
-
-The"," The driver hit the brakes.
-The dog barked. The dog was running towards the sound.", The driver stepped onto the street.
-32,There was a wardrobe malfunction. The performer ran off the stage.,There was a wardrobe malfunction.,The performer ran off the stage.,False," There was a wardrobe malfunction.
-The girl was sick. The girl had a fever.", There was a wardrobe malfunction. The performer ran off the stage.," There was a wardrobe malfunction. The performer ran off the stage.
-The cat ate a can."," There was a wardrobe malfunction.
-
-The family went on vacation. The question is which sentence is"
-33,The performer ran off the stage. There was a wardrobe malfunction.,There was a wardrobe malfunction.,The performer ran off the stage.,True, There was a wardrobe malfunction.," The performer ran off the stage.
-The dog died. A cat died. Question: Which sentence", The performer ran off the stage., There was a wardrobe malfunction.
-34,"A bird hit the engine. The pilot turned on the ""fasten seatbelts"" light.",A bird hit the engine.,"The pilot turned on the ""fasten seatbelts"" light.",False," A bird hit the engine.
-A cat ate a can. The cat ate the can."," The pilot turned on the ""fasten seatbelts"" light.
-A cat ate the dog"," The pilot turned on the ""fasten seatbelts"" light.
-The cat ate a can"," A bird hit the engine. The pilot turned on the ""fasten seatbelts"" light."
-35,"The pilot turned on the ""fasten seatbelts"" light. A bird hit the engine.",A bird hit the engine.,"The pilot turned on the ""fasten seatbelts"" light.",True, A bird hit the engine.," The pilot turned on the ""fasten seatbelts"" light.
-The performer ran off the"," The pilot turned on the ""fasten seatbelts"" light.
-The cat slept in the"," The pilot turned on the ""fasten seatbelts"" light.
-
-The laptop ran out"
-36,The milk was left outside the fridge over night. The man sipped the milk and spit it out.,The milk was left outside the fridge over night.,The man sipped the milk and spit it out.,False," The milk was left outside the fridge over night.
-The cookies were eaten.
-
-The cookies"," The man sipped the milk and spit it out.
-A rock hit the ground. The sun"," The man sipped the milk and spit it out.
-The sun was setting when they arrived at"," The milk was left outside the fridge over night.
-The man sipped the milk and spit it"
-37,The man sipped the milk and spit it out. The milk was left outside the fridge over night.,The milk was left outside the fridge over night.,The man sipped the milk and spit it out.,True, The man left the milk outside the fridge over night.," The man sipped the milk and spit it out.
-The man went to the store. The"," The man sipped the milk and spit it out.
-The man left the milk outside the fridge", The man sipped the milk and spit it out. The milk was left outside the fridge over night
-38,The man couldn't hear what the woman was saying. The man turned down the music volume.,The man couldn't hear what the woman was saying.,The man turned down the music volume.,False, The man couldn't hear what the woman was saying., The man turned down the music volume., The man turned down the music volume.," The man couldn't hear what the woman was saying.
-
-The man sued. The floor was"
-39,The man turned down the music volume. The man couldn't hear what the woman was saying.,The man couldn't hear what the woman was saying.,The man turned down the music volume.,True, The man couldn't hear what the woman was saying.," The man turned down the music volume.
-
-The man didn't hear what the woman was saying"," The man turned down the music volume.
-
-The man couldn't hear what the woman was saying", The man couldn't hear what the woman was saying.
-40,The power was out for days. The meat spoiled.,The power was out for days.,The meat spoiled.,False," The power was out for days.
-The sun was shining. The sky was dark.", The meat spoiled., The meat spoiled., The power was out for days. The meat spoiled.
-41,The meat spoiled. The power was out for days.,The power was out for days.,The meat spoiled.,True, The meat spoiled. The power was out for days., The meat spoiled.," The meat spoiled.
-The meat was wet. The meat was in the oven.", The power was out for days.
-42,The gardener planted a seed. A flower grew.,The gardener planted a seed.,A flower grew.,False," The gardener planted a seed.
-
-The girl skipped school. The girl got detention.
-", A flower grew.," A flower grew.
-
-The man was reading the paper when he was surprised by a call from"," The gardener planted a seed.
-The man went to the store. The store was closed."
-43,A flower grew. The gardener planted a seed.,The gardener planted a seed.,A flower grew.,True," A flower grew.
-A flower grew.
-A flower grew.
-A flower grew.
-"," A flower grew. The gardener planted a seed.
-
-A snowstorm was called for."," A flower grew.
-
-The man got lost in the woods. A search party was assembled.", A flower grew. The gardener planted a seed.
-44,The team won the game. The team won the championship.,The team won the game.,The team won the championship.,False, The team won the game.," The team won the championship.
-
-The team won the game. They won the championship.", The team won the championship., The team won the game.
-45,The team won the championship. The team won the game.,The team won the game.,The team won the championship.,True, The team won the game.," The team won the championship.
-The family went to the beach. The family went to the beach"," The team won the championship.
-The man was carrying a lot of money. He had a lot", The team won the game.
-46,The door was locked. The man climbed in through the window.,The door was locked.,The man climbed in through the window.,False," The door was locked.
-The sun was setting. Question: Which sentence caused the other? Answer", The man climbed in through the window., The man climbed in through the window.," The door was locked.
-
-The man climbed in through the window."
-47,The man climbed in through the window. The door was locked.,The door was locked.,The man climbed in through the window.,True, The man climbed in through the window., The man climbed in through the window., The man climbed in through the window., The man climbed in through the window. The door was locked.
-48,The wind blew strong. The ship capsized.,The wind blew strong.,The ship capsized.,False," The wind blew strong.
-The boy was mad. The boy threw a rock.", The ship capsized., The wind blew strong. The ship capsized., The wind blew strong.
-49,The ship capsized. The wind blew strong.,The wind blew strong.,The ship capsized.,True, The wind blew strong.," The ship capsized.
-The sun set. The sky was dark."," The ship capsized.
-The man was caught stealing. The man went to jail.","
-
-The wind blew strong."
-50,The man robbed a gas station. The man went to jail.,The man robbed a gas station.,The man went to jail.,False," The man robbed a gas station. He went to jail.
-The man was robbing a gas station"," The man robbed a gas station. The man went to jail.
-
-The man went to jail", The man went to jail.," The man robbed a gas station.
-
-The man robbed a gas station. The man went to"
-51,The man went to jail. The man robbed a gas station.,The man robbed a gas station.,The man went to jail.,True, The man robbed a gas station., The man went to jail.," The man went to jail.
-The man robbed a gas station.
-
-The man went to", The man robbed a gas station.
-52,Jill won the lawsuit against Acme. Acme paid Jill's legal fees.,Jill won the lawsuit against Acme.,Acme paid Jill's legal fees.,False," Jill won the lawsuit against Acme.
-
-The family went to the beach.", Jill won the lawsuit against Acme. Acme paid Jill's legal fees., Jill won the lawsuit against Acme. Acme paid Jill's legal fees., Jill won the lawsuit against Acme. Acme paid Jill's legal fees.
-53,Acme paid Jill's legal fees. Jill won the lawsuit against Acme.,Jill won the lawsuit against Acme.,Acme paid Jill's legal fees.,True, Jill won the lawsuit against Acme., Acme paid Jill's legal fees. Jill won the lawsuit against Acme.," The girl skipped school.
-
-The driver ran a red light. The driver was pulled over and", Jill won the lawsuit against Acme.
-54,There was a snowstorm. School was cancelled.,There was a snowstorm.,School was cancelled.,False, There was a snowstorm., There was a snowstorm. School was cancelled., There was a snowstorm. School was cancelled., There was a snowstorm.
-55,School was cancelled. There was a snowstorm.,There was a snowstorm.,School was cancelled.,True, There was a snowstorm., The school was cancelled., School was cancelled. There was a snowstorm., There was a snowstorm.
-56,The tenants noticed mold on the bathroom ceiling. The tenants contacted their landlord.,The tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord.,False, The tenants contacted their landlord., The tenants contacted their landlord., The tenants contacted their landlord.," The tenants noticed mold on the bathroom ceiling.
-The tenants contacted their landlord.
-The tenants noticed"
-57,The tenants contacted their landlord. The tenants noticed mold on the bathroom ceiling.,The tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord.,True, The tenants noticed mold on the bathroom ceiling.," The tenants contacted their landlord.
-The sun was setting. The man was running late."," The tenants contacted their landlord.
-The company's posted strong earnings. The company's stock went up", The tenants noticed mold on the bathroom ceiling.
-58,I studied hard. I got an A on the test.,I studied hard.,I got an A on the test.,False," I studied hard.
-I lost the battle with cancer. Question: Which sentence caused the other?", I studied hard. I got an A on the test., The team won the game., I studied hard.
-59,I got an A on the test. I studied hard.,I studied hard.,I got an A on the test.,True, I studied hard.," I got an A on the test.
-I put my book away. Question: Which sentence is"," I got an A on the test. I studied hard.
-I dropped my school book off at", I studied hard.
-60,The boy threw a rock. The window broke.,The boy threw a rock.,The window broke.,False," The boy threw a rock.
-
-The man threw a rock at the woman.", The window broke.," The window broke.
-
-The man had been pushing his wife against a wall. She was screaming"," The boy threw a rock.
-
-The boy threw a rock. The window broke."
-61,The window broke. The boy threw a rock.,The boy threw a rock.,The window broke.,True, The boy threw a rock.," The window broke.
-
-The man went to jail. The man robbed a gas station."," The window broke.
-
-The man threw a rock at the window.", The window broke.
-62,The driver ran a red light. The driver was pulled over and was fined.,The driver ran a red light.,The driver was pulled over and was fined.,False," The driver ran a red light.
-The driver was pulled over and was fined.", The driver was pulled over and was fined., The driver ran a red light. The driver was pulled over and was fined., The driver ran a red light. The driver was pulled over and was fined.
-63,The driver was pulled over and was fined. The driver ran a red light.,The driver ran a red light.,The driver was pulled over and was fined.,True, The driver ran a red light.," The driver was pulled over and was fined.
-The man was covered in red goo. His"," The driver was pulled over and was fined.
-The speaker's phone was working but they didn't", The driver ran a red light.
-64,The girl skipped school. The girl got detention.,The girl skipped school.,The girl got detention.,False," The girl skipped school.
-
-The man sued.
-
-Someone fainted.
-Someone called"," The girl got detention.
-
-The tenant's tenant noticed mold on the bathroom ceiling. The tenants", The girl skipped school.," The girl skipped school.
-
-The dog bit me. I pulled the dog's tail.
-"
-65,The girl got detention. The girl skipped school.,The girl skipped school.,The girl got detention.,True, The girl skipped school.," The girl got detention.
-
-The girl skipped school.
-
-The man got lost in the"," The girl got detention.
-
-The girl skipped school.","
-
-The girl got detention."
-66,I flipped the switch. Light filled the room.,I flipped the switch.,Light filled the room.,False," I flip the switch.
-
-The light went out. The power went out. For a few"," The light filled the room.
-
-The tenant's tenant's tenant's
-
-The tenant's", I flipped the switch.," I flip the switch.
-
-The computer screen went blank."
-67,Light filled the room. I flipped the switch.,I flipped the switch.,Light filled the room.,True," The light filled the room. I flipped the switch.
-
-The woman who was walking on the"," The light filled the room.
-I hit the ground and screamed."," The light filled the room.
-The window was open. The man was in the other room."," The light filled the room. I flipped the switch.
-The sun was shining. Question: Which"
-68,I pulled the dog's tail. The dog bit me.,I pulled the dog's tail.,The dog bit me.,False," I pulled the dog's tail.
-The man committed suicide. The man was found dead.", The dog bit me., The dog bit me.," I pulled the dog's tail.
-
-The dog bit me."
-69,The dog bit me. I pulled the dog's tail.,I pulled the dog's tail.,The dog bit me.,True, I pulled the dog's tail., The dog bit me., The dog bit me., The dog's tail.
-70,School was on break. The family went on vacation.,School was on break.,The family went on vacation.,False," The family went on vacation.
-The sun was setting. The boy was frustrated.
-Question:", The family went on vacation., The family went on vacation., The family went on vacation.
-71,The family went on vacation. School was on break.,School was on break.,The family went on vacation.,True, Which sentence caused the other?," The family went on vacation. School was on break.
+There was a loud noise. The boy lifted his eyes from"
+11,The boy lifted his eyes from the book. There was a loud noise.,There was a loud noise.,The boy lifted his eyes from the book.,True, There was a loud noise.," The boy lifted his eyes from the book.
 The sun was setting.
 
-The"," The family went on vacation.
-The girl was sick in the hospital. Question: Which sentence caused"," The family went on vacation.
-The sun was setting. The sky was dark."
-72,The air conditioner broke. The family went to the beach.,The air conditioner broke.,The family went to the beach.,False," The air conditioner broke.
-The sun was shining. The sky was dark.", The family went to the beach.,"
+The pilot turned"," The boy lifted his eyes from the book.
 
-The family went to the beach.
+The man sipped the milk and spit it", There was a loud noise.
+12,The girl had a nightmare. The girl woke up covered in cold sweat.,The girl had a nightmare.,The girl woke up covered in cold sweat.,False,"
 
-The air conditioner broke.
+The girl had a nightmare. The girl woke up covered in cold sweat.", The girl had a nightmare. The girl woke up covered in cold sweat., The girl woke up covered in cold sweat.," The girl had a nightmare.
+The man went to the store. The man went to the store"
+13,The girl woke up covered in cold sweat. The girl had a nightmare.,The girl had a nightmare.,The girl woke up covered in cold sweat.,True," The girl woke up covered in cold sweat.
+The cat slept through the night. A man caught", The girl woke up covered in cold sweat., The girl woke up covered in cold sweat., The girl woke up covered in cold sweat. The girl had a nightmare.
+14,It started raining. The driver turned the wipers on.,It started raining.,The driver turned the wipers on.,False, It started raining., It started raining., The driver turned the wipers on., It started raining.
+15,The driver turned the wipers on. It started raining.,It started raining.,The driver turned the wipers on.,True, The driver turned the wipers on. It started raining., The driver turned the wipers on. It started raining.,"
 
-The"," The air conditioner broke.
+The driver turned the wipers on. It started raining.", The driver turned the wipers on.
+16,A watermelon exploded. A man was covered in sticky red goo.,A watermelon exploded.,A man was covered in sticky red goo.,False," A watermelon exploded.
 
-The family went to the beach.
+A man was covered in sticky red goo."," A man was covered in sticky red goo.
+A rock got stuck in the air. It"," A man was covered in sticky red goo.
+A stone hit me in the face. Question"," A watermelon exploded.
 
-The family went"
-73,The family went to the beach. The air conditioner broke.,The air conditioner broke.,The family went to the beach.,True, The air conditioner broke., The family went to the beach.," The family went to the beach.
-The man's shirt was in the oven. The oven was"," The family went to the beach.
-The team won the game. The team won the championship."
-74,The girl had a fever. Mom gave the girl fever medicine.,The girl had a fever.,Mom gave the girl fever medicine.,False," The girl had a fever.
+The man climbed in through the window. The door was locked."
+17,A man was covered in sticky red goo. A watermelon exploded.,A watermelon exploded.,A man was covered in sticky red goo.,True, A watermelon exploded.," The girl got detention.
 
-Mom gave the girl fever medicine."," The girl had a fever. Mom gave the girl fever medicine.
-The baby was crying. The", The girl had a fever. Mom gave the girl fever medicine.," The girl had a fever.
-The car was broken down. The car was broken down.
-"
-75,Mom gave the girl fever medicine. The girl had a fever.,The girl had a fever.,Mom gave the girl fever medicine.,True, The girl had a fever., Mom gave the girl fever medicine. The girl had a fever.," The girl had a fever.
+The girl got detention. The girl skipped school."," A man was covered in sticky red goo.
+A watermelon exploded.", A watermelon exploded.
+18,She noticed that she was out of toilet paper. She went to the store and bought toilet paper.,She noticed that she was out of toilet paper.,She went to the store and bought toilet paper.,False," She noticed that she was out of toilet paper.
+She noticed that she was out of toilet paper", The child started crying., The woman went to the store and bought toilet paper.," She noticed that she was out of toilet paper.
+She went to the store and bought toilet paper"
+19,She went to the store and bought toilet paper. She noticed that she was out of toilet paper.,She noticed that she was out of toilet paper.,She went to the store and bought toilet paper.,True, She noticed that she was out of toilet paper.," She went to the store and bought toilet paper. 
 
-The girl had a fever. Mom gave the girl fever medicine", The girl had a fever.
-76,The bread was dry. We made French toast.,The bread was dry.,We made French toast.,False," The bread was dry.
-My clothes got dirty. I put my clothes in the washing machine.","
+The man sued. The floor was"," She went to the store and bought toilet paper. 
+She went to the store and bought a", The girl noticed that she was out of toilet paper.
+20,A large object hit the Earth. The dinosaurs became extinct.,A large object hit the Earth.,The dinosaurs became extinct.,False, A large object hit the Earth. The dinosaurs became extinct.," A large object hit the Earth. The dinosaurs became extinct.
+A rock hit the floor. A", The dinosaurs became extinct.," A large object hit the Earth.
 
-The bread was dry. We made French toast."," The bread was dry.
-The sun was setting. Question: Which sentence caused the other? ", The bread was dry.
-77,We made French toast. The bread was dry.,The bread was dry.,We made French toast.,True," The bread was dry.
+A large object hit the Earth. The dinosaurs became extinct"
+21,The dinosaurs became extinct. A large object hit the Earth.,A large object hit the Earth.,The dinosaurs became extinct.,True, A large object hit the Earth., The dinosaurs became extinct.," A large object hit the Earth.
 
-The soda went flat. The bottle was left open.
+The wind blew strong. The ship capsized.", A large object hit the Earth.
+22,The bottle was left open. The soda went flat.,The bottle was left open.,The soda went flat.,False,"
 
-"," We made French toast.
-The man was covered in blood. The door was locked."," We made French toast.
+The bottle was left open. The soda went flat.","
 
-The bread was dry.", The bread was dry.
-78,The company's posted strong earnings. The company's stock went up.,The company's posted strong earnings.,The company's stock went up.,False, The company's stock went up., The company's stock went up., The company's stock went up., The company's stock went up.
-79,The company's stock went up. The company's posted strong earnings.,The company's posted strong earnings.,The company's stock went up.,True, The company's posted strong earnings.," The company's stock went up.
-The child was sick. The child was sick. Question:", The company's stock went up. The company's strong earnings.," The company's posted strong earnings.
+The bottle was left open. The soda went flat.", The soda went flat.," The bottle was left open.
+The soda went flat."
+23,The soda went flat. The bottle was left open.,The bottle was left open.,The soda went flat.,True, The bottle was left open.," The soda went flat.
+The man went to the hospital. The man was injured."," The soda went flat.
 
-The company's stock went up. The company's posted"
-80,My clothes got dirty. I put my clothes in the washing machine.,My clothes got dirty.,I put my clothes in the washing machine.,False, My clothes got dirty.," My clothes got dirty.
-The sun was setting. The sky was dark.", My clothes got dirty.," My clothes got dirty.
+The driver turned the wipers on.
 
-My clothes got dirty. I put my clothes in the washing machine"
-81,I put my clothes in the washing machine. My clothes got dirty.,My clothes got dirty.,I put my clothes in the washing machine.,True, I put my clothes in the washing machine. My clothes got dirty.," I put my clothes in the washing machine.
+Question: Which"," The soda was left open.
 
-I put my clothes in the washing machine."," I put my clothes in the washing machine.
-I put my clothes in the dryer.
-", My clothes got dirty.
-82,My friend got a promotion. My friend celebrated with their family.,My friend got a promotion.,My friend celebrated with their family.,False," My friend got a promotion.
-My friend celebrated with their family."," My friend celebrated with their family.
-My friend got a promotion. My friend celebrated with their family"," My friend got a promotion.
-My friend celebrated with their family.", My friend got a promotion.
-83,My friend celebrated with their family. My friend got a promotion.,My friend got a promotion.,My friend celebrated with their family.,True, My friend got a promotion., My friend celebrated with their family.," My friend celebrated with their family.
+The chicken hit the engine. The pilot turned on the """
+24,The laptop ran out of battery. George plugged the laptop charger in.,The laptop ran out of battery.,George plugged the laptop charger in.,False," The laptop ran out of battery.
+The sun was setting. Question: Which sentence caused the other", The laptop ran out of battery., The laptop ran out of battery.," The laptop ran out of battery.
+The family went to the beach. The air conditioner broke"
+25,George plugged the laptop charger in. The laptop ran out of battery.,The laptop ran out of battery.,George plugged the laptop charger in.,True, The laptop ran out of battery., The driver hit the brakes., The laptop ran out of battery., George plugged the laptop charger in. The laptop ran out of battery.
+26,The curtains were opened. Sunlight filled the room.,The curtains were opened.,Sunlight filled the room.,False," The curtains were opened.
 
-My friend got a promotion.", My friend got a promotion.
-84,The basketball player was shoved. The basketball player took a free throw.,The basketball player was shoved.,The basketball player took a free throw.,False," A bird hit the engine.
+The man was pushed out the door. The man was able to", The curtains were opened. Sunlight filled the room., Sunlight filled the room., The curtains were opened. Sunlight filled the room.
+27,Sunlight filled the room. The curtains were opened.,The curtains were opened.,Sunlight filled the room.,True,"
 
-The chicken hit the egg. The chicken hatched and grew into", The basketball player took a free throw., The basketball player took a free throw., The basketball player was shoved.
-85,The basketball player took a free throw. The basketball player was shoved.,The basketball player was shoved.,The basketball player took a free throw.,True," The basketball player took a free throw.
-The man was dragged over the ground. The man was"," The basketball player took a free throw.
+The curtains were opened.
 
-The man was found dead. The man died from"," The basketball player took a free throw.
-The basketball player was shoved.
+The sunlight filled the room. The curtains were opened.", The sunlight filled the room. The curtains were opened.,"
 
-The gardener"," The basketball player took a free throw. The basketball player was shoved.
-The sun was setting."
-86,Alice didn't wake up. Alice missed her flight.,Alice didn't wake up.,Alice missed her flight.,False," Alice didn't wake up.
+The sky was dark. The clouds were orange. The wind was strong.", The curtains were opened.
+28,The insect pollinated the tomato flowers. Tomatoes grew on the vine.,The insect pollinated the tomato flowers.,Tomatoes grew on the vine.,False," The insect pollinated the tomato flowers.
+The dog ate the apple.
 
-There was a power outage. The sun went out.", Alice missed her flight., Alice missed her flight.," Alice didn't wake up. 
+The driver ran"," The insect pollinated the tomato flowers.
 
-The man sipped the milk and spit it out."
-87,Alice missed her flight. Alice didn't wake up.,Alice didn't wake up.,Alice missed her flight.,True," Sunlight filled the room. The curtains were opened.
-
-The driver hit the brakes. The"," Alice missed her flight.
-
-The dog bit me. The effect of the other sentence is not"," Alice missed her flight.
-
-The oven was out of order. The customer asked for a repair", The child started crying.
-88,The floor was wet. The man sued.,The floor was wet.,The man sued.,False," The floor was wet.
-The man was too tired to make it to the bathroom. The man", The floor was wet.," The man sued.
-
-The floor was wet. The man sued. The man hit the engine"," The floor was wet.
-
-The man sued."
-89,The man sued. The floor was wet.,The floor was wet.,The man sued.,True," The floor was wet.
-
-The woman who was walking on the street opened her umbrella. It", The man sued.," The man sued.
+The girl had a fever. My mom gave her"," The insect pollinated the tomato flowers. Tomatoes grew on the vine.
+The family went on", The insect pollinated the tomato flowers. Tomatoes grew on the vine.
+29,Tomatoes grew on the vine. The insect pollinated the tomato flowers.,The insect pollinated the tomato flowers.,Tomatoes grew on the vine.,True, The insect pollinated the tomato flowers., The insect pollinated the tomato flowers., The insects pollinated the tomato flowers., The insect pollinated the tomato flowers.
+30,The girl stepped onto the street. The driver hit the brakes.,The girl stepped onto the street.,The driver hit the brakes.,False," The girl stepped onto the street.
+The dog barked. The dog ate a can.
+", The driver hit the brakes., The driver hit the brakes., The girl stepped onto the street.
+31,The driver hit the brakes. The girl stepped onto the street.,The girl stepped onto the street.,The driver hit the brakes.,True," The driver hit the brakes.
 
 The man sued. The floor was wet.
 
-The man sued", The floor was wet.
-90,It rained. The picnic was cancelled.,It rained.,The picnic was cancelled.,False,"
+The", The driver hit the brakes., The driver hit the brakes., The driver hit the brakes.
+32,There was a wardrobe malfunction. The performer ran off the stage.,There was a wardrobe malfunction.,The performer ran off the stage.,False," There was a wardrobe malfunction.
+The man was carrying a large bag. The bag was heavy.", The performer ran off the stage.," There was a wardrobe malfunction.
 
-It rained. The picnic was cancelled.", The picnic was cancelled., The picnic was cancelled., It rained.
-91,The picnic was cancelled. It rained.,It rained.,The picnic was cancelled.,True, It rained., The picnic was cancelled. It rained.," The picnic was cancelled.
-The girl had a headache. Mom gave the girl headache medicine.", It rained.
+There was a wardrobe malfunction. The performer ran off the stage"," There was a wardrobe malfunction.
+
+The girl was crying. The man came over to her."
+33,The performer ran off the stage. There was a wardrobe malfunction.,There was a wardrobe malfunction.,The performer ran off the stage.,True, There was a wardrobe malfunction.," The performer ran off the stage.
+The dog barked a message. The message was ""stop"," The performer ran off the stage.
+The cat ate the dog. The dog was sick.
+"," There was a wardrobe malfunction.
+The oven was overloading. The customer asked for a refund."
+34,"A bird hit the engine. The pilot turned on the ""fasten seatbelts"" light.",A bird hit the engine.,"The pilot turned on the ""fasten seatbelts"" light.",False," A bird hit the engine.
+A person fainted. A person called 911."," A bird hit the engine. The pilot turned on the ""fasten seatbelts"" light."," The pilot turned on the ""fasten seatbelts"" light."," A bird hit the engine.
+A rock hit the bus. The driver turned on the ""fast"
+35,"The pilot turned on the ""fasten seatbelts"" light. A bird hit the engine.",A bird hit the engine.,"The pilot turned on the ""fasten seatbelts"" light.",True," A bird hit the engine.
+The teacher was late. The student wrote the story.
+Question"," The pilot turned on the ""fasten seatbelts"" light.
+The dog bit me."," The pilot turned on the ""fasten seatbelts"" light.
+The man climbed in through"," The pilot turned on the ""fasten seatbelts"" light.
+The man turned down the"
+36,The milk was left outside the fridge over night. The man sipped the milk and spit it out.,The milk was left outside the fridge over night.,The man sipped the milk and spit it out.,False," The milk was left outside the fridge over night.
+The man sipped the milk and spit it", The man sipped the milk and spit it out., The man sipped the milk and spit it out.," The milk was left outside the fridge over night.
+The man went to the store. He wanted"
+37,The man sipped the milk and spit it out. The milk was left outside the fridge over night.,The milk was left outside the fridge over night.,The man sipped the milk and spit it out.,True," The man sipped the milk and spit it out.
+The man saw the other man walk into"," The man sipped the milk and spit it out.
+The cat slept through the storm. The"," The man sipped the milk and spit it out.
+The tenant's cat was out of the"," The man sipped the milk and spit it out.
+The sun was setting. The question was"
+38,The man couldn't hear what the woman was saying. The man turned down the music volume.,The man couldn't hear what the woman was saying.,The man turned down the music volume.,False," The man couldn't hear what the woman was saying.
+
+The man couldn't hear what the", The man turned down the music volume., The man turned down the music volume.,"
+
+The man turned down the music volume."
+39,The man turned down the music volume. The man couldn't hear what the woman was saying.,The man couldn't hear what the woman was saying.,The man turned down the music volume.,True, The man couldn't hear what the woman was saying., The man turned down the music volume., The man turned down the music volume., The man couldn't hear what the woman was saying.
+40,The power was out for days. The meat spoiled.,The power was out for days.,The meat spoiled.,False, The power was out for days. The meat spoiled., The meat spoiled., The meat spoil., The power was out for days. The meat spoiled.
+41,The meat spoiled. The power was out for days.,The power was out for days.,The meat spoiled.,True, The power was out for days., The meat spoiled., The meat spoiled., The meat was out of control. The power was out for days.
+42,The gardener planted a seed. A flower grew.,The gardener planted a seed.,A flower grew.,False," The girl had a nightmare.
+The car crashed. The family went to the beach.", A flower grew., A flower grew.," The gardener planted a seed.
+
+The speaker was frustrated. They took their time getting the"
+43,A flower grew. The gardener planted a seed.,The gardener planted a seed.,A flower grew.,True, A flower grew. The gardener planted a seed., The company's stock went up.," A flower grew.
+The cat ate a can. The cat was sick."," A flower grew. The gardener planted a seed.
+The cat ate the dog's food."
+44,The team won the game. The team won the championship.,The team won the game.,The team won the championship.,False, The team won the game., The team won the championship., The team won the championship.," The team won the game.
+
+The man sipped the milk and spit it out. The"
+45,The team won the championship. The team won the game.,The team won the game.,The team won the championship.,True, The team won the game., The team won the championship.," The team won the championship.
+The boy threw a rock. The window broke.", The team won the championship.
+46,The door was locked. The man climbed in through the window.,The door was locked.,The man climbed in through the window.,False," The door was locked.
+The baby was sick. The mother went to the hospital.", The man climbed in through the window., The man climbed in through the window., The door was locked. The man climbed in through the window.
+47,The man climbed in through the window. The door was locked.,The door was locked.,The man climbed in through the window.,True," The man climbed in through the window.
+
+The man climbed in through the window. The door", The man climbed in through the window., The man climbed in through the window., The door was locked.
+48,The wind blew strong. The ship capsized.,The wind blew strong.,The ship capsized.,False," The wind blew strong.
+The cat slept in the shoe. The cat slept in the shoe.", The wind blew strong. The ship capsized., The ship capsized.," The wind blew strong.
+
+The dog bit me. I pulled the dog's tail."
+49,The ship capsized. The wind blew strong.,The wind blew strong.,The ship capsized.,True, The wind blew strong.," The ship capsized. 
+The sun set. Question: Which sentence is the effect of the"," The ship capsized.
+The starboard engine stopped working. The starboard engine was in the", The wind blew strong.
+50,The man robbed a gas station. The man went to jail.,The man robbed a gas station.,The man went to jail.,False," The man robbed a gas station.
+
+The man was sick. He needed to be out of", The man went to jail.," The man robbed a gas station.
+The man went to jail.", The man robbed a gas station.
+51,The man went to jail. The man robbed a gas station.,The man robbed a gas station.,The man went to jail.,True, The man robbed a gas station., The man went to jail.,"
+
+The man went to jail.", The man robbed a gas station.
+52,Jill won the lawsuit against Acme. Acme paid Jill's legal fees.,Jill won the lawsuit against Acme.,Acme paid Jill's legal fees.,False, Jill won the lawsuit against Acme. Acme paid Jill's legal fees., Jill won the lawsuit against Acme. Acme paid Jill's legal fees.," Jill won the lawsuit against Acme. Acme paid Jill's legal fees.
+The man went"," Jill won the lawsuit against Acme.
+
+Jill won the lawsuit against Acme. Ac"
+53,Acme paid Jill's legal fees. Jill won the lawsuit against Acme.,Jill won the lawsuit against Acme.,Acme paid Jill's legal fees.,True, Jill won the lawsuit against Acme., Acme paid Jill's legal fees. Jill won the lawsuit against Acme., Acme paid Jill's legal fees. Jill won the lawsuit against Acme., Acme paid Jill's legal fees. Jill won the lawsuit against Acme.
+54,There was a snowstorm. School was cancelled.,There was a snowstorm.,School was cancelled.,False," There was a snowstorm.
+
+There was a power outage. A tree fell. Question:", School was cancelled., There was a snowstorm. School was cancelled., There was a snowstorm. School was cancelled.
+55,School was cancelled. There was a snowstorm.,There was a snowstorm.,School was cancelled.,True," There was a snowstorm.
+
+The sun was setting."," School was cancelled.
+
+The man turned down the music volume. The man couldn't hear what", The child started crying., There was a snowstorm.
+56,The tenants noticed mold on the bathroom ceiling. The tenants contacted their landlord.,The tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord.,False," The tenants noticed mold on the bathroom ceiling.
+
+The girl skipped school. The girl got detention", The tenants contacted their landlord., The tenants contacted their landlord., The tenants noticed mold on the bathroom ceiling.
+57,The tenants contacted their landlord. The tenants noticed mold on the bathroom ceiling.,The tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord.,True, The tenants noticed mold on the bathroom ceiling., The tenants contacted their landlord.," The tenants contacted their landlord.
+The sun was setting. The sky was dark.
+
+The", The tenants noticed mold on the bathroom ceiling.
+58,I studied hard. I got an A on the test.,I studied hard.,I got an A on the test.,False," I studied hard.
+
+There was a loud noise. The boy lifted his eyes from the book", I studied hard. I got an A on the test., I studied hard.," I studied hard. I got an A on the test.
+I put my sunglasses on. The"
+59,I got an A on the test. I studied hard.,I studied hard.,I got an A on the test.,True, I studied hard.," I got an A on the test.
+
+I studied hard and got a good grade."," I got an A on the test.
+I studied hard.
+
+The insect pollinated the"," The team won the championship.
+
+The sentence is the effect of the other."
+60,The boy threw a rock. The window broke.,The boy threw a rock.,The window broke.,False," The boy threw a rock.
+
+The man went to the store. The man came back an", The window broke., The window broke., The boy threw a rock.
+61,The window broke. The boy threw a rock.,The boy threw a rock.,The window broke.,True, The boy threw a rock.," The window broke.
+
+The effect of the other sentence is that the speaker has a choice."," The window broke.
+The door was open. The cat ran in.
+
+The door was"," The boy threw a rock.
+
+The bus stopped at the edge of the village. The passengers"
+62,The driver ran a red light. The driver was pulled over and was fined.,The driver ran a red light.,The driver was pulled over and was fined.,False," The driver ran a red light.
+
+The man was injured and was taken to the hospital.", The driver was pulled over and was fined., The driver was pulled over and was fined., The driver ran a red light.
+63,The driver was pulled over and was fined. The driver ran a red light.,The driver ran a red light.,The driver was pulled over and was fined.,True, The driver ran a red light.," The driver was pulled over and was fined.
+The dog died. The dog was rushed to the"," The driver was pulled over and was fined.
+The dog was put in the kennel.", The driver ran a red light.
+64,The girl skipped school. The girl got detention.,The girl skipped school.,The girl got detention.,False, The girl skipped school., The girl got detention., The girl got detention.," The girl skipped school.
+
+The girl got detention."
+65,The girl got detention. The girl skipped school.,The girl skipped school.,The girl got detention.,True, The girl skipped school.," The girl got detention.
+
+The man was suing. The floor was wet.
+
+The"," The girl got detention.
+The man was sick. The man wanted to go home. Question:","
+
+The girl got detention. The girl skipped school."
+66,I flipped the switch. Light filled the room.,I flipped the switch.,Light filled the room.,False," I flipped the switch.
+
+The woman who was walking on the street opened her umbrella.", The light filled the room., The light filled the room.," I got an A on the test.
+
+Light filled the room. The curtains were opened."
+67,Light filled the room. I flipped the switch.,I flipped the switch.,Light filled the room.,True," The light filled the room.
+The man walked into the room. The door was open. Question", The light filled the room.," Light filled the room.
+
+The girl stepped onto the street. The driver hit the brakes.", The girl caught a cold.
+68,I pulled the dog's tail. The dog bit me.,I pulled the dog's tail.,The dog bit me.,False," I pulled the dog's tail.
+
+The man robbed a gas station. The man went to", The dog bit me., The dog bit me.," I pulled the dog's tail. The dog bit me.
+
+The team won the championship."
+69,The dog bit me. I pulled the dog's tail.,I pulled the dog's tail.,The dog bit me.,True, The dog's tail.," The dog bit me. I pulled the dog's tail.
+
+The car got dirty. I"," The dog bit me.
+
+The cat ate my clothes. I got a call from the cat", The dog bit me.
+70,School was on break. The family went on vacation.,School was on break.,The family went on vacation.,False," The family went on vacation.
+
+The man had been drinking. The man had been drinking when", The family went on vacation., The family went on vacation., The family went on vacation.
+71,The family went on vacation. School was on break.,School was on break.,The family went on vacation.,True, The family went on vacation., The family went on vacation.," The family went on vacation.
+
+The man didn't like his food. The woman didn't", The family went on vacation.
+72,The air conditioner broke. The family went to the beach.,The air conditioner broke.,The family went to the beach.,False," The air conditioner broke.
+
+The girl didn't wear her sweater. The girl caught a", The family went to the beach.," The family went to the beach.
+The cat slept through the storm. The dog slept through the"," The family went to the beach.
+The man was driving the car. The car was broken into"
+73,The family went to the beach. The air conditioner broke.,The air conditioner broke.,The family went to the beach.,True," The air conditioner broke.
+
+The family went to the beach. The family's car was","
+
+The family went to the beach. The air conditioner broke.", The family went to the beach.," The family went to the beach.
+The man had been pushing the vase off a counter."
+74,The girl had a fever. Mom gave the girl fever medicine.,The girl had a fever.,Mom gave the girl fever medicine.,False," The girl had a fever.
+The sun was setting. The sky was dark."," The girl had a fever. Mom gave the girl fever medicine.
+
+The man couldn't hear", Mom gave the girl fever medicine.," The girl had a fever.
+
+The girl had a fever. Mom gave the girl fever medicine"
+75,Mom gave the girl fever medicine. The girl had a fever.,The girl had a fever.,Mom gave the girl fever medicine.,True, The girl had a fever.," Mom gave the girl fever medicine.
+The man took the girl out for a walk. The man"," Mom gave the girl fever medicine.
+A rock hit the girl in the face. The girl was", The girl had a fever.
+76,The bread was dry. We made French toast.,The bread was dry.,We made French toast.,False," The bread was dry. We made French toast.
+The sun was shining. The sky was dark"," The bread was dry. We made French toast.
+
+The bread was dry. We made French", We made French toast.," The bread was dry.
+
+We made French toast."
+77,We made French toast. The bread was dry.,The bread was dry.,We made French toast.,True, The bread was dry., The bread was dry.," The bread was dry.
+
+The floor was wet. The man sued. Question: Which sentence", The bread was dry.
+78,The company's posted strong earnings. The company's stock went up.,The company's posted strong earnings.,The company's stock went up.,False, The company's stock went up., The company's stock went up., The company's stock went up.," The company's posted strong earnings.
+The girl was very sad. The girl's mom was sad"
+79,The company's stock went up. The company's posted strong earnings.,The company's posted strong earnings.,The company's stock went up.,True, The company's posted strong earnings.," The company's stock went up.
+
+The man climbed in through the window. The door was"," The company's stock went up.
+The sun was setting. Question: Which sentence caused the other", The company's posted strong earnings.
+80,My clothes got dirty. I put my clothes in the washing machine.,My clothes got dirty.,I put my clothes in the washing machine.,False," My clothes got dirty.
+My clothes got dirty. My clothes got dirty. My clothes got dirty"," My clothes got dirty. I put my clothes in the washing machine.
+My phone was off my"," I put my clothes in the washing machine.
+My school was closed. My school was closed for"," My clothes got dirty.
+
+My clothes got dirty. I put my clothes in the washing machine"
+81,I put my clothes in the washing machine. My clothes got dirty.,My clothes got dirty.,I put my clothes in the washing machine.,True, My clothes got dirty.," The man put his clothes in the washing machine.
+The man's car was crashed. The man"," I put my clothes in the washing machine.
+The sun was setting. The moon was up.", The clothes got dirty.
+82,My friend got a promotion. My friend celebrated with their family.,My friend got a promotion.,My friend celebrated with their family.,False," My friend got a promotion.
+The family of the thief went to the police. The family of", My friend got a promotion., My friend celebrated with their family.," My friend got a promotion.
+
+My friend got a promotion. My friend celebrated with their family"
+83,My friend celebrated with their family. My friend got a promotion.,My friend got a promotion.,My friend celebrated with their family.,True, My friend got a promotion., My friend celebrated with their family. My friend got a promotion.," My friend celebrated with their family.
+My friend got a promotion.", My friend got a promotion.
+84,The basketball player was shoved. The basketball player took a free throw.,The basketball player was shoved.,The basketball player took a free throw.,False, The basketball player was shoved., The basketball player took a free throw., The basketball player took a free throw., The basketball player was shoved.
+85,The basketball player took a free throw. The basketball player was shoved.,The basketball player was shoved.,The basketball player took a free throw.,True, The basketball player took a free throw. The basketball player was shoved.," The basketball player took a free throw.
+The player was pushed.
+
+The player was pushed","
+
+The basketball player took a free throw. The basketball player was shoved."," The basketball player took a free throw.
+The basketball player was shoved.
+
+The girl had"
+86,Alice didn't wake up. Alice missed her flight.,Alice didn't wake up.,Alice missed her flight.,False," Alice didn't wake up.
+
+Alice didn't wake up. She was surprised by her friend", Alice missed her flight., Alice missed her flight.,"
+
+The man sued. The floor was wet."
+87,Alice missed her flight. Alice didn't wake up.,Alice didn't wake up.,Alice missed her flight.,True, Alice didn't wake up., Alice missed her flight.," Alice missed her flight.
+The dog was sick. The dog didn't have a care in the", Alice didn't wake up.
+88,The floor was wet. The man sued.,The floor was wet.,The man sued.,False," The floor was wet.
+
+The man sued.", The man sued.," The man sued.
+
+The company's stock went up. The company's posted strong earnings."," The floor was wet.
+The sun was shining. The sky was dark."
+89,The man sued. The floor was wet.,The floor was wet.,The man sued.,True, The floor was wet.," The man sued.
+The man was sick. The room was wet."," The man sued.
+The man was dragged through the air. Question: Which sentence caused the other", The floor was wet.
+90,It rained. The picnic was cancelled.,It rained.,The picnic was cancelled.,False," It rained.
+
+The girl was crying. The man walked over to her. The man", The picnic was cancelled., The picnic was cancelled., It rained.
+91,The picnic was cancelled. It rained.,It rained.,The picnic was cancelled.,True, It rained., The picnic was cancelled.," The picnic was cancelled.
+The man was sick. The man had a fever.", It rained.
 92,The girl didn't wear her sweater. The girl caught a cold.,The girl didn't wear her sweater.,The girl caught a cold.,False," The girl didn't wear her sweater.
-The girl's school was closed. The girl got in", The girl caught a cold.,"
+There was a loud noise. The boy lifted his eyes", The girl didn't wear her sweater., The girl didn't wear their sweater., The girl didn't wear her sweater.
+93,The girl caught a cold. The girl didn't wear her sweater.,The girl didn't wear her sweater.,The girl caught a cold.,True," The girl caught a cold.
 
-The girl didn't wear her sweater. The girl caught a cold."," The girl didn't wear her sweater.
+The girl caught a cold. The girl didn't wear her", The girl caught a cold.," The girl caught a cold.
+The family moved to a new house. Question: Which sentence caused"," The girl caught a cold.
 
-The girl didn't wear her sweater. The girl"
-93,The girl caught a cold. The girl didn't wear her sweater.,The girl didn't wear her sweater.,The girl caught a cold.,True, The girl didn't wear her sweater., The girl caught a cold., The girl caught a cold., The girl didn't wear her sweater.
-94,The man got lost in the woods. A search party was assembled.,The man got lost in the woods.,A search party was assembled.,False," The man got lost in the woods.
-The man was found dead.", A search party was assembled., The man got lost in the woods.," The man got lost in the woods.
-The boy got his phone stolen. Question: Which sentence"
+The family went on vacation.
+
+The girl stepped onto"
+94,The man got lost in the woods. A search party was assembled.,The man got lost in the woods.,A search party was assembled.,False,"
+
+The man got lost in the woods. A search party was assembled.", A search party was assembled., A search party was assembled., The man got lost in the woods. A search party was assembled.
 95,A search party was assembled. The man got lost in the woods.,The man got lost in the woods.,A search party was assembled.,True, The man got lost in the woods., A search party was assembled. The man got lost in the woods.," A search party was assembled.
-A search party was assembled. The man got lost in the woods", The man got lost in the woods.
-96,Ted went out drinking. Ted had a hangover.,Ted went out drinking.,Ted had a hangover.,False, Ted went out drinking., Ted had a hangover., Ted had a hangover., The tenants contacted their landlord.
-97,Ted had a hangover. Ted went out drinking.,Ted went out drinking.,Ted had a hangover.,True, Ted went out drinking.," Ted had a hangover. 
-The cat slept through the night. The cat was spooked"," Ted had a hangover.
-The baby was sick. The parents went to the hospital. Question", Ted went out drinking.
-98,Alice ate the last cookie. Bob opened the jar and was frustrated.,Alice ate the last cookie.,Bob opened the jar and was frustrated.,False," Alice ate the last cookie.
-A book was opened and pages were torn out. Question: Which"," Alice ate the last cookie.
+A search party was assembled. The man got lost in the woods", A search party was assembled.
+96,Ted went out drinking. Ted had a hangover.,Ted went out drinking.,Ted had a hangover.,False, The curtains were opened., Ted had a hangover., Ted had a hangover.,"
 
-The dog bit me."," Alice ate the last cookie.
+Ted went out drinking."
+97,Ted had a hangover. Ted went out drinking.,Ted went out drinking.,Ted had a hangover.,True, Ted went out drinking.," Ted had a hangover.
+", Ted had a hangover., Ted went out drinking.
+98,Alice ate the last cookie. Bob opened the jar and was frustrated.,Alice ate the last cookie.,Bob opened the jar and was frustrated.,False,"
 
-The door opened.
+The child started crying."," Alice ate the last cookie. Bob opened the jar and was frustrated.
+Bob was frustrated because he"," Alice ate the last cookie.
 
-Question: Which sentence caused the"," Alice ate the last cookie.
+The girl got detention. The girl skipped school."," Bob opened the jar and was frustrated.
+The man went to jail. The man robbed a gas"
+99,Bob opened the jar and was frustrated. Alice ate the last cookie.,Alice ate the last cookie.,Bob opened the jar and was frustrated.,True, Alice ate the last cookie.," Bob opened the jar and was frustrated.
 
-The man was looking for his cat. The cat was gone"
-99,Bob opened the jar and was frustrated. Alice ate the last cookie.,Alice ate the last cookie.,Bob opened the jar and was frustrated.,True,"
+The man sued. The floor was wet.
+", Bob opened the jar and was frustrated.,"
 
-Bob opened the jar and was frustrated. Alice ate the last cookie.", Bob opened the jar and was frustrated.," Bob opened the jar and was frustrated.
-The cat slept through the storm.
+The man climbed in through the window. 
+The man couldn't hear what the woman"
+100,Jimmy took the last piece of cake. Mom rinsed the tray.,Jimmy took the last piece of cake.,Mom rinsed the tray.,False, someone fainted.," Jimmy took the last piece of cake.
+The oven rang the alarm. The cook tried to get", The tray was rinsed., Jimmy took the last piece of cake.
+101,Mom rinsed the tray. Jimmy took the last piece of cake.,Jimmy took the last piece of cake.,Mom rinsed the tray.,True," The company's stock went up.
+The company's strong earnings."," Mom rinsed the tray.
+ Jimmy took the last piece of cake."," Mom rinsed the tray.
 
-The woman"," Bob went to the oven to get the cake.
-The sun was shining.
+The sun was shining. The sky was blue.
+"," Mom rinsed the tray.
 
-The sun"
-100,Jimmy took the last piece of cake. Mom rinsed the tray.,Jimmy took the last piece of cake.,Mom rinsed the tray.,False, The team won the game., Jimmy rinsed the tray., Jimmy took the last piece of cake. Mom rinsed the tray., Jimmy took the last piece of cake. Mom rinsed the tray.
-101,Mom rinsed the tray. Jimmy took the last piece of cake.,Jimmy took the last piece of cake.,Mom rinsed the tray.,True," Mom rinsed the tray.
-
-Jimmy took the last piece of cake.", The girl caught a cold.," The girl stepped onto the street.
-The man robbed a gas station. The man went to jail"," Mom rinsed the tray. Jimmy took the last piece of cake.
-
-The man accidentally"
+The team won the game. The team won the championship"

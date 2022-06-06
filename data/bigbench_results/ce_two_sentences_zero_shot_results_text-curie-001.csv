@@ -582,9 +582,7 @@ The first sentence caused the second","
 I pulled the dog's tail.
 
 The dog bit me."
-69,The dog bit me. I pulled the dog's tail.,I pulled the dog's tail.,The dog bit me.,True," I pulled the dog's tail.
-
-The sentence that caused the other is ""I pulled the","
+69,The dog bit me. I pulled the dog's tail.,I pulled the dog's tail.,The dog bit me.,True, I pulled the dog's tail.,"
 
 I pulled the dog's tail.
 
@@ -729,7 +727,7 @@ The sentence ""Alice didn't wake up."" caused","
 
 Alice didn't wake up.
 
-The sentence that Alice didn't wake up is the"
+The sentence ""Alice didn't wake up"" is"
 87,Alice missed her flight. Alice didn't wake up.,Alice didn't wake up.,Alice missed her flight.,True,"
 
 Alice didn't wake up.

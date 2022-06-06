@@ -1,303 +1,352 @@
 ,sequence,answer_cause,switched,responses,responses_ss
-0,The child started crying because the child hurt their knee. The child hurt their knee because the child started crying.,The child started crying because the child hurt their knee.,False,The child started crying because the child hurt their knee.,The child started crying because the child hurt their knee.
-1,The child hurt their knee because the child started crying. The child started crying because the child hurt their knee.,The child started crying because the child hurt their knee.,True,"The child started crying because the child hurt their knee.
-The family was so frustrated because they couldn","The child hurt their knee because the child started crying.
-The driver turned the wipers on because"
-2,I washed the car because my car got dirty. My car got dirty because i washed the car.,I washed the car because my car got dirty.,False,"I washed the car because my car got dirty.
-I was sick because I was sick to my","The girl skipped school because the girl got detention.
-I washed the car because my car got dirty"
-3,My car got dirty because i washed the car. I washed the car because my car got dirty.,I washed the car because my car got dirty.,True,I washed the car because my car got dirty.,"The company's stock went up because the company's posted strong earnings.
-The company's stock went"
-4,Someone called 911 because someone fainted. Someone fainted because someone called 911.,Someone called 911 because someone fainted.,False,"The team won the championship because the team won the game.
-Someone called 911 because someone fainted",The window broke because the boy threw a rock.
-5,Someone fainted because someone called 911. Someone called 911 because someone fainted.,Someone called 911 because someone fainted.,True,"
+0,The child started crying because the child hurt their knee. The child hurt their knee because the child started crying.,The child started crying because the child hurt their knee.,False,The child started crying because the child hurt their knee.,"The child started crying because the child hurt their knee.
+The man went to the hospital because he"
+1,The child hurt their knee because the child started crying. The child started crying because the child hurt their knee.,The child started crying because the child hurt their knee.,True,The child hurt their knee because the child started crying. The child started crying because the child hurt their,"The woman who was walking on the street opened her umbrella because it started raining.
+The man was"
+2,I washed the car because my car got dirty. My car got dirty because i washed the car.,I washed the car because my car got dirty.,False,"The boy lifted his eyes from the book because there was a loud noise.
+The boy lifted his","The car got dirty because i washed the car.
 
-The driver hit the brakes because the girl stepped onto the street.","Someone fainted because someone called 911.
+The power was out for days because the"
+3,My car got dirty because i washed the car. I washed the car because my car got dirty.,I washed the car because my car got dirty.,True,"The man sued because the floor was wet.
+The floor was wet because the man sued. The","
 
-The man turned down the music volume because the man"
+The team won the championship because the team won the game. The team won the game because"
+4,Someone called 911 because someone fainted. Someone fainted because someone called 911.,Someone called 911 because someone fainted.,False,"The child started crying because the child hurt their knee.
+The boy lifted his eyes from the book","The someone called 911 because someone fainted.
+
+The person called 911 because someone fainted."
+5,Someone fainted because someone called 911. Someone called 911 because someone fainted.,Someone called 911 because someone fainted.,True,"Someone fainted because someone called 911.
+
+The dog bit me because I was feeling sick.","Someone fainted because someone called 911.
+
+The sun was setting because the sky was dark."
 6,The vase shattered on the floor because a man accidently pushed the vase off a counter. A man accidently pushed the vase off a counter because the vase shattered on the floor.,The vase shattered on the floor because a man accidently pushed the vase off a counter.,False,The vase shattered on the floor because a man accidently pushed the vase off a counter.,The vase shattered on the floor because a man accidently pushed the vase off a counter.
-7,A man accidently pushed the vase off a counter because the vase shattered on the floor. The vase shattered on the floor because a man accidently pushed the vase off a counter.,The vase shattered on the floor because a man accidently pushed the vase off a counter.,True,The vase shattered on the floor because a man accidently pushed the vase off a counter.,A man accidently pushed the vase off a counter because the vase shattered on the floor.
+7,A man accidently pushed the vase off a counter because the vase shattered on the floor. The vase shattered on the floor because a man accidently pushed the vase off a counter.,The vase shattered on the floor because a man accidently pushed the vase off a counter.,True,The vase shattered on the floor because a man accidently pushed the vase off a counter.,The man accidently pushed the vase off a counter because the vase shattered on the floor.
 8,The woman who was walking on the street opened her umbrella because it started raining. It started raining because the woman who was walking on the street opened her umbrella.,The woman who was walking on the street opened her umbrella because it started raining.,False,"The woman who was walking on the street opened her umbrella because it started raining.
-The man walked",The woman who was walking on the street opened her umbrella because it started raining.
+The man who",The woman who was walking on the street opened her umbrella because it started raining.
 9,It started raining because the woman who was walking on the street opened her umbrella. The woman who was walking on the street opened her umbrella because it started raining.,The woman who was walking on the street opened her umbrella because it started raining.,True,"The woman who was walking on the street opened her umbrella because it started raining.
-The man robbed","It started raining because the woman who was walking on the street opened her umbrella.
-The sun was"
-10,The boy lifted his eyes from the book because there was a loud noise. There was a loud noise because the boy lifted his eyes from the book.,The boy lifted his eyes from the book because there was a loud noise.,False,The man with the green eyes was reading a book because there was a loud noise. There was a,There was a loud noise because the boy lifted his eyes from the book.
-11,There was a loud noise because the boy lifted his eyes from the book. The boy lifted his eyes from the book because there was a loud noise.,The boy lifted his eyes from the book because there was a loud noise.,True,"There was a loud noise because the boy lifted his eyes from the book.
-The cheese was bad","
+The man got","It started raining because the woman who was walking on the street opened her umbrella.
+It was a"
+10,The boy lifted his eyes from the book because there was a loud noise. There was a loud noise because the boy lifted his eyes from the book.,The boy lifted his eyes from the book because there was a loud noise.,False,"The boy lifted his eyes from the book because there was a loud noise.
+The baby's eyes","
 
-The boy lifted his eyes from the book because the boy saw the other boy on the side"
-12,The girl woke up covered in cold sweat because the girl had a nightmare. The girl had a nightmare because the girl woke up covered in cold sweat.,The girl woke up covered in cold sweat because the girl had a nightmare.,False,"
+The boy lifted his eyes from the book because there was a loud noise. There was a"
+11,There was a loud noise because the boy lifted his eyes from the book. The boy lifted his eyes from the book because there was a loud noise.,The boy lifted his eyes from the book because there was a loud noise.,True,"The boy lifted his eyes from the book because there was a loud noise.
+The book was left","There was a loud noise because the boy lifted his eyes from the book.
 
-The man turned down the music volume because the man couldn't hear what the woman was saying",The girl woke up covered in cold sweat because the girl had a nightmare. The girl had a nightmare
-13,The girl had a nightmare because the girl woke up covered in cold sweat. The girl woke up covered in cold sweat because the girl had a nightmare.,The girl woke up covered in cold sweat because the girl had a nightmare.,True,The girl woke up covered in cold sweat because the girl had a nightmare.,"The girl had a nightmare because the girl woke up covered in cold sweat.
-The girl woke up"
+The girl got"
+12,The girl woke up covered in cold sweat because the girl had a nightmare. The girl had a nightmare because the girl woke up covered in cold sweat.,The girl woke up covered in cold sweat because the girl had a nightmare.,False,"The girl woke up covered in cold sweat because the girl had a nightmare.
+The girl woke up","The girl woke up covered in cold sweat because the girl had a nightmare.
+The clock was stopped"
+13,The girl had a nightmare because the girl woke up covered in cold sweat. The girl woke up covered in cold sweat because the girl had a nightmare.,The girl woke up covered in cold sweat because the girl had a nightmare.,True,"The girl had a nightmare because the girl woke up covered in cold sweat.
+The man sued because",The girl had a nightmare because the girl woke up covered in cold sweat.
 14,The driver turned the wipers on because it started raining. It started raining because the driver turned the wipers on.,The driver turned the wipers on because it started raining.,False,"The driver turned the wipers on because it started raining.
-The dog died because the cat ate","The driver turned the wipers on because it started raining.
-The boy threw a rock because the"
-15,It started raining because the driver turned the wipers on. The driver turned the wipers on because it started raining.,The driver turned the wipers on because it started raining.,True,"The driver turned the wipers on because it started raining.
-The girl skipped school because the girl","
+The speaker was wearing a green shirt","The driver turned the wipers on because it started raining.
+The man was driving a car because"
+15,It started raining because the driver turned the wipers on. The driver turned the wipers on because it started raining.,The driver turned the wipers on because it started raining.,True,"
 
-The driver turned the wipers on because it started raining."
+The driver turned the wipers on because it started raining.","It started raining because the driver turned the wipers on.
+
+The pilot turned on the """
 16,A man was covered in sticky red goo because a watermelon exploded. A watermelon exploded because a man was covered in sticky red goo.,A man was covered in sticky red goo because a watermelon exploded.,False,"A man was covered in sticky red goo because a watermelon exploded.
-The dinosaurs became extinct","
+A man was covered","
 
-The man was covered in sticky red goo because a watermelon exploded because a goo"
-17,A watermelon exploded because a man was covered in sticky red goo. A man was covered in sticky red goo because a watermelon exploded.,A man was covered in sticky red goo because a watermelon exploded.,True,A man was covered in sticky red goo because a watermelon exploded.,A watermelon exploded because a man was covered in sticky red goo. A man was covered in
-18,She went to the store and bought toilet paper because she noticed that she was out of toilet paper. She noticed that she was out of toilet paper because she went to the store and bought toilet paper.,She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,False,She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,"
+The man climbed in through the window because the door was locked.
 
-The girl went to the store and bought toilet paper because she noticed that she was out of"
-19,She noticed that she was out of toilet paper because she went to the store and bought toilet paper. She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,True,She noticed that she was out of toilet paper because she went to the store and bought toilet paper.,The girl noticed that she was out of toilet paper because she went to the store and bought toilet paper
-20,The dinosaurs became extinct because a large object hit the Earth. A large object hit the Earth because the dinosaurs became extinct.,The dinosaurs became extinct because a large object hit the Earth.,False,The dinosaurs became extinct because a large object hit the Earth. A large object hit the Earth because the,"A large object hit the Earth because the dinosaurs became extinct.
-The dinosaurs became extinct because a large"
-21,A large object hit the Earth because the dinosaurs became extinct. The dinosaurs became extinct because a large object hit the Earth.,The dinosaurs became extinct because a large object hit the Earth.,True,The dinosaurs became extinct because a large object hit the Earth.,"The man went to jail because the man robbed a gas station.
-A large object hit the Earth"
-22,The soda went flat because the bottle was left open. The bottle was left open because the soda went flat.,The soda went flat because the bottle was left open.,False,"The soda went flat because the bottle was left open.
+The wind blew"
+17,A watermelon exploded because a man was covered in sticky red goo. A man was covered in sticky red goo because a watermelon exploded.,A man was covered in sticky red goo because a watermelon exploded.,True,A man was covered in sticky red goo because a watermelon exploded.,"A watermelon exploded because a man was covered in sticky red goo.
 
-The soda went flat because the bottle",The soda went flat because the bottle was left open.
+The pilot turned"
+18,She went to the store and bought toilet paper because she noticed that she was out of toilet paper. She noticed that she was out of toilet paper because she went to the store and bought toilet paper.,She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,False,"
+
+The basketball player took a free throw because the basketball player was shoved.
+
+The basketball","The child started crying because the child hurt their knee.
+The child started crying because the child started"
+19,She noticed that she was out of toilet paper because she went to the store and bought toilet paper. She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,She went to the store and bought toilet paper because she noticed that she was out of toilet paper.,True,"The man robbed a gas station because the man went to jail.
+
+The man robbed a gas",She noticed that she was out of toilet paper because she went to the store and bought toilet paper.
+20,The dinosaurs became extinct because a large object hit the Earth. A large object hit the Earth because the dinosaurs became extinct.,The dinosaurs became extinct because a large object hit the Earth.,False,"The dinosaurs became extinct because a large object hit the Earth.
+
+The man sipped the milk",A large object hit the Earth because the dinosaurs became extinct.
+21,A large object hit the Earth because the dinosaurs became extinct. The dinosaurs became extinct because a large object hit the Earth.,The dinosaurs became extinct because a large object hit the Earth.,True,"The bread was dry because we made French toast.
+The car crashed because the driver was pulled over","
+
+The large object hit the Earth because the dinosaurs became extinct.
+
+The man hit the"
+22,The soda went flat because the bottle was left open. The bottle was left open because the soda went flat.,The soda went flat because the bottle was left open.,False,"
+The girl woke up covered in cold sweat because the nightmare was a result of the cold.
+","
+The soda went flat because the bottle was left open. The bottle was left open because the soda"
 23,The bottle was left open because the soda went flat. The soda went flat because the bottle was left open.,The soda went flat because the bottle was left open.,True,The bottle was left open because the soda went flat. The soda went flat because the bottle was left,The bottle was left open because the soda went flat. The soda went flat because the bottle was left
-24,George plugged the laptop charger in because the laptop ran out of battery. The laptop ran out of battery because George plugged the laptop charger in.,George plugged the laptop charger in because the laptop ran out of battery.,False,"A man was covered in sticky red goo because a watermelon exploded.
+24,George plugged the laptop charger in because the laptop ran out of battery. The laptop ran out of battery because George plugged the laptop charger in.,George plugged the laptop charger in because the laptop ran out of battery.,False,"The man climbed in through the window because the door was locked.
 
-The man was","The laptop ran out of battery because George plugged the laptop charger in.
+The man climbed in through","The laptop ran out of battery because George plugged the laptop charger in.
 
-The girl skipped school"
-25,The laptop ran out of battery because George plugged the laptop charger in. George plugged the laptop charger in because the laptop ran out of battery.,George plugged the laptop charger in because the laptop ran out of battery.,True,"The laptop ran out of battery because George plugged the laptop charger in.
+The man sipped"
+25,The laptop ran out of battery because George plugged the laptop charger in. George plugged the laptop charger in because the laptop ran out of battery.,George plugged the laptop charger in because the laptop ran out of battery.,True,"
 
-George plugged the laptop","The laptop ran out of battery because George plugged the laptop charger in.
-The woman was crying because"
-26,Sunlight filled the room because the curtains were opened. The curtains were opened because sunlight filled the room.,Sunlight filled the room because the curtains were opened.,False,"The woman who was walking on the street opened her umbrella because it started raining.
-The woman who","The sunlight filled the room because the curtains were opened.
-The text editor was not working because the"
+The laptop ran out of battery because George plugged the laptop charger in. George plugged the laptop","
+The laptop ran out of battery because George plugged the laptop charger in.
+The computer crashed because"
+26,Sunlight filled the room because the curtains were opened. The curtains were opened because sunlight filled the room.,Sunlight filled the room because the curtains were opened.,False,"Sunlight filled the room because the curtains were opened.
+The dog ate the cat.
+
+","The curtains were opened because sunlight filled the room.
+The plants grew because the gardener watered them"
 27,The curtains were opened because sunlight filled the room. Sunlight filled the room because the curtains were opened.,Sunlight filled the room because the curtains were opened.,True,"Sunlight filled the room because the curtains were opened.
-The baby's head was in the play","The curtains were opened because sunlight filled the room.
-The man climbed in through the window because the"
-28,Tomatoes grew on the vine because the insect pollinated the tomato flowers. The insect pollinated the tomato flowers because tomatoes grew on the vine.,Tomatoes grew on the vine because the insect pollinated the tomato flowers.,False,"Tomatoes grew on the vine because the insect pollinated the tomato flowers.
-The insect pollinated","The man robbed a gas station because the man went to jail.
-The man went to jail because"
-29,The insect pollinated the tomato flowers because tomatoes grew on the vine. Tomatoes grew on the vine because the insect pollinated the tomato flowers.,Tomatoes grew on the vine because the insect pollinated the tomato flowers.,True,"The tomato flowers because the insect pollinated the tomato flowers.
-The cat ate the dog food because","The girl got detention because the girl skipped school.
-The man went to jail because the man robbed"
+The man didn't eat the apple because","
+
+The curtains were opened because sunlight filled the room.
+
+Sunlight filled the room because"
+28,Tomatoes grew on the vine because the insect pollinated the tomato flowers. The insect pollinated the tomato flowers because tomatoes grew on the vine.,Tomatoes grew on the vine because the insect pollinated the tomato flowers.,False,The man climbed in through the window because the door was locked. The man didn't get hurt because,"The tomato flowers grew on the vine because the insect pollinated the tomato flowers.
+Tomatoes grew"
+29,The insect pollinated the tomato flowers because tomatoes grew on the vine. Tomatoes grew on the vine because the insect pollinated the tomato flowers.,Tomatoes grew on the vine because the insect pollinated the tomato flowers.,True,"Tomatoes grew on the vine because the insect pollinated the tomato flowers.
+The man went to","The insect pollinated the tomato flowers because tomatoes grew on the vine.
+The chicken flew because the"
 30,The driver hit the brakes because the girl stepped onto the street. The girl stepped onto the street because the driver hit the brakes.,The driver hit the brakes because the girl stepped onto the street.,False,"The driver hit the brakes because the girl stepped onto the street.
-The man was driving an old",The driver hit the brakes because the girl stepped onto the street.
-31,The girl stepped onto the street because the driver hit the brakes. The driver hit the brakes because the girl stepped onto the street.,The driver hit the brakes because the girl stepped onto the street.,True,"The driver hit the brakes because the girl stepped onto the street.
-The girl stepped onto the street","The girl stepped onto the street because the driver hit the brakes.
-The sun was shining when I"
-32,The performer ran off the stage because there was a wardrobe malfunction. There was a wardrobe malfunction because the performer ran off the stage.,The performer ran off the stage because there was a wardrobe malfunction.,False,"The performer ran off the stage because there was a wardrobe malfunction.
-The oven was broken because the","The wardrobe malfunction because the performer ran off the stage.
-The bottle was left open because the soda"
-33,There was a wardrobe malfunction because the performer ran off the stage. The performer ran off the stage because there was a wardrobe malfunction.,The performer ran off the stage because there was a wardrobe malfunction.,True,The performer ran off the stage because there was a wardrobe malfunction.,"There was a wardrobe malfunction because the performer ran off the stage.
-The family was embarrassed because they"
-34,"The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine. A bird hit the engine because the pilot turned on the ""fasten seatbelts"" light.","The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.",False,"The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.","A bird hit the engine because the pilot turned on the ""fasten seatbelTS"" light."
-35,"A bird hit the engine because the pilot turned on the ""fasten seatbelts"" light. The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.","The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.",True,"The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.","
+The car was clean because the","The driver hit the brakes because the girl stepped onto the street.
+The dog barked at me"
+31,The girl stepped onto the street because the driver hit the brakes. The driver hit the brakes because the girl stepped onto the street.,The driver hit the brakes because the girl stepped onto the street.,True,"
 
 The driver hit the brakes because the girl stepped onto the street.
-The car got dirty"
-36,The man sipped the milk and spit it out because the milk was left outside the fridge over night. The milk was left outside the fridge over night because the man sipped the milk and spit it out.,The man sipped the milk and spit it out because the milk was left outside the fridge over night.,False,The man sipped the milk and spit it out because the milk was left outside the fridge over night,The milk was left outside the fridge over night because the man sipped the milk and spit it out
+
+The driver hit","The girl stepped onto the street because the driver hit the brakes.
+The girl stepped onto the street"
+32,The performer ran off the stage because there was a wardrobe malfunction. There was a wardrobe malfunction because the performer ran off the stage.,The performer ran off the stage because there was a wardrobe malfunction.,False,"The woman who was walking on the street opened her umbrella because it started raining.
+The man was","The performer ran off the stage because there was a wardrobe malfunction.
+The TV station was in the"
+33,There was a wardrobe malfunction because the performer ran off the stage. The performer ran off the stage because there was a wardrobe malfunction.,The performer ran off the stage because there was a wardrobe malfunction.,True,The performer ran off the stage because there was a wardrobe malfunction.,"There was a wardrobe malfunction because the performer ran off the stage.
+The driver turned the wipers"
+34,"The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine. A bird hit the engine because the pilot turned on the ""fasten seatbelts"" light.","The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.",False,"The woman who was walking on the street opened her umbrella because it started raining.
+The family went","The bird hit the engine because the pilot turned on the ""fasten seatbelTS
+The jar"
+35,"A bird hit the engine because the pilot turned on the ""fasten seatbelts"" light. The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.","The pilot turned on the ""fasten seatbelts"" light because a bird hit the engine.",True,"
+
+The pilot turned on the ""fasten seatbelts"" light because a bird hit the","A bird hit the engine because the pilot turned on the ""fasten seatbelTS light.
+"
+36,The man sipped the milk and spit it out because the milk was left outside the fridge over night. The milk was left outside the fridge over night because the man sipped the milk and spit it out.,The man sipped the milk and spit it out because the milk was left outside the fridge over night.,False,The man sipped the milk and spit it out because the milk was left outside the fridge over night,The man sipped the milk and spit it out because the milk was left outside the fridge over night
 37,The milk was left outside the fridge over night because the man sipped the milk and spit it out. The man sipped the milk and spit it out because the milk was left outside the fridge over night.,The man sipped the milk and spit it out because the milk was left outside the fridge over night.,True,The man sipped the milk and spit it out because the milk was left outside the fridge over night,The milk was left outside the fridge over night because the man sipped the milk and spit it out
 38,The man turned down the music volume because the man couldn't hear what the woman was saying. The man couldn't hear what the woman was saying because the man turned down the music volume.,The man turned down the music volume because the man couldn't hear what the woman was saying.,False,"The man turned down the music volume because the man couldn't hear what the woman was saying.
-",The man couldn't hear what the woman was saying because the man turned down the music volume.
-39,The man couldn't hear what the woman was saying because the man turned down the music volume. The man turned down the music volume because the man couldn't hear what the woman was saying.,The man turned down the music volume because the man couldn't hear what the woman was saying.,True,The man turned down the music volume because the man couldn't hear what the woman was saying.,"The man couldn't hear what the woman was saying because the man turned down the music volume.
-"
+","
+
+The man couldn't hear what the woman was saying because the man turned down the music volume"
+39,The man couldn't hear what the woman was saying because the man turned down the music volume. The man turned down the music volume because the man couldn't hear what the woman was saying.,The man turned down the music volume because the man couldn't hear what the woman was saying.,True,"The man couldn't hear what the woman was saying because the man turned down the music volume.
+","The man couldn't hear what the woman was saying because the music volume was turned down.
+The"
 40,The meat spoiled because the power was out for days. The power was out for days because the meat spoiled.,The meat spoiled because the power was out for days.,False,"The meat spoiled because the power was out for days.
-The dog died because of the food.","The meat spoiled because the power was out for days.
-The sun was up when they woke up"
-41,The power was out for days because the meat spoiled. The meat spoiled because the power was out for days.,The meat spoiled because the power was out for days.,True,"The power was out for days because the meat spoiled.
-There was a fire in the forest because","The power was out for days because the meat spoiled.
-The family went to the beach because the"
+The car crashed because the driver was trying",The meat spoiled because the power was out for days.
+41,The power was out for days because the meat spoiled. The meat spoiled because the power was out for days.,The meat spoiled because the power was out for days.,True,The meat spoiled because the power was out for days.,"The power was out for days because the meat spoiled.
+The family went on vacation because school was"
 42,A flower grew because the gardener planted a seed. The gardener planted a seed because a flower grew.,A flower grew because the gardener planted a seed.,False,"A flower grew because the gardener planted a seed.
-The sun was out that day because the","The flower grew because the gardener planted a seed.
-A large object hit the Earth because the"
-43,The gardener planted a seed because a flower grew. A flower grew because the gardener planted a seed.,A flower grew because the gardener planted a seed.,True,A flower grew because the gardener planted a seed.,"The gardener planted a seed because a flower grew.
-The man walked to the grocery store because"
+A flower grew because the gardener planted","The gardener planted a seed because a flower grew.
+A flower grew because the gardener planted"
+43,The gardener planted a seed because a flower grew. A flower grew because the gardener planted a seed.,A flower grew because the gardener planted a seed.,True,"A flower grew because the gardener planted a seed.
+The girl was on a walk because she","
+The child started crying because the child hurt their knee.
+The man turned down the music volume"
 44,The team won the championship because the team won the game. The team won the game because the team won the championship.,The team won the championship because the team won the game.,False,"The team won the championship because the team won the game.
-The girl got detention because the girl",The team won the championship because the team won the game. The team won the game because the team
-45,The team won the game because the team won the championship. The team won the championship because the team won the game.,The team won the championship because the team won the game.,True,The team won the game because the team won the championship. The team won the championship because the team,"The team won the game because the team won the championship.
-
-The company's stock went up"
-46,The man climbed in through the window because the door was locked. The door was locked because the man climbed in through the window.,The man climbed in through the window because the door was locked.,False,The man climbed in through the window.,The man climbed in through the window because the door was locked. The door was locked because the man
-47,The door was locked because the man climbed in through the window. The man climbed in through the window because the door was locked.,The man climbed in through the window because the door was locked.,True,The man climbed in through the window because the door was locked.,"The door was locked because the man climbed in through the window.
-The cat slept at the side"
-48,The ship capsized because the wind blew strong. The wind blew strong because the ship capsized.,The ship capsized because the wind blew strong.,False,"The ship capsized because the wind blew strong.
-The egg went off the scale because the egg",The ship capsized because the wind blew strong.
-49,The wind blew strong because the ship capsized. The ship capsized because the wind blew strong.,The ship capsized because the wind blew strong.,True,"The ship capsized because the wind blew strong.
-The girl had a fever because mom gave the","The wind blew strong because the ship capsized.
-The wind blew strong because the ship capsized"
-50,The man went to jail because the man robbed a gas station. The man robbed a gas station because the man went to jail.,The man went to jail because the man robbed a gas station.,False,"The man went to jail because the man robbed a gas station.
-The man was sick because the","The man went to jail because the man robbed a gas station.
-The milk was left outside the"
-51,The man robbed a gas station because the man went to jail. The man went to jail because the man robbed a gas station.,The man went to jail because the man robbed a gas station.,True,The window broke because the boy threw a rock.,"The man robbed a gas station because the man went to jail.
-
-The man robbed a gas"
-52,Acme paid Jill's legal fees because Jill won the lawsuit against Acme. Jill won the lawsuit against Acme because acme paid Jill's legal fees.,Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,False,"Acme paid Jill's legal fees because Jill won the lawsuit against Acme.
-
-Alice won","
-
-A man was covered in sticky red goo because a watermelon exploded.
-
-A"
-53,Jill won the lawsuit against Acme because acme paid Jill's legal fees. Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,True,"
-
-The company's stock went up because the company's posted strong earnings.
-
-The company","
-
-The girl won the lawsuit against Acme because Acme paid Jill's legal fees.
-"
-54,School was cancelled because there was a snowstorm. There was a snowstorm because school was cancelled.,School was cancelled because there was a snowstorm.,False,School was cancelled because there was a snowstorm. There was a snowstorm because there was a man,"
-
-The family went on vacation because school was on break.
-
-The bread was on break"
-55,There was a snowstorm because school was cancelled. School was cancelled because there was a snowstorm.,School was cancelled because there was a snowstorm.,True,"There was a snowstorm because school was cancelled.
-There was a cold snap because the baby was","There was a snowstorm because school was cancelled.
-A cold breeze was blowing because the boy wrapped"
-56,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling. The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord.,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,False,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling. The tenants noticed mold on,"The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.
-The tenants contacted their"
-57,The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord. The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,True,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,"The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord.
-The tenants noticed mold"
-58,I got an A on the test because i studied hard. I studied hard because i got an A on the test.,I got an A on the test because i studied hard.,False,I got an A on the test because i studied hard. I studied hard because I got an A,"I studied hard because i got an A on the test.
+The man went to the store because","The team won the championship because the team won the game.
 The team won the game because the"
-59,I studied hard because i got an A on the test. I got an A on the test because i studied hard.,I got an A on the test because i studied hard.,True,"I studied hard because i got an A on the test.
+45,The team won the game because the team won the championship. The team won the championship because the team won the game.,The team won the championship because the team won the game.,True,The team won the game because the team won the championship. The team won the championship because the team,The man sipped the milk and spit it out because the milk was left outside the fridge over night
+46,The man climbed in through the window because the door was locked. The door was locked because the man climbed in through the window.,The man climbed in through the window because the door was locked.,False,"The man climbed in through the window because the door was locked.
+The man climbed in because the","The door was locked because the man climbed in through the window.
+The man climbed in through the"
+47,The door was locked because the man climbed in through the window. The man climbed in through the window because the door was locked.,The man climbed in through the window because the door was locked.,True,The door was locked because the man climbed in through the window.,"The man climbed in through the window.
+The dog bit me because i pulled the dog's tail"
+48,The ship capsized because the wind blew strong. The wind blew strong because the ship capsized.,The ship capsized because the wind blew strong.,False,"The ship capsized because the wind blew strong.
 
-I got an A on the","I studied hard because i got an A on the test.
-I was late because I didn't"
-60,The window broke because the boy threw a rock. The boy threw a rock because the window broke.,The window broke because the boy threw a rock.,False,"The window broke because the boy threw a rock.
+The girl went to the store and bought",The ship capsized because the wind blew strong.
+49,The wind blew strong because the ship capsized. The ship capsized because the wind blew strong.,The ship capsized because the wind blew strong.,True,"The wind blew strong because the ship capsized.
 
-The pilot turned on the ""fasten",The boy threw a rock because the window broke.
-61,The boy threw a rock because the window broke. The window broke because the boy threw a rock.,The window broke because the boy threw a rock.,True,"The boy threw a rock because the window broke.
+The girl was about to leave because the","The wind blew strong because the ship capsized.
+The man sued because the floor was wet."
+50,The man went to jail because the man robbed a gas station. The man robbed a gas station because the man went to jail.,The man went to jail because the man robbed a gas station.,False,The man went to jail because the man robbed a gas station. The man turned down the music volume,The man went to jail because the man robbed a gas station. The man robbed a gas station because
+51,The man robbed a gas station because the man went to jail. The man went to jail because the man robbed a gas station.,The man went to jail because the man robbed a gas station.,True,"
+The man robbed a gas station because the man went to jail. The man went to jail because","The man robbed a gas station because the man went to jail.
+The man went to jail because"
+52,Acme paid Jill's legal fees because Jill won the lawsuit against Acme. Jill won the lawsuit against Acme because acme paid Jill's legal fees.,Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,False,"
 
-The woman who was walking on the street","The boy threw a rock because the window broke.
-The chicken walked to the grocery store because the"
-62,The driver was pulled over and was fined because the driver ran a red light. The driver ran a red light because the driver was pulled over and was fined.,The driver was pulled over and was fined because the driver ran a red light.,False,The driver was pulled over and was fined because the driver ran a red light. The driver ran a,The driver ran a red light because the driver was pulled over and was fined.
-63,The driver ran a red light because the driver was pulled over and was fined. The driver was pulled over and was fined because the driver ran a red light.,The driver was pulled over and was fined because the driver ran a red light.,True,"The man went to jail because the man robbed a gas station.
-A watermelon exploded because a","The driver ran a red light because the driver was pulled over and was fined.
-The driver ran"
+The girl woke up covered in cold sweat because the girl had a nightmare.
+
+The","Jill won the lawsuit against Acme because acme paid Jill's legal fees.
+
+The"
+53,Jill won the lawsuit against Acme because acme paid Jill's legal fees. Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,Acme paid Jill's legal fees because Jill won the lawsuit against Acme.,True,"Jill won the lawsuit against Acme because acme paid Jill's legal fees.
+Jill","Jill won the lawsuit against Acme because acme paid Jill's legal fees.
+
+The"
+54,School was cancelled because there was a snowstorm. There was a snowstorm because school was cancelled.,School was cancelled because there was a snowstorm.,False,"The company's stock went up because the company's posted strong earnings.
+The girl was so excited","The girl stepped onto the street because the driver hit the brakes.
+The man got lost in the"
+55,There was a snowstorm because school was cancelled. School was cancelled because there was a snowstorm.,School was cancelled because there was a snowstorm.,True,There was a snowstorm because school was cancelled.,"There was a snowstorm because school was cancelled.
+The family went on vacation because school was on"
+56,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling. The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord.,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,False,"The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.
+The driver turned the","The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.
+The tenants contacted their"
+57,The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord. The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.,True,"
+
+The tenants contacted their landlord because the tenants noticed mold on the bathroom ceiling.","The tenants noticed mold on the bathroom ceiling because the tenants contacted their landlord.
+The tenants contacted their"
+58,I got an A on the test because i studied hard. I studied hard because i got an A on the test.,I got an A on the test because i studied hard.,False,I got an A on the test because i studied hard. I studied hard because I got an A,I studied hard because i got an A on the test.
+59,I studied hard because i got an A on the test. I got an A on the test because i studied hard.,I got an A on the test because i studied hard.,True,"The basketball player was shoved because the basketball player took a free throw.
+A watermelon exploded because","
+
+The driver hit the brakes because the girl stepped onto the street.
+
+The girl stepped"
+60,The window broke because the boy threw a rock. The boy threw a rock because the window broke.,The window broke because the boy threw a rock.,False,"The meat spoiled because the power was out for days.
+The oven was out because the boy left","
+The boy threw a rock because the window broke."
+61,The boy threw a rock because the window broke. The window broke because the boy threw a rock.,The window broke because the boy threw a rock.,True,The window broke because the boy threw a rock.,"The boy threw a rock because the window broke.
+The cat slept in the downspout because"
+62,The driver was pulled over and was fined because the driver ran a red light. The driver ran a red light because the driver was pulled over and was fined.,The driver was pulled over and was fined because the driver ran a red light.,False,"The driver was pulled over and was fined because the driver ran a red light.
+The child started","The driver was pulled over and was fined because the driver ran a red light.
+The woman who"
+63,The driver ran a red light because the driver was pulled over and was fined. The driver was pulled over and was fined because the driver ran a red light.,The driver was pulled over and was fined because the driver ran a red light.,True,"
+The driver ran a red light because the driver was pulled over and was fined.
+The driver","The driver ran a red light because the driver was pulled over and was fined.
+The driver was"
 64,The girl got detention because the girl skipped school. The girl skipped school because the girl got detention.,The girl got detention because the girl skipped school.,False,"The girl got detention because the girl skipped school.
-The boy ate the ball because the ball was",The girl got detention because the girl skipped school. The girl skipped school because the girl got love.
-65,The girl skipped school because the girl got detention. The girl got detention because the girl skipped school.,The girl got detention because the girl skipped school.,True,"The girl skipped school because the girl got detention.
-The man walked to the store. The man",The girl skipped school because the girl got detention.
-66,Light filled the room because i flipped the switch. I flipped the switch because light filled the room.,Light filled the room because i flipped the switch.,False,"
-Light filled the room because i flipped the switch. I flipped the switch because light filled the room","
 
-I flipped the switch because light filled the room.
+The boy threw a rock.
 
-The curtains were opened because sunlight"
-67,I flipped the switch because light filled the room. Light filled the room because i flipped the switch.,Light filled the room because i flipped the switch.,True,"
+","The girl skipped school because the girl got detention.
 
-The light filled the room because i flipped the switch.
+The sentence does not describe the cause and"
+65,The girl skipped school because the girl got detention. The girl got detention because the girl skipped school.,The girl got detention because the girl skipped school.,True,"The girl got detention because the girl skipped school.
+The sun was shining because the man was shining","The girl skipped school because the girl got detention.
 
-The insect pollinated the","I flipped the switch because light filled the room.
+The sun was shining and the rain was"
+66,Light filled the room because i flipped the switch. I flipped the switch because light filled the room.,Light filled the room because i flipped the switch.,False,"Light filled the room because i flip the switch.
 
-The man sued because the floor was wet"
+The picnic was cancelled because it rained","
+
+Light filled the room because i flipped the switch.
+
+I flipped the switch because light"
+67,I flipped the switch because light filled the room. Light filled the room because i flipped the switch.,Light filled the room because i flipped the switch.,True,"The light filled the room because i flipped the switch.
+
+A large object hit the Earth because","I flipped the switch because light filled the room.
+The man walked into the room because the man"
 68,The dog bit me because i pulled the dog's tail. I pulled the dog's tail because the dog bit me.,The dog bit me because i pulled the dog's tail.,False,"The dog bit me because i pulled the dog's tail.
-The dog bit me because i pulled","The dog bit me because i pulled the dog's tail.
+
+The light turned off because a","The dog bit me because i pulled the dog's tail.
+I pulled the dog's tail because"
+69,I pulled the dog's tail because the dog bit me. The dog bit me because i pulled the dog's tail.,The dog bit me because i pulled the dog's tail.,True,"The dog bit me because i pulled the dog's tail.
+I pulled the dog's tail because","I pulled the dog's tail because the dog bit me.
 
 The dog bit me because i"
-69,I pulled the dog's tail because the dog bit me. The dog bit me because i pulled the dog's tail.,The dog bit me because i pulled the dog's tail.,True,"The dog bit me because i pulled the dog's tail.
-
-The man got lost in the","
-
-The woman who was walking on the street opened her umbrella because it started raining.
-
-"
 70,The family went on vacation because school was on break. School was on break because the family went on vacation.,The family went on vacation because school was on break.,False,The family went on vacation because school was on break.,The family went on vacation because school was on break.
 71,School was on break because the family went on vacation. The family went on vacation because school was on break.,The family went on vacation because school was on break.,True,The family went on vacation because school was on break.,"The family went on vacation because school was on break.
-
-The man turned down the music volume"
-72,The family went to the beach because the air conditioner broke. The air conditioner broke because the family went to the beach.,The family went to the beach because the air conditioner broke.,False,The family went to the beach because the air conditioner broke.,The family went to the beach because the air conditioner broke.
-73,The air conditioner broke because the family went to the beach. The family went to the beach because the air conditioner broke.,The family went to the beach because the air conditioner broke.,True,The air conditioner broke because the family went to the beach. The family went to the beach because,"The air conditioner broke because the family went to the beach.
-The boy got mad at the"
-74,Mom gave the girl fever medicine because the girl had a fever. The girl had a fever because mom gave the girl fever medicine.,Mom gave the girl fever medicine because the girl had a fever.,False,"The man went to jail because the man robbed a gas station.
-The man went to jail because","The girl had a fever because mom gave the girl fever medicine.
+The sun was up when we got to"
+72,The family went to the beach because the air conditioner broke. The air conditioner broke because the family went to the beach.,The family went to the beach because the air conditioner broke.,False,The family went to the beach because the air conditioner broke.,"The family went to the beach because the air conditioner broke.
+The girl was in a right"
+73,The air conditioner broke because the family went to the beach. The family went to the beach because the air conditioner broke.,The family went to the beach because the air conditioner broke.,True,"The air conditioner broke because the family went to the beach.
+The cat ate the dog's","The air conditioner broke because the family went to the beach.
+The sun was shining because the"
+74,Mom gave the girl fever medicine because the girl had a fever. The girl had a fever because mom gave the girl fever medicine.,Mom gave the girl fever medicine because the girl had a fever.,False,"Mom gave the girl fever medicine because the girl had a fever.
+The sun was out and the","The girl had a fever because mom gave the girl fever medicine.
 The girl had a fever because"
-75,The girl had a fever because mom gave the girl fever medicine. Mom gave the girl fever medicine because the girl had a fever.,Mom gave the girl fever medicine because the girl had a fever.,True,The girl had a fever because mom gave the girl fever medicine. The girl went to the hospital because,"The girl had a fever because mom gave the girl fever medicine.
-The girl caught a cold because"
-76,We made French toast because the bread was dry. The bread was dry because we made French toast.,We made French toast because the bread was dry.,False,"The bread was dry because we made French toast.
+75,The girl had a fever because mom gave the girl fever medicine. Mom gave the girl fever medicine because the girl had a fever.,Mom gave the girl fever medicine because the girl had a fever.,True,"The girl had a fever because mom gave the girl fever medicine.
+The cat died because the family","The girl had a fever because mom gave the girl fever medicine.
+Light filled the room because I"
+76,We made French toast because the bread was dry. The bread was dry because we made French toast.,We made French toast because the bread was dry.,False,"We made French toast because the bread was dry.
 
-The pilot turned on the ""fasten","The bread was dry because we made French toast.
+The basketball player took a free throw because",The bread was dry because we made French toast. The bread was dry because we made French toast.
+77,The bread was dry because we made French toast. We made French toast because the bread was dry.,We made French toast because the bread was dry.,True,"
 
-The man climbed in through the window because"
-77,The bread was dry because we made French toast. We made French toast because the bread was dry.,We made French toast because the bread was dry.,True,"The bread was dry because we made French toast.
-The milk was cold because it didn't suit","The bread was dry because we made French toast.
+The bread was dry because we made French toast.
 
-The man went to jail because the man"
-78,The company's stock went up because the company's posted strong earnings. The company's posted strong earnings because the company's stock went up.,The company's stock went up because the company's posted strong earnings.,False,"The company's stock went up because the company's posted strong earnings.
-The company's stock went","The company's stock went up because the company's posted strong earnings.
-The girl didn't eat"
+The bird hit the engine because","The bread was dry because we made French toast.
+The cat slept through the night because the parents"
+78,The company's stock went up because the company's posted strong earnings. The company's posted strong earnings because the company's stock went up.,The company's stock went up because the company's posted strong earnings.,False,"
+
+The company's stock went up because the company's posted strong earnings.
+The company's",The company's stock went up because the company's posted strong earnings. The company's posted strong earnings
 79,The company's posted strong earnings because the company's stock went up. The company's stock went up because the company's posted strong earnings.,The company's stock went up because the company's posted strong earnings.,True,"The company's stock went up because the company's posted strong earnings.
-The girl was pepper sprayed",The company's posted strong earnings because the company's stock went up. The company's stock went up
-80,I put my clothes in the washing machine because my clothes got dirty. My clothes got dirty because i put my clothes in the washing machine.,I put my clothes in the washing machine because my clothes got dirty.,False,"I put my clothes in the washing machine because my clothes got dirty.
+The girl stepped onto the",The company's posted strong earnings because the company's stock went up. The company's stock went up
+80,I put my clothes in the washing machine because my clothes got dirty. My clothes got dirty because i put my clothes in the washing machine.,I put my clothes in the washing machine because my clothes got dirty.,False,I put my clothes in the washing machine because my clothes got dirty. My clothes got dirty because i,"
 
-My clothes got dirty","I put my clothes in the washing machine because my clothes got dirty.
-The sun was shining,"
-81,My clothes got dirty because i put my clothes in the washing machine. I put my clothes in the washing machine because my clothes got dirty.,I put my clothes in the washing machine because my clothes got dirty.,True,"I put my clothes in the washing machine because my clothes got dirty.
-My clothes got dirty because","My clothes got dirty because i put my clothes in the washing machine.
-The dog bit me because"
-82,My friend celebrated with their family because my friend got a promotion. My friend got a promotion because my friend celebrated with their family.,My friend celebrated with their family because my friend got a promotion.,False,"The man went to jail because the man robbed a gas station.
+The man couldn't hear what the woman was saying because the man turned down the music volume"
+81,My clothes got dirty because i put my clothes in the washing machine. I put my clothes in the washing machine because my clothes got dirty.,I put my clothes in the washing machine because my clothes got dirty.,True,"My clothes got dirty because i put my clothes in the washing machine.
 
-The tenant contacted their landlord","The woman who was walking on the street opened her umbrella because it started raining.
-The bottle was"
-83,My friend got a promotion because my friend celebrated with their family. My friend celebrated with their family because my friend got a promotion.,My friend celebrated with their family because my friend got a promotion.,True,"My friend got a promotion because my friend celebrated with their family.
-The milk was left outside the","The family went to the beach because the air conditioner broke.
-My friend got a promotion because"
+My clothes got dirty","The driver was pulled over and was fined because the driver ran a red light.
+The man was"
+82,My friend celebrated with their family because my friend got a promotion. My friend got a promotion because my friend celebrated with their family.,My friend celebrated with their family because my friend got a promotion.,False,"My friend celebrated with their family because my friend got a promotion.
+
+The driver hit the brakes","My friend got a promotion because my friend celebrated with their family.
+
+A watermelon exploded because"
+83,My friend got a promotion because my friend celebrated with their family. My friend celebrated with their family because my friend got a promotion.,My friend celebrated with their family because my friend got a promotion.,True,My friend got a promotion because my friend celebrated with their family.,My friend got a promotion because my friend celebrated with their family. My friend celebrated with their family because
 84,The basketball player took a free throw because the basketball player was shoved. The basketball player was shoved because the basketball player took a free throw.,The basketball player took a free throw because the basketball player was shoved.,False,"The basketball player took a free throw because the basketball player was shoved.
-The basketball player took a","The company's stock went up because the company's posted strong earnings.
-The man got lost in"
-85,The basketball player was shoved because the basketball player took a free throw. The basketball player took a free throw because the basketball player was shoved.,The basketball player took a free throw because the basketball player was shoved.,True,The basketball player took a free throw because the basketball player was shoved.,"The basketball player was shoved because the basketball player took a free throw.
-The chicken went from the"
-86,Alice missed her flight because Alice didn't wake up. Alice didn't wake up because Alice missed her flight.,Alice missed her flight because Alice didn't wake up.,False,"
-Alice missed her flight because Alice didn't wake up.
-The dog bit me because I pulled",Alice missed her flight because Alice didn't wake up. Alice didn't wake up because Alice missed her
-87,Alice didn't wake up because Alice missed her flight. Alice missed her flight because Alice didn't wake up.,Alice missed her flight because Alice didn't wake up.,True,"Alice missed her flight because Alice didn't wake up.
+The basketball player took a",The basketball player took a free throw because the basketball player was shoved. The basketball player was shoved because
+85,The basketball player was shoved because the basketball player took a free throw. The basketball player took a free throw because the basketball player was shoved.,The basketball player took a free throw because the basketball player was shoved.,True,"The basketball player took a free throw because the basketball player was shoved.
 
-The man sipped the milk and","Alice didn't wake up because Alice missed her flight.
-The picnic was cancelled because it rained"
-88,The man sued because the floor was wet. The floor was wet because the man sued.,The man sued because the floor was wet.,False,The man sued because the floor was wet.,"The floor was wet because the man sued.
+The man couldn't","The basketball player was shoved because the basketball player took a free throw.
+The dog died because the"
+86,Alice missed her flight because Alice didn't wake up. Alice didn't wake up because Alice missed her flight.,Alice missed her flight because Alice didn't wake up.,False,"Alice missed her flight because Alice didn't wake up.
+The sun was shining because the plane was","The girl woke up covered in cold sweat because the girl had a nightmare.
+The girl missed her"
+87,Alice didn't wake up because Alice missed her flight. Alice missed her flight because Alice didn't wake up.,Alice missed her flight because Alice didn't wake up.,True,"Alice missed her flight because she didn't wake up.
 
-The man sued because the floor was wet."
-89,The floor was wet because the man sued. The man sued because the floor was wet.,The man sued because the floor was wet.,True,"The floor was wet because the man sued.
+The girl didn't wear her sweater","The girl got detention because the girl skipped school.
 
-The man sued because the floor was wet.",The floor was wet because the man sued.
-90,The picnic was cancelled because it rained. It rained because the picnic was cancelled.,The picnic was cancelled because it rained.,False,The picnic was cancelled because it rained.,"
-
-The girl skipped school because the girl got detention.
-
-The girl got detention because the"
+The girl got detention because the girl skipped"
+88,The man sued because the floor was wet. The floor was wet because the man sued.,The man sued because the floor was wet.,False,"The man sued because the floor was wet.
+The man died because the man was found dead.","The man sued because the floor was wet.
+The man died because he was in a car."
+89,The floor was wet because the man sued. The man sued because the floor was wet.,The man sued because the floor was wet.,True,"The floor was wet because the man sued. The man sued because the floor was wet.
+The","The floor was wet because the man sued.
+The man sued because the floor was wet.
+"
+90,The picnic was cancelled because it rained. It rained because the picnic was cancelled.,The picnic was cancelled because it rained.,False,"The picnic was cancelled because it rained.
+The dog was dead because the dog died from a",The picnic was cancelled because it rained.
 91,It rained because the picnic was cancelled. The picnic was cancelled because it rained.,The picnic was cancelled because it rained.,True,"The picnic was cancelled because it rained.
 
-The girl had a nightmare because the dream was","It rained because the picnic was cancelled.
-The girl's hair was dirty because she had been"
+The company's stock went up because the company","
+
+The rain kept falling."
 92,The girl caught a cold because the girl didn't wear her sweater. The girl didn't wear her sweater because the girl caught a cold.,The girl caught a cold because the girl didn't wear her sweater.,False,"The girl caught a cold because the girl didn't wear her sweater.
-The girl was sick because","The girl caught a cold because the girl didn't wear her sweater.
-The girl was sick because"
-93,The girl didn't wear her sweater because the girl caught a cold. The girl caught a cold because the girl didn't wear her sweater.,The girl caught a cold because the girl didn't wear her sweater.,True,"
 
-The girl didn't wear her sweater because the girl caught a cold.
+The man sipped",The girl didn't wear her sweater because the girl caught a cold.
+93,The girl didn't wear her sweater because the girl caught a cold. The girl caught a cold because the girl didn't wear her sweater.,The girl caught a cold because the girl didn't wear her sweater.,True,"The girl didn't wear her sweater because the girl caught a cold.
 
-The girl",The girl didn't wear her sweater because the girl caught a cold.
-94,A search party was assembled because the man got lost in the woods. The man got lost in the woods because a search party was assembled.,A search party was assembled because the man got lost in the woods.,False,"A search party was assembled because the man got lost in the woods.
-A search party was assembled","
+The man sued because","The girl didn't wear her sweater because the girl caught a cold.
+A tear rolled down my"
+94,A search party was assembled because the man got lost in the woods. The man got lost in the woods because a search party was assembled.,A search party was assembled because the man got lost in the woods.,False,A search party was assembled because the man got lost in the woods.,The man got lost in the woods because a search party was assembled.
+95,The man got lost in the woods because a search party was assembled. A search party was assembled because the man got lost in the woods.,A search party was assembled because the man got lost in the woods.,True,"
 
-The man got lost in the woods because a search party was assembled."
-95,The man got lost in the woods because a search party was assembled. A search party was assembled because the man got lost in the woods.,A search party was assembled because the man got lost in the woods.,True,The man got lost in the woods because a search party was assembled.,The man got lost in the woods because a search party was assembled.
-96,Ted had a hangover because Ted went out drinking. Ted went out drinking because Ted had a hangover.,Ted had a hangover because Ted went out drinking.,False,"Ted had a hangover because Ted went out drinking.
+The man got lost in the woods because a search party was assembled.
 
-The hangover was due to drinking","
+The search","
 
-The girl didn't wear her sweater because the girl caught a cold.
+The man got lost in the woods because a search party was assembled. A search party was"
+96,Ted had a hangover because Ted went out drinking. Ted went out drinking because Ted had a hangover.,Ted had a hangover because Ted went out drinking.,False,"The basketball player took a free throw because the basketball player was shoved.
 
-The girl"
-97,Ted went out drinking because Ted had a hangover. Ted had a hangover because Ted went out drinking.,Ted had a hangover because Ted went out drinking.,True,The man sipped the milk and spit it out because the milk was left outside the fridge over night,"Ted went out drinking because Ted had a hangover.
-The woman who was walking on the street"
-98,Bob opened the jar and was frustrated because Alice ate the last cookie. Alice ate the last cookie because Bob opened the jar and was frustrated.,Bob opened the jar and was frustrated because Alice ate the last cookie.,False,"
+The basketball player took","
 
-The man turned down the music volume because the man couldn't hear what the woman was saying","The jar was left open because the cookie was eaten.
-The girl ate the last cookie because the"
-99,Alice ate the last cookie because Bob opened the jar and was frustrated. Bob opened the jar and was frustrated because Alice ate the last cookie.,Bob opened the jar and was frustrated because Alice ate the last cookie.,True,The cookie was missed because Bob opened the jar and was frustrated.,"The girl got detention because the girl skipped school.
-The girl skipped school because the girl got detention"
+The girl had a hangover because Ted went out drinking.
+
+The girl went out"
+97,Ted went out drinking because Ted had a hangover. Ted had a hangover because Ted went out drinking.,Ted had a hangover because Ted went out drinking.,True,"The girl had a nightmare because the girl woke up covered in cold sweat.
+The man got lost","The man climbed in through the window because the door was locked.
+The man climbed in because the"
+98,Bob opened the jar and was frustrated because Alice ate the last cookie. Alice ate the last cookie because Bob opened the jar and was frustrated.,Bob opened the jar and was frustrated because Alice ate the last cookie.,False,The vase shattered on the floor because a man accidently pushed the vase off a counter.,"The family went to the beach because the air conditioner broke.
+
+The air conditioner broke"
+99,Alice ate the last cookie because Bob opened the jar and was frustrated. Bob opened the jar and was frustrated because Alice ate the last cookie.,Bob opened the jar and was frustrated because Alice ate the last cookie.,True,"Alice ate the last cookie because Bob opened the jar and was frustrated.
+
+Bob opened the jar","The girl woke up covered in cold sweat because the girl had a nightmare.
+The girl had a"
 100,Mom rinsed the tray because Jimmy took the last piece of cake. Jimmy took the last piece of cake because mom rinsed the tray.,Mom rinsed the tray because Jimmy took the last piece of cake.,False,"Mom rinsed the tray because Jimmy took the last piece of cake.
-Jimmy took the last","Mom rinsed the tray because Jimmy took the last piece of cake.
-A bird hit the"
-101,Jimmy took the last piece of cake because mom rinsed the tray. Mom rinsed the tray because Jimmy took the last piece of cake.,Mom rinsed the tray because Jimmy took the last piece of cake.,True,"Jimmy took the last piece of cake because mom rinsed the tray.
-A large object hit","Jimmy took the last piece of cake because mom rinsed the tray.
-The performer ran off"
+Jimmy took the last","Jimmy took the last piece of cake because mom rinsed the tray.
+
+The child hurt"
+101,Jimmy took the last piece of cake because mom rinsed the tray. Mom rinsed the tray because Jimmy took the last piece of cake.,Mom rinsed the tray because Jimmy took the last piece of cake.,True,"The dog bit me because i pulled the dog's tail.
+
+The curtains were opened because sunlight","Light filled the room because i flipped the switch.
+
+The driver was pulled over and was fined"

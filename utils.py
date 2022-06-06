@@ -37,6 +37,36 @@ def eval_second_color(df, switched_shot=False):
         
     return(correct)
 
+def eval_third_color(df, switched_shot=False):
+    sc = df["third_color"].values
+    if switched_shot:
+        sc_answers = df["responses_second_ss"].values
+    else:
+        sc_answers = df["responses_second"].values
+    correct = []
+    for i, c in enumerate(sc):
+        color_in_answer = c in sc_answers[i]
+        colors_wo_c = [c_ for c_ in colors if c_ != c]
+        other_color_in_answer = any([c_ in sc_answers[i] for c_ in colors_wo_c])
+        correct.append(color_in_answer and not other_color_in_answer)
+        
+    return(correct)
+
+def eval_fourth_color(df, switched_shot=False):
+    sc = df["fourth_color"].values
+    if switched_shot:
+        sc_answers = df["responses_second_ss"].values
+    else:
+        sc_answers = df["responses_second"].values
+    correct = []
+    for i, c in enumerate(sc):
+        color_in_answer = c in sc_answers[i]
+        colors_wo_c = [c_ for c_ in colors if c_ != c]
+        other_color_in_answer = any([c_ in sc_answers[i] for c_ in colors_wo_c])
+        correct.append(color_in_answer and not other_color_in_answer)
+        
+    return(correct)
+
 def eval_final_color(df, switched_shot=False):
     fc = df["final_color"].values
     if switched_shot:
@@ -89,6 +119,61 @@ def eval_df_colors(df, switched_shot=False):
     
     return(sum_array, len_array)
 
+#### eval 5 colors
+def eval_df_5colors(df, shuffled_shot=False):
+    
+    df_shuffled = df[df["shuffled"] == True]
+    df_non_shuffled = df[df["shuffled"] == False]
+    
+    len_df = len(df)
+    len_df_shuffled = len(df_shuffled)
+    len_df_non_shuffled = len(df_non_shuffled)
+    
+    sum_first_color_total = np.sum(eval_first_color(df, shuffled_shot))
+    sum_first_color_non_shuffled = np.sum(eval_first_color(df_non_shuffled, shuffled_shot))
+    sum_first_color_shuffled = np.sum(eval_first_color(df_shuffled, shuffled_shot))
+    
+    sum_second_color_total = np.sum(eval_second_color(df, shuffled_shot))
+    sum_second_color_non_shuffled = np.sum(eval_second_color(df_non_shuffled, shuffled_shot))
+    sum_second_color_shuffled = np.sum(eval_second_color(df_shuffled, shuffled_shot))
+
+    sum_third_color_total = np.sum(eval_third_color(df, shuffled_shot))
+    sum_third_color_non_shuffled = np.sum(eval_third_color(df_non_shuffled, shuffled_shot))
+    sum_third_color_shuffled = np.sum(eval_third_color(df_shuffled, shuffled_shot))
+
+    sum_fourth_color_total = np.sum(eval_fourth_color(df, shuffled_shot))
+    sum_fourth_color_non_shuffled = np.sum(eval_fourth_color(df_non_shuffled, shuffled_shot))
+    sum_fourth_color_shuffled = np.sum(eval_fourth_color(df_shuffled, shuffled_shot))
+    
+    sum_final_color_total = np.sum(eval_final_color(df, shuffled_shot))
+    sum_final_color_non_shuffled = np.sum(eval_final_color(df_non_shuffled, shuffled_shot))
+    sum_final_color_shuffled = np.sum(eval_final_color(df_shuffled, shuffled_shot))
+    
+    sum_array = np.array([[sum_first_color_total,
+                sum_first_color_non_shuffled,
+                sum_first_color_shuffled],
+
+                [sum_second_color_total,
+                sum_second_color_non_shuffled,
+                sum_second_color_shuffled],
+
+                [sum_third_color_total,
+                sum_third_color_non_shuffled,
+                sum_third_color_shuffled],
+
+                [sum_fourth_color_total,
+                sum_fourth_color_non_shuffled,
+                sum_fourth_color_shuffled],
+
+                [sum_final_color_total,
+                sum_final_color_non_shuffled,
+                sum_final_color_shuffled]])
+    
+    len_array = np.array([len_df, len_df_non_shuffled, len_df_shuffled] * 5).reshape(5,3)
+    
+    return(sum_array, len_array)
+
+
 def plot_single_model_colors(path_string, switched_shot=False, percentages=True):
     
     df = pd.read_csv(path_string)
@@ -118,6 +203,36 @@ def plot_single_model_colors(path_string, switched_shot=False, percentages=True)
     plt.legend()
     plt.grid()
     plt.show();
+
+def plot_single_model_5colors(path_string, shuffled_shot=False, percentages=True):
+    
+    df = pd.read_csv(path_string)
+    results, len_array = eval_df_5colors(df, shuffled_shot)
+    perc = results / len_array
+    
+    x = np.arange(5)
+    c = 0.25
+    w = 0.2
+    fig, ax = plt.subplots(1, 1, figsize=(10, 5))
+    if percentages:
+        ax.bar(x - c, perc[:,0], width=w, label="combined", color='firebrick')
+        ax.bar(x , perc[:,1], width=w, label="non shuffled", color='cornflowerblue')
+        ax.bar(x + c, perc[:,2], width=w, label="shuffled", color='navy')
+        ax.axhline(1/5, linestyle='--', color='black', label="random")
+    else:
+        ax.bar(x - c, results[:,0], width=w, label="combined", color='firebrick')
+        ax.bar(x , results[:,1], width=w, label="non shuffled", color='cornflowerblue')
+        ax.bar(x + c, results[:,2], width=w, label="shuffled", color='navy')
+    ax.set_xticks(x)
+    ax.set_ylabel("accuracy")
+    ax.set_xticklabels(["first color", "second color", "third color", "fourth color", "final color"])
+
+    if shuffled_shot:
+        plt.suptitle("switched shots")
+
+    plt.legend()
+    plt.grid()
+    plt.show();
     
 ### compare models
 def compare_model_sizes_colors(path_string, switched_shot=False, gpt2=False):
@@ -137,7 +252,7 @@ def compare_model_sizes_colors(path_string, switched_shot=False, gpt2=False):
         df_ada =  pd.read_csv(path_string.format("text-ada-001"))
         df_babbage =  pd.read_csv(path_string.format("text-babbage-001"))
         df_curie =  pd.read_csv(path_string.format("text-curie-001"))
-        df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
+        df_davinci =  pd.read_csv(path_string.format("text-davinci-002"))
 
         results_ada, len_ada = np.array(eval_df_colors(df_ada, switched_shot))
         results_babbage, len_babbage = np.array(eval_df_colors(df_babbage, switched_shot))
@@ -311,7 +426,7 @@ def compare_model_sizes_nonsense_words(path_string, switched_shot=False, gpt2=Fa
     df_ada =  pd.read_csv(path_string.format("text-ada-001"))    
     df_babbage =  pd.read_csv(path_string.format("text-babbage-001"))
     df_curie =  pd.read_csv(path_string.format("text-curie-001"))
-    df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
+    df_davinci =  pd.read_csv(path_string.format("text-davinci-002"))
 
    
     results_ada, len_ada = np.array(eval_df_nonsense_words(df_ada, switched_shot))  
@@ -463,7 +578,7 @@ def compare_model_sizes_ce_2_sentences(path_string, switched_shot=False, gpt2=Fa
     df_ada =  pd.read_csv(path_string.format("text-ada-001"))    
     df_babbage =  pd.read_csv(path_string.format("text-babbage-001"))
     df_curie =  pd.read_csv(path_string.format("text-curie-001"))
-    df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
+    df_davinci =  pd.read_csv(path_string.format("text-davinci-002"))
 
    
     results_ada, len_ada = np.array(eval_df_ce_2_sentences(df_ada, switched_shot))  
@@ -593,7 +708,7 @@ def compare_model_sizes_ce_1_sentence(path_string, switched_shot=False, gpt2=Fal
     df_ada =  pd.read_csv(path_string.format("text-ada-001"))    
     df_babbage =  pd.read_csv(path_string.format("text-babbage-001"))
     df_curie =  pd.read_csv(path_string.format("text-curie-001"))
-    df_davinci =  pd.read_csv(path_string.format("text-davinci-001"))
+    df_davinci =  pd.read_csv(path_string.format("text-davinci-002"))
 
     results_ada, len_ada = np.array(eval_df_ce_1_sentence(df_ada, switched_shot))  
     results_babbage, len_babbage = np.array(eval_df_ce_1_sentence(df_babbage, switched_shot))  

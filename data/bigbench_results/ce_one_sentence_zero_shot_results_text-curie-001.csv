@@ -401,7 +401,7 @@ The girl didn't wear her sweater because she caught a cold.
 The girl caught"
 94,A search party was assembled because the man got lost in the woods. The man got lost in the woods because a search party was assembled.,A search party was assembled because the man got lost in the woods.,False,"
 
-A search party was assembled because the man got lost in the woods.
+The man got lost in the woods because a search party was assembled.
 
 The man"
 95,The man got lost in the woods because a search party was assembled. A search party was assembled because the man got lost in the woods.,A search party was assembled because the man got lost in the woods.,True,"
