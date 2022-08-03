@@ -1,46 +1,14 @@
 # causality_LLMs
 
-We play around with different tasks revolving around causality in LLMs like GPT-3. Our goal is to measure the quality of its causal modelling capabilities in real-world tasks, toy problems and adversarial examples
+We play around with different tasks revolving around causality in LLMs like GPT-3. Our goal is to measure the quality of its causal modelling capabilities in real-world tasks, toy problems and adversarial examples. 
 
-Some of the tasks have been taken from big bench.
-TODO: explain which ones. 
+The final report can be found on the [Alignment Forum](https://www.alignmentforum.org/posts/yZb5eFvDoaqB337X5/investigating-causal-understanding-in-llms)
 
-The project is currently very experimental. Future versions will include better code and documentation. 
+To reproduce the results
+1. set your OpenAI key as a variably by typing ```export OPENAI_KEY="<insert_your_key_here>"```in your console before running your experiments.
+2. (optional) check the playground notebooks to get a better feeling for the experiments.
+3. Run all of the experiment.py scripts to produce the results (Don't forget that running experiments costs money). 
+4. Run the evaluation jupyter notebooks. 
+5. (optional) run the analysis for report.ipynb to reproduce the exact figures of the report. 
 
-The data cleaning notebook is used to prepare the bigbench problems in a useful format
-
-The create ball toy problems is used to create toy problems with the ball example
-
-The playground gpt3 notebook is used to get gpt3 to answer some questions.
-
-
-## Interpretability Tooling
-
-We are using [Unseal](https://github.com/TomFrederik/unseal) to streamline our interpretability work.
-
-### Installing Unseal and PySvelte
-Clone the repo for [Unseal](https://github.com/TomFrederik/unseal) and [PySvelte](https://github.com/TomFrederik/pysvelte), cd into the respective directories and install them via 
-```sh
-pip install -e .
-```
-
-You will also need to install ``npm`` via your system's package manager.
-
-
-### Usage of Unseal
-If you just want to visualize the attention patterns of GPT-like models from the huggingface transformers library,
-the easiest way to do so is
-
-```sh
-cd unseal/unseal/visuals/streamlit_interfaces
-streamlit run $FILE
-```
-
-where $FILE is one of 
-- single_layer_single_input.py
-- all_layers_single_input.py
-- compare_two_inputs.py
-
-Names of the files should be self-explanatory.
-
-If there are any issues with using Unseal, message [Tom Lieberum](mailto:tlieberum@outlook.de).
+Please note that this is just a small side project and the code has not been optimized for efficiency or readability. 
